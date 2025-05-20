@@ -1,6 +1,6 @@
 Link do site:
 
-[https://cadu-sa.github.io/](https://cadu-sa.github.io/){:target="_blank"}
+https://cadu-sa.github.io/
 
 
 ## License
