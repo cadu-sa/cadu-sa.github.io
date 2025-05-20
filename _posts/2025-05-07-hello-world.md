@@ -1,11 +1,22 @@
 ---
-title: HELLO WORLD
-date: 2025-05-07 01:03:00 +/-0800
-categories: [HELLO WORLD]
-tags: [HELLO WORLD]
+title: ARTIGOS
+date: 2025-05-19 01:03:00 +/-0800
+categories: [ARTIGOS]
+tags: [ARTIGOS]
+description: Links de artigos publicados por mim.
 ---
 
-# Hello World
+---
 
-Hello World
+Artigos escritos no LinkedIn:
 
+[Prompts Eficazes e Interação com IA: 7 Dicas Essenciais para uma Boa Comunicação](https://www.linkedin.com/pulse/prompts-eficazes-e-intera%C3%A7%C3%A3o-com-ia-7-dicas-para-uma-boa-dvcpf){:target="_blank"}
+
+[Seja Simples Neste Mundo Complexo: O Básico Funciona!](https://www.linkedin.com/feed/update/urn:li:activity:7233216944009605120/){:target="_blank"}
+
+
+---
+
+Trabalho de Conclusão de Curso (Matemática Aplicada e Computacional):
+
+[Estimativa de Curvatura Riemanniana em uma Nuvem de Pontos](https://drive.google.com/file/d/1ycPj97clnVkU_yyoIUW7rwIimu9Wlr46/view){:target="_blank"}
