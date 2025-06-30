@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
-    <link>//localhost:1313/archives/</link>
-    <description>Conteúdo recente de </description>
+    <title>Meu Site</title>
+    <link>http://localhost:1313/archives/</link>
+    <description>Conteúdo recente de Meu Site</description>
     <generator>Hugo</generator>
-    <language>pt-br</language>
+    <language>pt-BR</language>
     
     <copyright>Todos os artigos deste blog estão licenciados sob BY-NC-SA salvo indicação em contrário. Por favor, indique a fonte ao reproduzir!</copyright>
     
     <lastBuildDate></lastBuildDate>
     
     
-    <atom:link href="//localhost:1313/archives/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="http://localhost:1313/archives/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     

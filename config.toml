@@ -1,4 +1,7 @@
-baseURL = "cadu-sa.github.io/"
+baseURL = "https://cadu-sa.github.io/"
+languageCode = "pt-BR"
+title = "Meu Site"
+defaultContentLanguage = "pt-br"
 
 
 [module]
@@ -6,13 +9,7 @@ baseURL = "cadu-sa.github.io/"
     extended = true
     min = "0.124.0"
 
-languageCode = 'pt-BR'
-defaultContentLanguage = 'pt-BR'
 
-[languages]
-[languages.pt-BR]
-languageName = 'Português (Brasil)'
-weight = 1
 
 
 [markup]

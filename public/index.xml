@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
-    <link>//localhost:1313/algolia.json</link>
-    <description>Conteúdo recente de </description>
+    <title>Meu Site</title>
+    <link>http://localhost:1313/algolia.json</link>
+    <description>Conteúdo recente de Meu Site</description>
     <generator>Hugo</generator>
-    <language>pt-br</language>
+    <language>pt-BR</language>
     
     <copyright>Todos os artigos deste blog estão licenciados sob BY-NC-SA salvo indicação em contrário. Por favor, indique a fonte ao reproduzir!</copyright>
     
     <lastBuildDate>Thu, 29 May 2025 14:00:00 -0700</lastBuildDate>
     
     
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     
@@ -20,10 +20,10 @@
 
     <item>
       <title>Analisando os Dados da Base de Dados Artificial no Looker Studio (Parte 4)</title>
-      <link>//localhost:1313/post/youtube-06/</link>
+      <link>http://localhost:1313/post/youtube-06/</link>
       <pubDate>Thu, 29 May 2025 14:00:00 -0700</pubDate>
       
-      <guid>//localhost:1313/post/youtube-06/</guid>
+      <guid>http://localhost:1313/post/youtube-06/</guid>
       <description>
         <![CDATA[<h1>Analisando os Dados da Base de Dados Artificial no Looker Studio (Parte 4)</h1><p>Autor: Carlos Eduardo(<no value>)</p>
         
@@ -31,7 +31,7 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0RWr_u7JTsM?si=dgB_GCRmQUxE0hJi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <p>Em breve estarei publicando a parte escrita do vídeo!</p>
         
-        <hr><p>Publicado em 2025-05-29 em <a href='//localhost:1313/'></a>, última modificação em 2025-05-29</p>]]>
+        <hr><p>Publicado em 2025-05-29 em <a href='http://localhost:1313/'>Meu Site</a>, última modificação em 2025-05-29</p>]]>
       </description>
       
         <category>vídeos</category>
@@ -42,10 +42,10 @@
 
     <item>
       <title>Analisando os Dados da Base de Dados Artificial no Looker Studio (Parte 3)</title>
-      <link>//localhost:1313/post/youtube-05/</link>
+      <link>http://localhost:1313/post/youtube-05/</link>
       <pubDate>Thu, 29 May 2025 13:00:00 -0700</pubDate>
       
-      <guid>//localhost:1313/post/youtube-05/</guid>
+      <guid>http://localhost:1313/post/youtube-05/</guid>
       <description>
         <![CDATA[<h1>Analisando os Dados da Base de Dados Artificial no Looker Studio (Parte 3)</h1><p>Autor: Carlos Eduardo(<no value>)</p>
         
@@ -53,7 +53,7 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/W1e2EkvKfDc?si=eC2FwSJ8sd8xTfho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <p>Em breve estarei publicando a parte escrita do vídeo!</p>
         
-        <hr><p>Publicado em 2025-05-29 em <a href='//localhost:1313/'></a>, última modificação em 2025-05-29</p>]]>
+        <hr><p>Publicado em 2025-05-29 em <a href='http://localhost:1313/'>Meu Site</a>, última modificação em 2025-05-29</p>]]>
       </description>
       
         <category>vídeos</category>
@@ -64,10 +64,10 @@
 
     <item>
       <title>Analisando os Dados da Base de Dados Artificial no Looker Studio (Parte 2)</title>
-      <link>//localhost:1313/post/youtube-04/</link>
+      <link>http://localhost:1313/post/youtube-04/</link>
       <pubDate>Thu, 29 May 2025 12:00:00 -0700</pubDate>
       
-      <guid>//localhost:1313/post/youtube-04/</guid>
+      <guid>http://localhost:1313/post/youtube-04/</guid>
       <description>
         <![CDATA[<h1>Analisando os Dados da Base de Dados Artificial no Looker Studio (Parte 2)</h1><p>Autor: Carlos Eduardo(<no value>)</p>
         
@@ -75,7 +75,7 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mi14b2bjJ_k?si=he_F2Fymui2GGL3Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <p>Em breve estarei publicando a parte escrita do vídeo!</p>
         
-        <hr><p>Publicado em 2025-05-29 em <a href='//localhost:1313/'></a>, última modificação em 2025-05-29</p>]]>
+        <hr><p>Publicado em 2025-05-29 em <a href='http://localhost:1313/'>Meu Site</a>, última modificação em 2025-05-29</p>]]>
       </description>
       
         <category>vídeos</category>
@@ -86,10 +86,10 @@
 
     <item>
       <title>Analisando os Dados da Base de Dados Artificial no Looker Studio (Parte 1)</title>
-      <link>//localhost:1313/post/youtube-03/</link>
+      <link>http://localhost:1313/post/youtube-03/</link>
       <pubDate>Thu, 29 May 2025 11:00:00 -0700</pubDate>
       
-      <guid>//localhost:1313/post/youtube-03/</guid>
+      <guid>http://localhost:1313/post/youtube-03/</guid>
       <description>
         <![CDATA[<h1>Analisando os Dados da Base de Dados Artificial no Looker Studio (Parte 1)</h1><p>Autor: Carlos Eduardo(<no value>)</p>
         
@@ -97,7 +97,7 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/f51N_lefkR0?si=zprPdseeuJUvYk38" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <p>Em breve estarei publicando a parte escrita do vídeo!</p>
         
-        <hr><p>Publicado em 2025-05-29 em <a href='//localhost:1313/'></a>, última modificação em 2025-05-29</p>]]>
+        <hr><p>Publicado em 2025-05-29 em <a href='http://localhost:1313/'>Meu Site</a>, última modificação em 2025-05-29</p>]]>
       </description>
       
         <category>vídeos</category>
@@ -108,10 +108,10 @@
 
     <item>
       <title>Organizando a Base de Dados Artificial no Google Planilha (Google Sheets)</title>
-      <link>//localhost:1313/post/youtube-02/</link>
+      <link>http://localhost:1313/post/youtube-02/</link>
       <pubDate>Sat, 24 May 2025 11:00:00 -0700</pubDate>
       
-      <guid>//localhost:1313/post/youtube-02/</guid>
+      <guid>http://localhost:1313/post/youtube-02/</guid>
       <description>
         <![CDATA[<h1>Organizando a Base de Dados Artificial no Google Planilha (Google Sheets)</h1><p>Autor: Carlos Eduardo(<no value>)</p>
         
@@ -119,7 +119,7 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MYJdvzgTe8g?si=D_noUvcUC9CRnPez" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <p>Em breve estarei publicando a parte escrita do vídeo!</p>
         
-        <hr><p>Publicado em 2025-05-24 em <a href='//localhost:1313/'></a>, última modificação em 2025-05-24</p>]]>
+        <hr><p>Publicado em 2025-05-24 em <a href='http://localhost:1313/'>Meu Site</a>, última modificação em 2025-05-24</p>]]>
       </description>
       
         <category>vídeos</category>
@@ -130,10 +130,10 @@
 
     <item>
       <title>Criando uma base de dados artificial (ChatGPT &#43; Google Colab)</title>
-      <link>//localhost:1313/post/youtube-01/</link>
+      <link>http://localhost:1313/post/youtube-01/</link>
       <pubDate>Wed, 21 May 2025 11:00:00 -0700</pubDate>
       
-      <guid>//localhost:1313/post/youtube-01/</guid>
+      <guid>http://localhost:1313/post/youtube-01/</guid>
       <description>
         <![CDATA[<h1>Criando uma base de dados artificial (ChatGPT + Google Colab)</h1><p>Autor: Carlos Eduardo(<no value>)</p>
         
@@ -145,7 +145,7 @@ Criando uma base de dados artificial (ChatGPT + Google Colab)
 <p>Inicialmente, a intenção do vídeo era que a própria IA (ChatGPT) gerasse uma base de dados, mas não deu muito certo, então tive que contornar essa situação pedindo para que o ChatGPT gerasse um script em Python.</p>
 <p>Segue abaixo a parte escrita desse projeto.</p>
         
-        <hr><p>Publicado em 2025-05-21 em <a href='//localhost:1313/'></a>, última modificação em 2025-05-21</p>]]>
+        <hr><p>Publicado em 2025-05-21 em <a href='http://localhost:1313/'>Meu Site</a>, última modificação em 2025-05-21</p>]]>
       </description>
       
         <category>vídeos</category>
@@ -156,10 +156,10 @@ Criando uma base de dados artificial (ChatGPT + Google Colab)
 
     <item>
       <title>A Importância da Documentação no Ambiente de Trabalho</title>
-      <link>//localhost:1313/post/linkedin-post-03/</link>
+      <link>http://localhost:1313/post/linkedin-post-03/</link>
       <pubDate>Sat, 05 Oct 2024 11:00:00 -0700</pubDate>
       
-      <guid>//localhost:1313/post/linkedin-post-03/</guid>
+      <guid>http://localhost:1313/post/linkedin-post-03/</guid>
       <description>
         <![CDATA[<h1>A Importância da Documentação no Ambiente de Trabalho</h1><p>Autor: Carlos Eduardo(<no value>)</p>
         
@@ -171,7 +171,7 @@ A Importância da Documentação no Ambiente de Trabalho.
 <p>Mas o que seria documentar?</p>
 <p>Documentar é, basicamente, registrar informações, podendo ser os processos da empresa, as tarefas que faz, o andamento e resolução dos problemas, as situações recorrentes e como lidar com elas, os resumos das reuniões, os cronogramas, os planos de projetos, os esboços, os roteiros, etc. Essas informações podem ser registradas em vídeo, texto, planilha, imagem, fluxograma ou qualquer outro formato que for conveniente e prático.</p>
         
-        <hr><p>Publicado em 2024-10-05 em <a href='//localhost:1313/'></a>, última modificação em 2024-10-05</p>]]>
+        <hr><p>Publicado em 2024-10-05 em <a href='http://localhost:1313/'>Meu Site</a>, última modificação em 2024-10-05</p>]]>
       </description>
       
         <category>artigos</category>
@@ -182,10 +182,10 @@ A Importância da Documentação no Ambiente de Trabalho.
 
     <item>
       <title>Seja Simples Neste Mundo Complexo: O Básico Funciona!</title>
-      <link>//localhost:1313/post/linkedin-post-02/</link>
+      <link>http://localhost:1313/post/linkedin-post-02/</link>
       <pubDate>Thu, 05 Sep 2024 11:00:00 -0700</pubDate>
       
-      <guid>//localhost:1313/post/linkedin-post-02/</guid>
+      <guid>http://localhost:1313/post/linkedin-post-02/</guid>
       <description>
         <![CDATA[<h1>Seja Simples Neste Mundo Complexo: O Básico Funciona!</h1><p>Autor: Carlos Eduardo(<no value>)</p>
         
@@ -196,7 +196,7 @@ Seja Simples Neste Mundo Complexo: O Básico Funciona!
 <p>Em um mundo cada vez mais complexo e em constante evolução, é fácil nos perdermos em meio a tantas novidades, tendências e inovações. No entanto, há uma verdade simples e atemporal que permanece relevante em praticamente todos os aspectos da nossa vida: o básico funciona!</p>
 <p>Esta afirmação nos lembra que, muitas vezes, as soluções mais eficazes para os desafios do nosso dia a dia não estão em estratégias elaboradas ou tecnologias avançadas, mas sim nas ideias simples e básicas.</p>
         
-        <hr><p>Publicado em 2024-09-05 em <a href='//localhost:1313/'></a>, última modificação em 2024-09-05</p>]]>
+        <hr><p>Publicado em 2024-09-05 em <a href='http://localhost:1313/'>Meu Site</a>, última modificação em 2024-09-05</p>]]>
       </description>
       
         <category>artigos</category>
@@ -207,10 +207,10 @@ Seja Simples Neste Mundo Complexo: O Básico Funciona!
 
     <item>
       <title>Prompts Eficazes e Interação com IA: 7 Dicas Essenciais para uma Boa Comunicação</title>
-      <link>//localhost:1313/post/linkedin-post-01/</link>
+      <link>http://localhost:1313/post/linkedin-post-01/</link>
       <pubDate>Mon, 05 Aug 2024 11:00:00 -0700</pubDate>
       
-      <guid>//localhost:1313/post/linkedin-post-01/</guid>
+      <guid>http://localhost:1313/post/linkedin-post-01/</guid>
       <description>
         <![CDATA[<h1>Prompts Eficazes e Interação com IA: 7 Dicas Essenciais para uma Boa Comunicação</h1><p>Autor: Carlos Eduardo(<no value>)</p>
         
@@ -221,7 +221,7 @@ Prompts Eficazes e Interação com IA: 7 Dicas Essenciais para uma Boa Comunica�
 <p>No cenário tecnológico atual, a inteligência artificial (IA) revoluciona a forma como interagimos com a informação. Ferramentas como <strong>ChatGPT, Microsoft Copilot, Claude, Gemini e Perplexity</strong> emergem como poderosos aliados, capazes de responder perguntas complexas e executar tarefas sofisticadas - tudo através de prompts bem elaborados.</p>
 <p>A habilidade de formular prompts eficazes tornou-se uma competência crucial no mundo digital e, independentemente de sua área de atuação, compreender como extrair o máximo dessas ferramentas é um diferencial significativo que impulsionará sua produtividade e criatividade.</p>
         
-        <hr><p>Publicado em 2024-08-05 em <a href='//localhost:1313/'></a>, última modificação em 2024-08-05</p>]]>
+        <hr><p>Publicado em 2024-08-05 em <a href='http://localhost:1313/'>Meu Site</a>, última modificação em 2024-08-05</p>]]>
       </description>
       
         <category>artigos</category>
@@ -232,10 +232,10 @@ Prompts Eficazes e Interação com IA: 7 Dicas Essenciais para uma Boa Comunica�
 
     <item>
       <title>Estimativa de Curvatura Riemanniana em uma Nuvem de Pontos</title>
-      <link>//localhost:1313/post/tcc-post/</link>
+      <link>http://localhost:1313/post/tcc-post/</link>
       <pubDate>Fri, 01 Apr 2022 11:00:00 -0700</pubDate>
       
-      <guid>//localhost:1313/post/tcc-post/</guid>
+      <guid>http://localhost:1313/post/tcc-post/</guid>
       <description>
         <![CDATA[<h1>Estimativa de Curvatura Riemanniana em uma Nuvem de Pontos</h1><p>Autor: Carlos Eduardo(<no value>)</p>
         
@@ -245,7 +245,7 @@ Estimativa de Curvatura Riemanniana em uma Nuvem de Pontos
 </h1><p>Meu Trabalho de Conclusão do Curso de Matemática Aplicada e Computacional da Universidade Federal de Sergipe.</p>
 <p><a href="https://drive.google.com/file/d/1ycPj97clnVkU_yyoIUW7rwIimu9Wlr46/view?usp=sharing" target="_blank" >Clique aqui para acessar o artigo</a></p>
         
-        <hr><p>Publicado em 2022-04-01 em <a href='//localhost:1313/'></a>, última modificação em 2022-04-01</p>]]>
+        <hr><p>Publicado em 2022-04-01 em <a href='http://localhost:1313/'>Meu Site</a>, última modificação em 2022-04-01</p>]]>
       </description>
       
         <category>artigos</category>
