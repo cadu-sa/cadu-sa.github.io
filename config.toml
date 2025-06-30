@@ -1,0 +1,37 @@
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.124.0"
+
+languageCode = 'pt-BR'
+defaultContentLanguage = 'pt-BR'
+
+[languages]
+[languages.pt-BR]
+languageName = 'Português (Brasil)'
+weight = 1
+
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      linkify = true
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xhtml = false
+
+
+[outputs]
+home = ["Algolia", "HTML", "RSS"]
+
+[outputFormats.Algolia]
+baseName = "algolia"
+isPlainText = true
+mediaType = "application/json"
+notAlternative = true
