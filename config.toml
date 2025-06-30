@@ -10,8 +10,6 @@ defaultContentLanguage = "pt-br"
     min = "0.124.0"
 
 
-
-
 [markup]
   defaultMarkdownHandler = "goldmark"
   [markup.goldmark]
