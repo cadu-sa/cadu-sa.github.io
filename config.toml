@@ -1,3 +1,5 @@
+baseURL = "cadu-sa.github.io/"
+
 [module]
   [module.hugoVersion]
     extended = true
