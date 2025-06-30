@@ -287,9 +287,6 @@ comment:
   title:
     en: Leave a comment
     pt-BR: Deixe um comentário
-    zh-CN: 说些什么吧！
-    zh-TW: 說些什麼吧！
-    ja: コメントを残す
   default: waline # default comment system, when you enable multiple comment systems
 
 # valine comment system. https://valine.js.org
@@ -383,11 +380,8 @@ algolia_search:
 preloader:
   enable: true
   text: 
-    zh-CN: 少女祈祷中...
-    zh-TW: 少女祈禱中...
     en: Loading...
     pt-BR: Carregando...
-    ja: 少女祈祷中...
   icon: # default use inline svg for fast speed, you can use a image url, like '/images/taichi.png'
   rotate: true # whether to rotate the icon
 
@@ -464,15 +458,9 @@ clipboard:
   success: 
     en: Copy successfully (*^▽^*)
     pt-BR: Copiado com sucesso (*^▽^*)
-    zh-CN: 复制成功 (*^▽^*)
-    zh-TW: 複製成功 (*^▽^*)
-    ja: コピー成功 (*^▽^*)
   fail: 
     en: Copy failed (ﾟ⊿ﾟ)ﾂ
     pt-BR: Falha ao copiar (ﾟ⊿ﾟ)ﾂ
-    zh-CN: 复制失败 (ﾟ⊿ﾟ)ﾂ
-    zh-TW: 複製失敗 (ﾟ⊿ﾟ)ﾂ
-    ja: コピー失敗 (ﾟ⊿ﾟ)ﾂ
   copyright:
     enable: false
     count: 50 # The number of characters when the copyright is displayed
@@ -494,9 +482,6 @@ outdate:
   message:
     en: This article was last updated on {time}. Please note that the content may no longer be applicable.
     pt-BR: Este artigo foi atualizado pela última vez em {time}. Por favor, note que o conteúdo pode não ser mais aplicável.
-    zh-CN: 本文最后更新于 {time}，请注意文中内容可能已不适用。
-    zh-TW: 本文最後更新於 {time}，請注意文中內容可能已不適用。
-    ja: この記事は最終更新日：{time}。記載内容が現在有効でない可能性がありますのでご注意ください。
 
 # ICP 备案
 icp:
@@ -508,11 +493,8 @@ icp:
 sponsor:
   enable: false
   tip: 
-    zh-CN: 请作者喝杯咖啡吧
-    zh-TW: 請作者喝杯咖啡吧
     en: Buy me a coffee
     pt-BR: Compre-me um café
-    ja: コーヒーを買ってください
   icon:
     url: "../images/taichi.png" # this path is relative to the css/main.css, so it needs to go up one level to reach the images folder
     rotate: true

@@ -265,14 +265,8 @@ Code blocks also provide code copying functionality. Click the copy button in th
 clipboard:
   success:
     en: Copy successfully (*^▽^*)
-    zh-CN: 复制成功 (*^▽^*)
-    zh-TW: 複製成功 (*^▽^*)
-    ja: コピー成功 (*^▽^*)
   fail:
     en: Copy failed (ﾟ⊿ﾟ)ﾂ
-    zh-CN: 复制失败 (ﾟ⊿ﾟ)ﾂ
-    zh-TW: 複製失敗 (ﾟ⊿ﾟ)ﾂ
-    ja: コピー失敗 (ﾟ⊿ﾟ)ﾂ
   copyright:
     enable: false
     count: 50 # The number of characters when the copyright is displayed
@@ -303,9 +297,6 @@ Global comment system configuration:
 comment:
   title: # Title of the comment box
     en: Leave a comment
-    zh-CN: 说些什么吧！
-    zh-TW: 說些什麼吧！
-    ja: コメントを残す
   default: waline # Default comment system used when multiple are enabled
 ```
 
@@ -670,9 +661,6 @@ outdate:
   daysAgo: 180 # How many days old before an article is considered outdated
   message:
     en: This article was last updated on {time}. Please note that the content may no longer be applicable.
-    zh-CN: 本文最后更新于 {time}，请注意文中内容可能已不适用。
-    zh-TW: 本文最後更新於 {time}，請注意文中內容可能已不適用。
-    ja: この記事は最終更新日：{time}。記載内容が現在有効でない可能性がありますのでご注意ください。
 ```
 
 #### Sponsorship
@@ -683,10 +671,7 @@ Disabled by default
 sponsor:
   enable: false # Show sponsorship QR codes?
   tip: # Sponsorship tip
-    zh-CN: 请作者喝杯咖啡吧
-    zh-TW: 請作者喝杯咖啡吧
     en: Buy me a coffee
-    ja: コーヒーを買ってください
   icon:
     url: "../images/taichi.png" # Sponsor icon path relative to css/main.css
     rotate: true # Rotate icon?
@@ -1010,11 +995,8 @@ It's not recommended to use large icons to avoid affecting loading speed.
 preloader:
   enable: true
   text:
-    zh-CN: 少女祈祷中...
-    zh-TW: 少女祈禱中...
     en: Loading...
     pt-BR: Carregando...
-    ja: 少女祈祷中...
   icon: # Default uses inline SVG when empty, you can enter a link like '/images/taichi.png'
   rotate: true
 ```

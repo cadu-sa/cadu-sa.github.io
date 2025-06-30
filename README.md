@@ -277,14 +277,8 @@ noClasses = false
 clipboard:
   success:
     en: Copy successfully (*^▽^*)
-    zh-CN: 复制成功 (*^▽^*)
-    zh-TW: 複製成功 (*^▽^*)
-    ja: コピー成功 (*^▽^*)
   fail:
     en: Copy failed (ﾟ⊿ﾟ)ﾂ
-    zh-CN: 复制失败 (ﾟ⊿ﾟ)ﾂ
-    zh-TW: 複製失敗 (ﾟ⊿ﾟ)ﾂ
-    ja: コピー失敗 (ﾟ⊿ﾟ)ﾂ
   copyright:
     enable: false
     count: 50 # 大于多少字符添加版权声明

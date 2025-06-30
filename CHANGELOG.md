@@ -124,9 +124,6 @@
     title:
       en: Leave a comment
       pt-BR: Deixe um comentário
-      zh-CN: 说些什么吧！
-      zh-TW: 說些什麼吧！
-      ja: コメントを残す
   ```
 - `algolia_search.label` 和 `clipboard.copyright.license` **配置废弃**，转而使用 i18n 支持多语言
 - `clipboard.copyright` 和 `article_copyright.content` 新增 `license_type` 配置用于配置版权类型，详情见 [creativecommons](https://creativecommons.org/licenses)，默认为 `by-nc-sa`
@@ -179,9 +176,6 @@
     title:  
       en: Leave a comment  
       pt-BR: Deixe um comentário
-      zh-CN: 说些什么吧！  
-      zh-TW: 說些什麼吧！  
-      ja: コメントを残す  
   ```  
 - **Deprecated** `algolia_search.label` and `clipboard.copyright.license` configurations in favor of i18n support  
 - Added `license_type` configuration for `clipboard.copyright` and `article_copyright.content` to specify license types (default: `by-nc-sa`). Refer to [Creative Commons](https://creativecommons.org/licenses) for details.  
