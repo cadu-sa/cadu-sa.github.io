@@ -3,7 +3,6 @@
   <h1>hugo-theme-reimu</h1>
   <img alt="version" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2FD-Sketon%2Fhugo-theme-reimu%2Fraw%2Fmain%2Fpackage.json&query=%24.version&label=version">
   <img alt="GitHub License" src="https://img.shields.io/github/license/D-Sketon/hugo-theme-reimu">
-  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/D-Sketon/hugo-theme-reimu">
   <p align="center">
   <p align="center">
   💘 Hakurei Reimu 💘
@@ -16,11 +15,15 @@ Link do Meu Site: <a href="https://cadu-sa.github.io/" target="_blank" >https://
 
 ---
 
-| framework                    | repository                                                         | version                                                                                                                                                                                     | stars                                                                                              |
-| ---------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| [Hexo](https://hexo.io/)     | [hexo-theme-reimu](https://github.com/D-Sketon/hexo-theme-reimu)   | <img alt="version" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2FD-Sketon%2Fhexo-theme-reimu%2Fraw%2Fmain%2Fpackage.json&query=%24.version&label=version">  | <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/D-Sketon/hexo-theme-reimu">  |
-| [Astro](https://astro.build) | [astro-theme-reimu](https://github.com/D-Sketon/astro-theme-reimu) | <img alt="version" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2FD-Sketon%2Fastro-theme-reimu%2Fraw%2Fmain%2Fpackage.json&query=%24.version&label=version"> | <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/D-Sketon/astro-theme-reimu"> |
-| [Hugo](https://gohugo.io)    | [hugo-theme-reimu](https://github.com/D-Sketon/hugo-theme-reimu)   | <img alt="version" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2FD-Sketon%2Fhugo-theme-reimu%2Fraw%2Fmain%2Fpackage.json&query=%24.version&label=version">  | <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/D-Sketon/hugo-theme-reimu">  |
+<div align = center>
+  
+| framework                    | repositório                                                         | versão                                                                                                                                                                                     |
+| ---------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | 
+| [Hexo](https://hexo.io/)     | [hexo-theme-reimu](https://github.com/D-Sketon/hexo-theme-reimu)   | <img alt="version" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2FD-Sketon%2Fhexo-theme-reimu%2Fraw%2Fmain%2Fpackage.json&query=%24.version&label=version">  |
+| [Astro](https://astro.build) | [astro-theme-reimu](https://github.com/D-Sketon/astro-theme-reimu) | <img alt="version" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2FD-Sketon%2Fastro-theme-reimu%2Fraw%2Fmain%2Fpackage.json&query=%24.version&label=version"> |
+| [Hugo](https://gohugo.io)    | [hugo-theme-reimu](https://github.com/D-Sketon/hugo-theme-reimu)   | <img alt="version" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2FD-Sketon%2Fhugo-theme-reimu%2Fraw%2Fmain%2Fpackage.json&query=%24.version&label=version">  |
+
+</div>
 
 ## Recursos
 
@@ -89,23 +92,23 @@ Link do Meu Site: <a href="https://cadu-sa.github.io/" target="_blank" >https://
 - 📜 Família de fontes personalizada
 - 🎨 Funcionalidade de cartão de compartilhamento
 
-## Installation
+## Instalação
 
-### Method 1: Hugo Module (Recommended)
+### Método 1: Módulo Hugo (Recomendado)
 
-Suitable for users familiar with the Go ecosystem, supports version management and automatic updates.
+Adequado para usuários familiarizados com o ecossistema Go, suporta gerenciamento de versão e atualizações automáticas.
 
 ```bash
 hugo new site quickstart
 cd quickstart
-hugo mod init github.com/<your-github-username>/quickstart  # Replace <your-github-username> with your actual GitHub username
+hugo mod init github.com/<your-github-username>/quickstart  # Substitua <seu-nome-de-usuario-github> pelo seu nome de usuário real do GitHub
 echo 'theme = ["github.com/D-Sketon/hugo-theme-reimu"]' >> hugo.toml
 hugo server
 ```
 
-### Method 2: Git Submodule
+### Método 2: Git Submodule
 
-Suitable for users who prefer manual management of theme versions.
+Adequado para usuários que preferem gerenciar manualmente as versões do tema.
 
 ```bash
 hugo new site quickstart
@@ -116,16 +119,17 @@ echo 'theme = "reimu"' >> hugo.toml
 hugo server
 ```
 
-Choose the installation method that suits you best, and you can start using **Hugo Theme Reimu** right away!
+Escolha o método de instalação que melhor se adequa a você e você pode começar a usar o Hugo Theme Reimu imediatamente!
 
-## Usage
+
+## Uso
 
 <details>
-<summary>Create Configuration</summary>
+<summary>Criar Configuração</summary>
 
-### Creating Configuration
+### Criando Configuração
 
-#### Theme Configuration
+#### Configuração do Tema
 
 Create a `_default` folder under the outer `config` folder, then copy the `config/_default/params.yml` from inside the theme to the `_default` folder. This file serves as the theme configuration file where you can modify theme settings.
 
