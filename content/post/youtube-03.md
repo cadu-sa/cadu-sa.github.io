@@ -20,7 +20,16 @@ cover: https://raw.githubusercontent.com/cadu-sa/arquivos-site/refs/heads/main/r
 
 <a href="https://www.youtube.com/watch?v=f51N_lefkR0" target="_blank" >Clique aqui para acessar o vídeo no YouTube</a>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/f51N_lefkR0?si=zprPdseeuJUvYk38" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="video-container"> 
+  <iframe
+    src="https://www.youtube.com/embed/f51N_lefkR0?si=zprPdseeuJUvYk38" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen>
+  </iframe>
+</div>
 
 
 Em breve estarei publicando a parte escrita do vídeo!
