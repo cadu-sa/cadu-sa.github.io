@@ -3,115 +3,112 @@
   <h1>hugo-theme-reimu</h1>
   <img alt="version" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2FD-Sketon%2Fhugo-theme-reimu%2Fraw%2Fmain%2Fpackage.json&query=%24.version&label=version">
   <img alt="GitHub License" src="https://img.shields.io/github/license/D-Sketon/hugo-theme-reimu">
-  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/D-Sketon/hugo-theme-reimu">
   <p align="center">
   <p align="center">
   💘 Hakurei Reimu 💘
   </p>
 
-[Demo](https://d-sketon.github.io/hugo-theme-reimu) | [Change Log](https://github.com/D-Sketon/hugo-theme-reimu/blob/main/CHANGELOG.md)
+Link do Meu Site: <a href="https://cadu-sa.github.io/" target="_blank" >https://cadu-sa.github.io/</a>
 
-[简体中文](https://github.com/D-Sketon/hugo-theme-reimu/blob/main/README.md) | English
 
 </div>
 
-A Hakurei Reimu style Hugo theme. Migrated from [hexo-theme-reimu](https://github.com/D-Sketon/hexo-theme-reimu).
-
 ---
 
-| framework                    | repository                                                         | version                                                                                                                                                                                     | stars                                                                                              |
-| ---------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| [Hexo](https://hexo.io/)     | [hexo-theme-reimu](https://github.com/D-Sketon/hexo-theme-reimu)   | <img alt="version" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2FD-Sketon%2Fhexo-theme-reimu%2Fraw%2Fmain%2Fpackage.json&query=%24.version&label=version">  | <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/D-Sketon/hexo-theme-reimu">  |
-| [Astro](https://astro.build) | [astro-theme-reimu](https://github.com/D-Sketon/astro-theme-reimu) | <img alt="version" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2FD-Sketon%2Fastro-theme-reimu%2Fraw%2Fmain%2Fpackage.json&query=%24.version&label=version"> | <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/D-Sketon/astro-theme-reimu"> |
-| [Hugo](https://gohugo.io)    | [hugo-theme-reimu](https://github.com/D-Sketon/hugo-theme-reimu)   | <img alt="version" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2FD-Sketon%2Fhugo-theme-reimu%2Fraw%2Fmain%2Fpackage.json&query=%24.version&label=version">  | <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/D-Sketon/hugo-theme-reimu">  |
+<div align = center>
+  
+| framework                    | repositório                                                         | versão                                                                                                                                                                                     |
+| ---------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | 
+| [Hexo](https://hexo.io/)     | [hexo-theme-reimu](https://github.com/D-Sketon/hexo-theme-reimu)   | <img alt="version" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2FD-Sketon%2Fhexo-theme-reimu%2Fraw%2Fmain%2Fpackage.json&query=%24.version&label=version">  |
+| [Astro](https://astro.build) | [astro-theme-reimu](https://github.com/D-Sketon/astro-theme-reimu) | <img alt="version" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2FD-Sketon%2Fastro-theme-reimu%2Fraw%2Fmain%2Fpackage.json&query=%24.version&label=version"> |
+| [Hugo](https://gohugo.io)    | [hugo-theme-reimu](https://github.com/D-Sketon/hugo-theme-reimu)   | <img alt="version" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2FD-Sketon%2Fhugo-theme-reimu%2Fraw%2Fmain%2Fpackage.json&query=%24.version&label=version">  |
 
-**ISSUE and PR Welcome!**
+</div>
 
-## Features
+## Recursos
 
-### Basic Functions
+### Funções Básicas
 
-- ✨ Full blog functionality
-- 🔄 Compatible with Hugo 0.124.0+
-- 📱 Responsive layout
-- 🌙 Dark mode support
-- 🅰️ i18n support
+- ✨ Funcionalidade completa de blog
+- 🔄 Compatível com Hugo 0.124.0+
+- 📱 Layout responsivo
+- 🌙 Suporte ao modo escuro
+- 🅰️ Suporte a i18n
 
-### Code & Math
+### Código e Matemática
 
-- 🖥️ Code highlighting and copying
-- ➗ KaTeX / MathJax3 math formula support
-- 📊 Mermaid flowchart support
+- 🖥️ Destaque e cópia de código
+- ➗ Suporte a fórmulas matemáticas KaTeX / MathJax3
+- 📊 Suporte a fluxogramas Mermaid
 
-### Search & Comments
+### Busca e Comentários
 
-- 🔍 Algolia search integration
-- 💬 Multiple comment systems support:
+- 🔍 Integração com busca Algolia
+- 💬 Suporte a múltiplos sistemas de comentários:
   - Valine
   - Waline
   - Twikoo
   - Gitalk
   - Giscus
 
-### Statistics & Analytics
+### Estatísticas e Análises
 
-- 📊 Article reading statistics (Valine / Waline)
-- 👥 Visitor statistics (Busuanzi)
+- 📊 Estatísticas de leitura de artigos (Valine / Waline)
+- 👥 Estatísticas de visitantes (Busuanzi)
 
-### Media & Interactive Features
+### Recursos de Mídia e Interatividade
 
-- 🎵 Music player support:
+- Suporte a player de música:
   - Aplayer
   - Meting
-- 🖼️ Lazy loading for images
-- ⚡ Loading animations
-- 🖱️ Mouse effects:
-  - Animation effects
-  - Reimu cursor style
-- 👾 Live2D / Live2D-widgets integration
+- 🖼️ Carregamento preguiçoso de imagens
+- ⚡ Animações de carregamento
+- 🖱️ Efeitos de mouse:
+  - Efeitos de animação
+  - Estilo de cursor Reimu
+- 👾 Integração Live2D / Live2D-widgets
 
-### Navigation & Structure
 
-- 📑 Table of Contents (TOC)
-- 🔄 PJAX support
-- 🔧 ServiceWorker implementation
-- 📰 RSS feed
+### Navegação e Estrutura
 
-### Design & Customization
+- 📑 Índice (TOC)
+- 🔄 Suporte PJAX
+- 🔧 Implementação ServiceWorker
+- 📰 Feed RSS
 
-- 🎨 Icon support:
+### Design e Personalização
+
+- 🎨 Suporte a ícones:
   - Iconfont
   - FontAwesome
-- 🔗 Custom shortcodes for:
-  - Internal links
-  - External links
-  - Friend links
-  - Heatmap
-- 🎨 Dynamic theme color adaptation
-- ©️ Article copyright declaration
-- 🌐 Custom CDN source / local source configuration
-- 📜 Custom Font Family
-- 🎨 Share card functionality
+- 🔗 Shortcodes personalizados para:
+  - Links internos
+  - Links externos
+  - Links de amigos
+  - Mapa de calor
+- 🎨 Adaptação dinâmica de cor do tema
+- ©️ Declaração de direitos autorais do artigo
+- 🌐 Configuração personalizada de fonte CDN / fonte local
+- 📜 Família de fontes personalizada
+- 🎨 Funcionalidade de cartão de compartilhamento
 
-## Installation
+## Instalação
 
-> For beginners, you can directly use [hugo-reimu-template](https://github.com/D-Sketon/hugo-reimu-template). You only need to clone the repository and modify the configuration to get a basic blog!
+### Método 1: Módulo Hugo (Recomendado)
 
-### Method 1: Hugo Module (Recommended)
-
-Suitable for users familiar with the Go ecosystem, supports version management and automatic updates.
+Adequado para usuários familiarizados com o ecossistema Go, suporta gerenciamento de versão e atualizações automáticas.
 
 ```bash
 hugo new site quickstart
 cd quickstart
-hugo mod init github.com/<your-github-username>/quickstart  # Replace <your-github-username> with your actual GitHub username
+hugo mod init github.com/<your-github-username>/quickstart  # Substitua <seu-nome-de-usuario-github> pelo seu nome de usuário real do GitHub
 echo 'theme = ["github.com/D-Sketon/hugo-theme-reimu"]' >> hugo.toml
 hugo server
 ```
 
-### Method 2: Git Submodule
+### Método 2: Git Submodule
 
-Suitable for users who prefer manual management of theme versions.
+Adequado para usuários que preferem gerenciar manualmente as versões do tema.
 
 ```bash
 hugo new site quickstart
@@ -122,16 +119,17 @@ echo 'theme = "reimu"' >> hugo.toml
 hugo server
 ```
 
-Choose the installation method that suits you best, and you can start using **Hugo Theme Reimu** right away!
+Escolha o método de instalação que melhor se adequa a você e você pode começar a usar o Hugo Theme Reimu imediatamente!
 
-## Usage
+
+## Uso
 
 <details>
-<summary>Create Configuration</summary>
+<summary>Criar Configuração</summary>
 
-### Creating Configuration
+### Criando Configuração
 
-#### Theme Configuration
+#### Configuração do Tema
 
 Create a `_default` folder under the outer `config` folder, then copy the `config/_default/params.yml` from inside the theme to the `_default` folder. This file serves as the theme configuration file where you can modify theme settings.
 
