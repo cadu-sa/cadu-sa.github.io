@@ -1,38 +1,40 @@
 <img src="https://raw.githubusercontent.com/cadu-sa/arquivos-site/refs/heads/main/meu-site.png"/>
 <div align = center>
   <h1>hugo-theme-reimu</h1>
-  <img alt="version" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2FD-Sketon%2Fhugo-theme-reimu%2Fraw%2Fmain%2Fpackage.json&query=%24.version&label=version">
-  <img alt="GitHub License" src="https://img.shields.io/github/license/D-Sketon/hugo-theme-reimu">
+  <img alt="versão" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2FD-Sketon%2Fhugo-theme-reimu%2Fraw%2Fmain%2Fpackage.json&query=%24.version&label=version">
+  <img alt="Licença GitHub" src="https://img.shields.io/github/license/D-Sketon/hugo-theme-reimu">
+  <img alt="Estrelas do Repositório GitHub" src="https://img.shields.io/github/stars/D-Sketon/hugo-theme-reimu">
   <p align="center">
   <p align="center">
   💘 Hakurei Reimu 💘
   </p>
 
-Link do Meu Site: <a href="https://cadu-sa.github.io/" target="_blank" >https://cadu-sa.github.io/</a>
+[Demonstração](https://d-sketon.github.io/hugo-theme-reimu) | [Registro de Alterações](https://github.com/D-Sketon/hugo-theme-reimu/blob/main/CHANGELOG.md)
 
+[简体中文](https://github.com/D-Sketon/hugo-theme-reimu/blob/main/README.md) | Português
 
 </div>
+
+Um tema Hugo no estilo Hakurei Reimu. Migrado de [hexo-theme-reimu](https://github.com/D-Sketon/hexo-theme-reimu).
 
 ---
 
-<div align = center>
-  
-| framework                    | repositório                                                         | versão                                                                                                                                                                                     |
-| ---------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | 
-| [Hexo](https://hexo.io/)     | [hexo-theme-reimu](https://github.com/D-Sketon/hexo-theme-reimu)   | <img alt="version" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2FD-Sketon%2Fhexo-theme-reimu%2Fraw%2Fmain%2Fpackage.json&query=%24.version&label=version">  |
-| [Astro](https://astro.build) | [astro-theme-reimu](https://github.com/D-Sketon/astro-theme-reimu) | <img alt="version" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2FD-Sketon%2Fastro-theme-reimu%2Fraw%2Fmain%2Fpackage.json&query=%24.version&label=version"> |
-| [Hugo](https://gohugo.io)    | [hugo-theme-reimu](https://github.com/D-Sketon/hugo-theme-reimu)   | <img alt="version" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2FD-Sketon%2Fhugo-theme-reimu%2Fraw%2Fmain%2Fpackage.json&query=%24.version&label=version">  |
+| framework                    | repositório                                                         | versão                                                                                                                                                                                     | estrelas                                                                                              |
+| ---------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| [Hexo](https://hexo.io/)     | [hexo-theme-reimu](https://github.com/D-Sketon/hexo-theme-reimu)   | <img alt="versão" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2FD-Sketon%2Fhexo-theme-reimu%2Fraw%2Fmain%2Fpackage.json&query=%24.version&label=version">  | <img alt="Estrelas do Repositório GitHub" src="https://img.shields.io/github/stars/D-Sketon/hexo-theme-reimu">  |
+| [Astro](https://astro.build) | [astro-theme-reimu](https://github.com/D-Sketon/astro-theme-reimu) | <img alt="versão" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2FD-Sketon%2Fastro-theme-reimu%2Fraw%2Fmain%2Fpackage.json&query=%24.version&label=version"> | <img alt="Estrelas do Repositório GitHub" src="https://img.shields.io/github/stars/D-Sketon/astro-theme-reimu"> |
+| [Hugo](https://gohugo.io)    | [hugo-theme-reimu](https://github.com/D-Sketon/hugo-theme-reimu)   | <img alt="versão" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2FD-Sketon%2Fhugo-theme-reimu%2Fraw%2Fmain%2Fpackage.json&query=%24.version&label=version">  | <img alt="Estrelas do Repositório GitHub" src="https://img.shields.io/github/stars/D-Sketon/hugo-theme-reimu">  |
 
-</div>
+**PROBLEMAS e PRs são bem-vindos!**
 
-## Recursos
+## Funcionalidades
 
 ### Funções Básicas
 
 - ✨ Funcionalidade completa de blog
 - 🔄 Compatível com Hugo 0.124.0+
 - 📱 Layout responsivo
-- 🌙 Suporte ao modo escuro
+- 🌙 Suporte a modo escuro
 - 🅰️ Suporte a i18n
 
 ### Código e Matemática
@@ -41,9 +43,9 @@ Link do Meu Site: <a href="https://cadu-sa.github.io/" target="_blank" >https://
 - ➗ Suporte a fórmulas matemáticas KaTeX / MathJax3
 - 📊 Suporte a fluxogramas Mermaid
 
-### Busca e Comentários
+### Pesquisa e Comentários
 
-- 🔍 Integração com busca Algolia
+- 🔍 Integração com pesquisa Algolia
 - 💬 Suporte a múltiplos sistemas de comentários:
   - Valine
   - Waline
@@ -56,24 +58,23 @@ Link do Meu Site: <a href="https://cadu-sa.github.io/" target="_blank" >https://
 - 📊 Estatísticas de leitura de artigos (Valine / Waline)
 - 👥 Estatísticas de visitantes (Busuanzi)
 
-### Recursos de Mídia e Interatividade
+### Mídia e Recursos Interativos
 
-- Suporte a player de música:
+- 🎵 Suporte a reprodutor de música:
   - Aplayer
   - Meting
-- 🖼️ Carregamento preguiçoso de imagens
+- 🖼️ Carregamento lento para imagens
 - ⚡ Animações de carregamento
 - 🖱️ Efeitos de mouse:
   - Efeitos de animação
   - Estilo de cursor Reimu
 - 👾 Integração Live2D / Live2D-widgets
 
-
 ### Navegação e Estrutura
 
-- 📑 Índice (TOC)
-- 🔄 Suporte PJAX
-- 🔧 Implementação ServiceWorker
+- 📑 Sumário (TOC)
+- 🔄 Suporte a PJAX
+- 🔧 Implementação de ServiceWorker
 - 📰 Feed RSS
 
 ### Design e Personalização
@@ -86,13 +87,15 @@ Link do Meu Site: <a href="https://cadu-sa.github.io/" target="_blank" >https://
   - Links externos
   - Links de amigos
   - Mapa de calor
-- 🎨 Adaptação dinâmica de cor do tema
+- 🎨 Adaptação dinâmica da cor do tema
 - ©️ Declaração de direitos autorais do artigo
-- 🌐 Configuração personalizada de fonte CDN / fonte local
+- 🌐 Configuração de fonte CDN personalizada / fonte local
 - 📜 Família de fontes personalizada
 - 🎨 Funcionalidade de cartão de compartilhamento
 
 ## Instalação
+
+> Para iniciantes, você pode usar diretamente [hugo-reimu-template](https://github.com/D-Sketon/hugo-reimu-template). Você só precisa clonar o repositório e modificar a configuração para obter um blog básico!
 
 ### Método 1: Módulo Hugo (Recomendado)
 
@@ -101,14 +104,14 @@ Adequado para usuários familiarizados com o ecossistema Go, suporta gerenciamen
 ```bash
 hugo new site quickstart
 cd quickstart
-hugo mod init github.com/<your-github-username>/quickstart  # Substitua <seu-nome-de-usuario-github> pelo seu nome de usuário real do GitHub
+hugo mod init github.com/<seu-nome-de-usuario-github>/quickstart  # Substitua <seu-nome-de-usuario-github> pelo seu nome de usuário real do GitHub
 echo 'theme = ["github.com/D-Sketon/hugo-theme-reimu"]' >> hugo.toml
 hugo server
 ```
 
-### Método 2: Git Submodule
+### Método 2: Submódulo Git
 
-Adequado para usuários que preferem gerenciar manualmente as versões do tema.
+Adequado para usuários que preferem o gerenciamento manual das versões do tema.
 
 ```bash
 hugo new site quickstart
@@ -119,8 +122,7 @@ echo 'theme = "reimu"' >> hugo.toml
 hugo server
 ```
 
-Escolha o método de instalação que melhor se adequa a você e você pode começar a usar o Hugo Theme Reimu imediatamente!
-
+Escolha o método de instalação que melhor lhe convier, e você pode começar a usar o **Hugo Theme Reimu** imediatamente!
 
 ## Uso
 
@@ -131,108 +133,108 @@ Escolha o método de instalação que melhor se adequa a você e você pode come
 
 #### Configuração do Tema
 
-Create a `_default` folder under the outer `config` folder, then copy the `config/_default/params.yml` from inside the theme to the `_default` folder. This file serves as the theme configuration file where you can modify theme settings.
+Crie uma pasta `_default` sob a pasta `config` externa, então copie o `config/_default/params.yml` de dentro do tema para a pasta `_default`. Este arquivo serve como o arquivo de configuração do tema onde você pode modificar as configurações do tema.
 
-#### Data Configuration
+#### Configuração de Dados
 
-Copy all files from the theme's `config/data/` folder to the outer `data` folder. The files in this folder are used to configure data within the theme:
+Copie todos os arquivos da pasta `config/data/` do tema para a pasta `data` externa. Os arquivos nesta pasta são usados para configurar dados dentro do tema:
 
-- `covers.yml` is used to configure random cover images
-- `friends.yml` is used to configure friend links
-- `vendor.yml` is used to configure CDN sources for third-party libraries
+- `covers.yml` é usado para configurar imagens de capa aleatórias
+- `friends.yml` é usado para configurar links de amigos
+- `vendor.yml` é usado para configurar fontes CDN para bibliotecas de terceiros
 
-#### Static Resource Configuration
+#### Configuração de Recursos Estáticos
 
-The theme's static resources (favicon, header images, etc.) are located in the `static` folder. You can create corresponding folders in the outer `static` folder and copy the files from inside the theme to the outer folders to override the theme's default files.
+Os recursos estáticos do tema (favicon, imagens de cabeçalho, etc.) estão localizados na pasta `static`. Você pode criar pastas correspondentes na pasta `static` externa e copiar os arquivos de dentro do tema para as pastas externas para sobrescrever os arquivos padrão do tema.
 
-> In summary, it's not recommended to modify files directly inside the theme. Instead, create corresponding folders in the outer directory and copy the theme's files there to override the default files. This approach makes theme upgrades easier.
+> Em resumo, não é recomendado modificar arquivos diretamente dentro do tema. Em vez disso, crie pastas correspondentes no diretório externo e copie os arquivos do tema para lá para sobrescrever os arquivos padrão. Essa abordagem facilita as atualizações do tema.
 
 </details>
 <details>
 
-<summary>Basic Structure</summary>
+<summary>Estrutura Básica</summary>
 
-### Basic Structure
+### Estrutura Básica
 
-To ensure proper display, please create `archives` and `post` folders in `content` by referring to `_example` (the `_index.md` inside cannot be omitted, and note that `post`'s `draft` should be set to `true`)
+Para garantir a exibição correta, crie as pastas `archives` e `post` em `content` consultando `_example` (o `_index.md` dentro não pode ser omitido, e observe que o `draft` de `post` deve ser definido como `true`)
 
 #### archives
 
-- `_index.md` is used to display the archive page, cannot be omitted
+- `_index.md` é usado para exibir a página de arquivo, não pode ser omitido
 
 #### post
 
-Create articles in this directory, note that articles with `draft` set to `true` will not be displayed on the homepage
+Crie artigos neste diretório, observe que artigos com `draft` definido como `true` não serão exibidos na página inicial
 
-- `_index.md` is used to prevent the generation of `post/index.html`, cannot be omitted
+- `_index.md` é usado para evitar a geração de `post/index.html`, não pode ser omitido
 
 #### about\.md
 
-About page
+Página sobre
 
 #### friend\.md
 
-Friend link page
+Página de links de amigos
 
 </details>
 
 <details>
-<summary>Avatar, Cover, Banner, and favicon</summary>
+<summary>Avatar, Capa, Banner e Favicon</summary>
 
-### Avatar, Cover, Banner, and Favicon
+### Avatar, Capa, Banner e Favicon
 
 #### Avatar
 
-The avatar should be saved at `static/avatar/avatar.webp`. You can modify the filename in `params.yml`
+O avatar deve ser salvo em `static/avatar/avatar.webp`. Você pode modificar o nome do arquivo em `params.yml`
 
 ```yaml
 avatar: "avatar.webp"
 ```
 
-#### Cover
+#### Capa
 
-For random cover images, refer to the file structure in the theme's `data/covers.yml`. Create a `covers.yml` file in the outer `data` folder with the following format:
+Para imagens de capa aleatórias, consulte a estrutura de arquivos em `data/covers.yml` do tema. Crie um arquivo `covers.yml` na pasta `data` externa com o seguinte formato:
 
 ```yaml
 - https://example.com/1.jpg
 - https://example.com/2.jpg
 ```
 
-Cover display logic is as follows:
+A lógica de exibição da capa é a seguinte:
 
-- If the article's Front matter contains a cover url, both the article header and homepage thumbnail will display that url
+- Se o Front matter do artigo contiver uma URL de capa, tanto o cabeçalho do artigo quanto a miniatura da página inicial exibirão essa URL
 
 ```yaml
 ---
-title: Hello World
+title: Olá Mundo
 cover: https://example.com
 ---
 ```
 
-- If the article's Front matter contains cover set to `false`, the article won't display a header image (homepage will still show random images)
+- Se o Front matter do artigo contiver `cover` definido como `false`, o artigo não exibirá uma imagem de cabeçalho (a página inicial ainda mostrará imagens aleatórias)
 
 ```yaml
 ---
-title: Hello World
+title: Olá Mundo
 cover: false
 ---
 ```
 
-- If the article's Front matter contains cover set to `rgb(xxx,xxx,xxx)`, the article header will be a gradient of that solid color (homepage will still show random images)
+- Se o Front matter do artigo contiver `cover` definido como `rgb(xxx,xxx,xxx)`, o cabeçalho do artigo será um gradiente dessa cor sólida (a página inicial ainda mostrará imagens aleatórias)
 
 ```yaml
 ---
-title: Hello World
+title: Olá Mundo
 cover: rgb(255,117,117)
 ---
 ```
 
-- Otherwise, it will look for `covers.yml` in the `data` folder and randomly select an image
-- If none of the above files exist, it will display the banner image
+- Caso contrário, ele procurará `covers.yml` na pasta `data` e selecionará aleatoriamente uma imagem
+- Se nenhum dos arquivos acima existir, ele exibirá a imagem do banner
 
 #### Banner
 
-The banner is saved at `themes/hugo-theme-reimu/static/images/banner.webp`. You can modify the path and name in `params.yml`
+O banner é salvo em `themes/hugo-theme-reimu/static/images/banner.webp`. Você pode modificar o caminho e o nome em `params.yml`
 
 ```yaml
 banner: "images/banner.webp"
@@ -240,15 +242,15 @@ banner: "images/banner.webp"
 
 #### Favicon
 
-The favicon is saved at `themes/hugo-theme-reimu/static/favicon.ico`. You can replace it with your own file.
+O favicon é salvo em `themes/hugo-theme-reimu/static/favicon.ico`. Você pode substituí-lo pelo seu próprio arquivo.
 
 </details>
 <details>
-<summary>Code Blocks</summary>
+<summary>Blocos de Código</summary>
 
-### Code Blocks
+### Blocos de Código
 
-To ensure proper display of code blocks, make sure you have the following configuration in `hugo.toml`
+Para garantir a exibição correta dos blocos de código, certifique-se de ter a seguinte configuração em `hugo.toml`
 
 ```toml
 [markup.highlight]
@@ -256,65 +258,65 @@ guessSyntax = true
 noClasses = false
 ```
 
-Code blocks also provide code copying functionality. Click the copy button in the top right corner of the code block to copy the code. You can configure the copy functionality in `params.yml`.  
-`success` is the prompt shown when copying is successful, `fail` is the prompt shown when copying fails. Additionally, you can configure copyright notices - when the copied text exceeds `count` characters, the copyright notice will be added after the copied content.
+Os blocos de código também fornecem funcionalidade de cópia de código. Clique no botão de copiar no canto superior direito do bloco de código para copiar o código. Você pode configurar a funcionalidade de cópia em `params.yml`.  
+`success` é o prompt exibido quando a cópia é bem-sucedida, `fail` é o prompt exibido quando a cópia falha. Além disso, você pode configurar avisos de direitos autorais - quando o texto copiado exceder `count` caracteres, o aviso de direitos autorais será adicionado após o conteúdo copiado.
 
 ```yaml
 clipboard:
   success:
-    en: Copy successfully (*^▽^*)
+    en: Cópia bem-sucedida (*^▽^*)
   fail:
-    en: Copy failed (ﾟ⊿ﾟ)ﾂ
+    en: Cópia falhou (ﾟ⊿ﾟ)ﾂ
   copyright:
     enable: false
-    count: 50 # The number of characters when the copyright is displayed
+    count: 50 # O número de caracteres quando o aviso de direitos autorais é exibido
     license_type: by-nc-sa # https://creativecommons.org/licenses
 ```
 
-v0.2.0 added configuration to control the default expansion state of code blocks. `expand` can be set to `true`, `false`, or a number - the number indicates that code blocks will be collapsed by default when the number of lines exceeds this value.
+v0.2.0 adicionou configuração para controlar o estado de expansão padrão dos blocos de código. `expand` pode ser definido como `true`, `false` ou um número - o número indica que os blocos de código serão recolhidos por padrão quando o número de linhas exceder esse valor.
 
 ```yaml
 code_block:
-  expand: true # true | false | number
+  expand: true # true | false | número
 ```
 
 </details>
 <details>
-<summary>Site comments</summary>
+<summary>Comentários do Site</summary>
 
-### Site comments
+### Comentários do Site
 
-> Site comments can be individually controlled for each article using `comments` in the Front matter.  
-> When `comments` is `false`, comments won't be displayed. When it's `true` or not specified, the display will be determined by the `params.yml` configuration.
+> Os comentários do site podem ser controlados individualmente para cada artigo usando `comments` no Front matter.  
+> Quando `comments` for `false`, os comentários não serão exibidos. Quando for `true` ou não especificado, a exibição será determinada pela configuração `params.yml`.
 
-> Support for multiple comment systems simultaneously after version 0.8.0+
+> Suporte para múltiplos sistemas de comentários simultaneamente após a versão 0.8.0+
 
-Global comment system configuration:
+Configuração global do sistema de comentários:
 
 ```yaml
 comment:
-  title: # Title of the comment box
-    en: Leave a comment
-  default: waline # Default comment system used when multiple are enabled
+  title: # Título da caixa de comentários
+    en: Deixe um comentário
+  default: waline # Sistema de comentários padrão usado quando múltiplos estão habilitados
 ```
 
-If using [Valine](https://valine.js.org/)  
-Please refer to their official documentation to complete the `LeanCloud` configuration, then set `valine.enable` to `true` in the inner `params.yml` and fill in your `appId` and `appKey`
+Se estiver usando [Valine](https://valine.js.org/)  
+Consulte a documentação oficial para completar a configuração do `LeanCloud`, então defina `valine.enable` como `true` no `params.yml` interno e preencha seu `appId` e `appKey`
 
 ```yaml
 valine:
   enable: true
-  appId: "your appId"
-  appKey: "your appKey"
+  appId: "seu appId"
+  appKey: "seu appKey"
 ```
 
-If using [Waline](https://waline.js.org/)  
-Please refer to their [official documentation](https://waline.js.org/guide/get-started/) to complete the `LeanCloud` configuration, then set `waline.enable` to `true` in the inner `params.yml` and fill in your `serverURL`
+Se estiver usando [Waline](https://waline.js.org/)  
+Consulte a [documentação oficial](https://waline.js.org/guide/get-started/) para completar a configuração do `LeanCloud`, então defina `waline.enable` como `true` no `params.yml` interno e preencha sua `serverURL`
 
 ```yaml
 waline:
   enable: true
-  serverURL: "your server url"
+  serverURL: "sua url do servidor"
   locale: {} # https://waline.js.org/guide/features/i18n.html#%E8%87%AA%E5%AE%9A%E4%B9%89%E8%AF%AD%E8%A8%80
   emoji:
     - https://unpkg.com/@waline/emojis@1.2.0/weibo
@@ -335,26 +337,26 @@ waline:
   pageview: true
 ```
 
-If using [twikoo](https://twikoo.js.org)  
-Please refer to their [official documentation](https://twikoo.js.org/quick-start.html) to complete Tencent Cloud or Vercel deployment, then set `twikoo.enable` to `true` in the inner `params.yml` and fill in your `envId`
+Se estiver usando [twikoo](https://twikoo.js.org)  
+Consulte a [documentação oficial](https://twikoo.js.org/quick-start.html) para completar a implantação do Tencent Cloud ou Vercel, então defina `twikoo.enable` como `true` no `params.yml` interno e preencha seu `envId`
 
 ```yml
 twikoo:
   enable: true
-  envId: # Tencent cloud environment fill envId; Vercel environment fill address (https://xxx.vercel.app)
+  envId: # Ambiente Tencent Cloud preencha envId; Ambiente Vercel preencha o endereço (https://xxx.vercel.app)
   region:
 ```
 
-If using [giscus](https://giscus.app/)  
-Please refer to the documentation to complete repository configuration, then set `giscus.enable` to `true` in the inner `params.yml` and fill in the corresponding data
+Se estiver usando [giscus](https://giscus.app/)  
+Consulte a documentação para completar a configuração do repositório, então defina `giscus.enable` como `true` no `params.yml` interno e preencha os dados correspondentes
 
 ```yml
 giscus:
   enable: true
-  repo: "your repo"
-  repoId: "your repoId"
-  category: "your category"
-  categoryId: "your categoryId"
+  repo: "seu repositório"
+  repoId: "seu repoId"
+  category: "sua categoria"
+  categoryId: "seu categoryId"
   mapping: mapping
   strict: 0
   reactionsEnabled: 1
@@ -362,25 +364,25 @@ giscus:
   inputPosition: bottom
 ```
 
-If using [gitalk](https://gitalk.github.io/)  
-Please refer to their [official documentation](https://github.com/gitalk/gitalk?tab=readme-ov-file#usage) to complete repository configuration, then set `gitalk.enable` to `true` in the inner `params.yml` and fill in the corresponding data
+Se estiver usando [gitalk](https://gitalk.github.io/)  
+Consulte a [documentação oficial](https://github.com/gitalk/gitalk?tab=readme-ov-file#usage) para completar a configuração do repositório, então defina `gitalk.enable` como `true` no `params.yml` interno e preencha os dados correspondentes
 
 ```yml
 gitalk:
   enable: true
-  clientID: "your application client ID"
-  clientSecret: "your application client secret"
-  repo: "your repo"
-  owner: "repo owner"
-  admin: "repo owner and collaborators"
-  md5: false # Whether to use md5 to encrypt the path
+  clientID: "seu ID de cliente de aplicativo"
+  clientSecret: "seu segredo de cliente de aplicativo"
+  repo: "seu repositório"
+  owner: "proprietário do repositório"
+  admin: "proprietário e colaboradores do repositório"
+  md5: false # Se deve usar md5 para criptografar o caminho
 ```
 
 </details>
 <details>
-<summary>Site search</summary>
+<summary>Pesquisa no Site</summary>
 
-Based on [Algolia](https://www.algolia.com/), please add the following configuration to your outer `hugo.toml`:
+Com base em [Algolia](https://www.algolia.com/), adicione a seguinte configuração ao seu `hugo.toml` externo:
 
 ```toml
 [outputs]
@@ -393,9 +395,9 @@ mediaType = "application/json"
 notAlternative = true
 ```
 
-This will generate an `algolia.json` file in the `public` folder, which is used for Algolia search. You can then use plugins like `atomic-algolia` to upload it to Algolia.
+Isso gerará um arquivo `algolia.json` na pasta `public`, que é usado para a pesquisa Algolia. Você pode então usar plugins como `atomic-algolia` para fazer o upload para o Algolia.
 
-Also, in `params.yml`, set `algolia_search.enable` to `true` and fill in the relevant information (**Important! Enter the Search-Only Key here, NOT the Admin Key!! Otherwise, your account may be vulnerable to attacks**)
+Além disso, em `params.yml`, defina `algolia_search.enable` como `true` e preencha as informações relevantes (**Importante! Insira a Chave Somente de Pesquisa aqui, NÃO a Chave de Administrador!! Caso contrário, sua conta pode estar vulnerável a ataques**)
 
 ```yaml
 algolia_search:
@@ -405,11 +407,11 @@ algolia_search:
 </details>
 <details>
 
-<summary>Mathematical formulas</summary>
+<summary>Fórmulas Matemáticas</summary>
 
-### Mathematical formulas
+### Fórmulas Matemáticas
 
-First, add the following configuration to your outer `hugo.toml`:
+Primeiro, adicione a seguinte configuração ao seu `hugo.toml` externo:
 
 ```toml
 [markup.goldmark.extensions.passthrough]
@@ -418,7 +420,7 @@ delimiters.block = [["\\[", "\\]"], ["$$", "$$"]]
 delimiters.inline = [["\\(", "\\)"], ["$", "$"]]
 ```
 
-Then, add `math: true` to the Front matter of any article where you want to use mathematical formulas:
+Em seguida, adicione `math: true` ao Front matter de qualquer artigo onde você deseja usar fórmulas matemáticas:
 
 ```yaml
 ---
@@ -426,11 +428,11 @@ math: true
 ---
 ```
 
-> Note: Do not enable both KaTeX and MathJax3 simultaneously
+> Nota: Não habilite KaTeX e MathJax3 simultaneamente
 
 #### KaTex
 
-If using [KaTeX](https://github.com/KaTeX/KaTeX), set `math.katex.enable` to `true` in `params.yml`:
+Se estiver usando [KaTeX](https://github.com/KaTeX/KaTeX), defina `math.katex.enable` como `true` em `params.yml`:
 
 ```yaml
 math:
@@ -440,7 +442,7 @@ math:
 
 #### MathJax3
 
-If using [MathJax3](https://www.mathjax.org/), set `math.mathjax.enable` to `true` in `params.yml`. You can add configurations in `options` (since Hugo automatically converts object keys to lowercase, configurations need to be placed in an array to avoid default behavior):
+Se estiver usando [MathJax3](https://www.mathjax.org/), defina `math.mathjax.enable` como `true` em `params.yml`. Você pode adicionar configurações em `options` (já que o Hugo converte automaticamente as chaves de objeto para minúsculas, as configurações precisam ser colocadas em um array para evitar o comportamento padrão):
 
 ```yaml
 math:
@@ -455,7 +457,7 @@ math:
 
 ### Mermaid
 
-Flow charts are based on [Mermaid](https://mermaid.js.org/#/). Add `mermaid: true` to the Front matter of articles where you want to use flow charts:
+Os fluxogramas são baseados em [Mermaid](https://mermaid.js.org/#/). Adicione `mermaid: true` ao Front matter dos artigos onde você deseja usar fluxogramas:
 
 ```yaml
 ---
@@ -469,29 +471,32 @@ mermaid: true
 
 ### RSS
 
-You can configure the RSS in `params.yml`.
+Você pode configurar o RSS em `params.yml`.
 
 ```yaml
 rss:
-  limit: 10 # The number of recent articles to be output, write -1 to output all
-  showFullContent: false # output full content or description
-  showCopyright: false # If true, add copyright to the end of article.
+  limit: 10 # O número de artigos recentes a serem exibidos, escreva -1 para exibir todos
+  showFullContent: false # exibir conteúdo completo ou descrição
+  showCopyright: false # Se verdadeiro, adicione direitos autorais ao final do artigo.
 ```
 
 </details>
 
 <details>
-<summary>Icon</summary>
+<summary>Ícone</summary>
 
-### Icon
+### Ícone
 
-Icons default to using the iconfont provided by this project:
+Os ícones padrão usam o iconfont fornecido por este projeto:
 
 ```yml
 icon_font: 4552607_0khxww3tj3q9
 ```
 
-If you want to continue using FontAwesome icons, set `icon_font` to `false`. This will use the corresponding FontAwesome configuration from `vendor.yml`:
+Se você quiser continuar usando os ícones do FontAwesome, defina `icon_font` como `false`. Isso usará a configuração correspondente do FontAwesome em `vendor.yml`:
+
+
+
 
 ```yml
 fontawesome:
@@ -512,25 +517,25 @@ fontawesome:
 </details>
 
 <details>
-<summary>Extended features</summary>
+<summary>Recursos estendidos</summary>
 
-### Extended features
+### Recursos estendidos
 
-#### Dark Mode
+#### Modo Escuro
 
-The default setting is `auto`, which automatically switches based on the user's system settings. It can be set to `true` or `false` to change the default state.
+A configuração padrão é `auto`, que alterna automaticamente com base nas configurações do sistema do usuário. Pode ser definido como `true` ou `false` para alterar o estado padrão.
 
 ```yaml
 dark_mode:
-  # true means that the dark mode is enabled by default
-  # false means that the dark mode is disabled by default
-  # auto means that the dark mode is automatically switched according to the system settings
+  # true significa que o modo escuro está habilitado por padrão
+  # false significa que o modo escuro está desabilitado por padrão
+  # auto significa que o modo escuro é alternado automaticamente de acordo com as configurações do sistema
   enable: auto # true | false | auto
 ```
 
-#### Pace Progress Bar
+#### Barra de Progresso Pace
 
-Enabled by default
+Habilitado por padrão
 
 ```yaml
 pace:
@@ -539,29 +544,29 @@ pace:
 
 #### Firework
 
-Enabled by default
+Habilitado por padrão
 
 ```yaml
 firework:
   enable: true
 ```
 
-For detailed configuration, please check [mouse-firework](https://github.com/D-Sketon/mouse-firework)
+Para configuração detalhada, verifique [mouse-firework](https://github.com/D-Sketon/mouse-firework)
 
 #### PJAX
 
-Disabled by default
+Desabilitado por padrão
 
 ```yaml
 pjax:
   enable: false
 ```
 
-> PJAX is for users who need SPA features like music players. However, it's still experimental and may cause issues like **scripts not executing**, **scripts executing multiple times**, or **page rendering problems**. Please consider carefully!
+> PJAX é para usuários que precisam de recursos SPA como reprodutores de música. No entanto, ainda é experimental e pode causar problemas como **scripts não executando**, **scripts executando várias vezes** ou **problemas de renderização de página**. Por favor, considere cuidadosamente!
 
 #### ServiceWorker
 
-Disabled by default
+Desabilitado por padrão
 
 ```yaml
 service_worker:
@@ -570,7 +575,7 @@ service_worker:
 
 #### Live2D
 
-Disabled by default
+Desabilitado por padrão
 
 ```yaml
 live2d:
@@ -580,7 +585,7 @@ live2d:
 
 #### Live2D Widgets
 
-Disabled by default
+Desabilitado por padrão
 
 ```yaml
 live2d_widgets:
@@ -588,17 +593,17 @@ live2d_widgets:
   position: left # left | right
 ```
 
-#### Reimu Cursor
+#### Cursor Reimu
 
-Enabled by default
+Habilitado por padrão
 
 ```yml
 reimu_cursor: true
 ```
 
-#### Responsive Banner
+#### Banner Responsivo
 
-Disabled by default. When enabled and provided with corresponding image sizes and media queries, it can improve mobile LCP to some extent
+Desabilitado por padrão. Quando habilitado e fornecido com tamanhos de imagem e media queries correspondentes, pode melhorar o LCP móvel em certa medida
 
 ```yml
 banner_srcset:
@@ -612,97 +617,97 @@ srcset:
     media: "(min-width: 800px)"
 ```
 
-#### Article Copyright Notice
+#### Aviso de Direitos Autorais do Artigo
 
-Disabled by default
+Desabilitado por padrão
 
 ```yml
 article_copyright:
-  enable: false # Show copyright card?
+  enable: false # Mostrar cartão de direitos autorais?
   content:
-    author: # true | false Show author in copyright card?
-    link: # true | false Show link in copyright card?
-    title: # true | false Show title in copyright card?
-    date: # true | false Show creation date in copyright card?
-    updated: # true | false Show update date in copyright card?
-    license: # true | false Show license in copyright card?
+    author: # true | false Mostrar autor no cartão de direitos autorais?
+    link: # true | false Mostrar link no cartão de direitos autorais?
+    title: # true | false Mostrar título no cartão de direitos autorais?
+    date: # true | false Mostrar data de criação no cartão de direitos autorais?
+    updated: # true | false Mostrar data de atualização no cartão de direitos autorais?
+    license: # true | false Mostrar licença no cartão de direitos autorais?
     license_type: by-nc-sa # https://creativecommons.org/licenses
 ```
 
-Additionally, it can be controlled through article front-matter, which takes priority over global configuration
+Além disso, pode ser controlado através do front-matter do artigo, que tem prioridade sobre a configuração global
 
 ```yaml
 ---
-copyright: true # Show copyright card?
+copyright: true # Mostrar cartão de direitos autorais?
 ---
 ```
 
 #### Quicklink
 
-Enabled by default. When enabled, it preloads links while users stay on the page, improving user experience
+Habilitado por padrão. Quando habilitado, ele pré-carrega links enquanto os usuários permanecem na página, melhorando a experiência do usuário
 
 ```yaml
 quicklink:
   enable: true
-  timeout: 3000 # Timeout for quicklink
-  priority: true # Whether to prioritize loading the page
-  ignores: [] # Ignore the specified link, only support string
+  timeout: 3000 # Tempo limite para quicklink
+  priority: true # Se deve priorizar o carregamento da página
+  ignores: [] # Ignorar o link especificado, suporta apenas string
 ```
 
-#### Outdated Notice
+#### Aviso de Desatualização
 
-Disabled by default
+Desabilitado por padrão
 
 ```yaml
 outdate:
   enable: false
-  daysAgo: 180 # How many days old before an article is considered outdated
+  daysAgo: 180 # Quantos dias um artigo é considerado desatualizado
   message:
-    en: This article was last updated on {time}. Please note that the content may no longer be applicable.
+    en: Este artigo foi atualizado pela última vez em {time}. Observe que o conteúdo pode não ser mais aplicável.
 ```
 
-#### Sponsorship
+#### Patrocínio
 
-Disabled by default
+Desabilitado por padrão
 
 ```yaml
 sponsor:
-  enable: false # Show sponsorship QR codes?
-  tip: # Sponsorship tip
-    en: Buy me a coffee
+  enable: false # Mostrar códigos QR de patrocínio?
+  tip: # Dica de patrocínio
+    en: Compre-me um café
   icon:
-    url: "../images/taichi.png" # Sponsor icon path relative to css/main.css
-    rotate: true # Rotate icon?
-    mask: true # Use image as mask (only show PNG image outline)?
+    url: "../images/taichi.png" # Caminho do ícone do patrocinador relativo a css/main.css
+    rotate: true # Girar ícone?
+    mask: true # Usar imagem como máscara (mostrar apenas o contorno da imagem PNG)?
   qr:
-    - name: Alipay # QR code name
-      src: "sponsor/alipay.jpg" # Example QR code path at static/sponsor/alipay.jpg
+    - name: Alipay # Nome do código QR
+      src: "sponsor/alipay.jpg" # Exemplo de caminho do código QR em static/sponsor/alipay.jpg
 ```
 
-Can also be controlled through article front-matter, which takes priority over global configuration
+Também pode ser controlado através do front-matter do artigo, que tem prioridade sobre a configuração global
 
 ```yaml
 ---
-sponsor: true # Show sponsorship QR codes?
+sponsor: true # Mostrar códigos QR de patrocínio?
 ---
 ```
 
-#### Music Player (v0.4.0+)
+#### Reprodutor de Música (v0.4.0+)
 
-> Recommended to enable PJAX first, otherwise the player may automatically pause
+> Recomendado habilitar o PJAX primeiro, caso contrário o reprodutor pode pausar automaticamente
 
-Uses Aplayer + Meting (optional), disabled by default
+Usa Aplayer + Meting (opcional), desabilitado por padrão
 
-##### Pure Aplayer
+##### Aplayer Puro
 
-Set `player.aplayer.enable` to `true` and configure `player.aplayer.options` according to [Aplayer Docs](https://aplayer.js.org/#/home?id=options)
+Defina `player.aplayer.enable` como `true` e configure `player.aplayer.options` de acordo com [Aplayer Docs](https://aplayer.js.org/#/home?id=options)
 
 ```yaml
 player:
   aplayer:
     enable: true
     options:
-      audio: [] # audio list
+      audio: [] # lista de áudio
       fixed:
       autoplay:
       loop:
@@ -716,14 +721,14 @@ player:
 
 ##### Aplayer + Meting
 
-Set both `player.aplayer.enable` and `player.meting.enable` to `true`. Configure `player.meting.options` according to [Meting Docs](https://github.com/metowolf/MetingJS?tab=readme-ov-file#option) and `player.aplayer.options` for Aplayer configuration
+Defina `player.aplayer.enable` e `player.meting.enable` como `true`. Configure `player.meting.options` de acordo com [Meting Docs](https://github.com/metowolf/MetingJS?tab=readme-ov-file#option) e `player.aplayer.options` para configuração do Aplayer
 
 ```yaml
 player:
   aplayer:
     enable: true
     options:
-      audio: [] # this option will be overwritten by meting
+      audio: [] # esta opção será sobrescrita por meting
       fixed:
       autoplay:
       loop:
@@ -735,7 +740,7 @@ player:
       lrcType:
   meting:
     enable: true
-    meting_api: # custom api
+    meting_api: # api personalizada
     options:
       id:
       server:
@@ -743,9 +748,9 @@ player:
       auto:
 ```
 
-#### Share Link / Card (v0.5.0+)
+#### Link / Cartão de Compartilhamento (v0.5.0+)
 
-Disabled by default, currently supports `facebook`, `twitter`, `linkedin`, `reddit`, `weibo`, `qq`, `weixin`.
+Desabilitado por padrão, atualmente suporta `facebook`, `twitter`, `linkedin`, `reddit`, `weibo`, `qq`, `weixin`.
 
 ```yaml
 share:
@@ -758,18 +763,18 @@ share:
   # - weixin
 ```
 
-For `weixin`, it generates a share card with QR code that can be saved locally and shared to WeChat Moments (Note: when the article cover has cross-origin issues, html-to-image cannot correctly generate cards with images!)
+Para `weixin`, ele gera um cartão de compartilhamento com código QR que pode ser salvo localmente e compartilhado no WeChat Moments (Nota: quando a capa do artigo tem problemas de cross-origin, html-to-image não consegue gerar corretamente cartões com imagens!)
 
-#### Homepage Category Cards (v0.6.0+)
+#### Cartões de Categoria da Página Inicial (v0.6.0+)
 
-Disabled by default. When enabled, it shows category cards on the homepage as an alternative to the widget categories
+Desabilitado por padrão. Quando habilitado, ele mostra cartões de categoria na página inicial como uma alternativa às categorias de widget
 
 ```yml
 home_categories:
-  enable: false # Show homepage category cards?
+  enable: false # Mostrar cartões de categoria da página inicial?
   content:
-    - categories: # Category name (string)
-      cover: # Card cover, uses random cover if not specified
+    - categories: # Nome da categoria (string)
+      cover: # Capa do cartão, usa capa aleatória se não especificado
     - categories:
       cover:
 ```
@@ -777,65 +782,65 @@ home_categories:
 </details>
 
 <details>
-<summary>Built-in Card Shortcodes</summary>
+<summary>Shortcodes de Cartão Integrados</summary>
 
-### Built-in Card Shortcodes
+### Shortcodes de Cartão Integrados
 
-#### friendLink Card
+#### Cartão friendLink
 
 ```yaml
 {{< friendsLink >}}
 ```
 
-No parameters, directly reads from the `data/friends.yml` file
+Sem parâmetros, lê diretamente do arquivo `data/friends.yml`
 
-#### postLinkCard - Internal Link Card
+#### postLinkCard - Cartão de Link Interno
 
 ```yaml
 {{<postLinkCard path="?" cover="?" escape="?" >}}
 ```
 
-The first parameter is the article's `path`; the second parameter (optional) is the cover image shown on the card - if set to `auto`, it will automatically use the blog's `banner`; the third parameter (optional, `true | false`) indicates whether the article title should be escaped
+O primeiro parâmetro é o `path` do artigo; o segundo parâmetro (opcional) é a imagem de capa mostrada no cartão - se definido como `auto`, ele usará automaticamente o `banner` do blog; o terceiro parâmetro (opcional, `true | false`) indica se o título do artigo deve ser escapado
 
-#### externalLinkCard - External Link Card
+#### externalLinkCard - Cartão de Link Externo
 
 ```yaml
 {{<externalLinkCard title="?" link="?" cover="?">}}
 ```
 
-The first parameter is the article's title; the second parameter is the external link to the article; the third parameter (optional) is the cover image shown on the card - if set to `auto`, it will automatically use the default cover
+O primeiro parâmetro é o título do artigo; o segundo parâmetro é o link externo para o artigo; o terceiro parâmetro (opcional) é a imagem de capa mostrada no cartão - se definido como `auto`, ele usará automaticamente a capa padrão
 
-#### Heat Map Card Article Heatmap (Experimental Feature in v0.8.0+)
+#### Cartão de Mapa de Calor - Mapa de Calor do Artigo (Recurso Experimental em v0.8.0+)
 
 ```yaml
 {{< heatMapCard levelStandard="?" >}}
 ```
 
-The first parameter is the level standard for the heatmap (graded based on the word count of the articles), with the default value being `"1000,5000,10000"`.
+O primeiro parâmetro é o padrão de nível para o mapa de calor (classificado com base na contagem de palavras dos artigos), com o valor padrão sendo `"1000,5000,10000"`.
 
 </details>
 
 <details>
-<summary>Customize theme</summary>
+<summary>Personalizar tema</summary>
 
-#### Dynamic Theme Color Adaptation (Experimental Feature in v0.8.0+)
+#### Adaptação Dinâmica da Cor do Tema (Recurso Experimental em v0.8.0+)
 
-Disabled by default. When enabled, it dynamically generates theme colors based on the dominant color of the article's banner image, following Google's Material You design guidelines.
+Desabilitado por padrão. Quando habilitado, ele gera dinamicamente as cores do tema com base na cor dominante da imagem do banner do artigo, seguindo as diretrizes de design do Material You do Google.
 
 ```yml
 material_theme:
   enable: false # true | false
 ```
 
-> Note: When this feature is enabled, the `crossorigin="anonymous"` attribute will be added to the `img` element of the banner to fetch the dominant color of the image. Please ensure your image server supports cross-origin access or use a third-party image proxy.
+> Nota: Quando este recurso está habilitado, o atributo `crossorigin="anonymous"` será adicionado ao elemento `img` do banner para buscar a cor dominante da imagem. Certifique-se de que seu servidor de imagem suporte acesso cross-origin ou use um proxy de imagem de terceiros.
 
-#### Manual Customizing Theme Colors
+#### Personalização Manual das Cores do Tema
 
-hugo-theme-reimu supports customizing theme colors through CSS variables. You can customize your theme colors by modifying the CSS variables under the `:root` pseudo-class.
+hugo-theme-reimu suporta a personalização das cores do tema através de variáveis CSS. Você pode personalizar as cores do seu tema modificando as variáveis CSS sob a pseudo-classe `:root`.
 
-~~The variables file is located at `assets/css/_variables.scss`. You can find all CSS variables there, but you only need to modify the variables under these pseudo-classes~~
+~~O arquivo de variáveis está localizado em `assets/css/_variables.scss`. Você pode encontrar todas as variáveis CSS lá, mas você só precisa modificar as variáveis sob essas pseudo-classes~~
 
-v0.9.0 added `internal_theme` configuration to customize theme colors. You can change the theme colors by modifying the `internal_theme` configuration in `params.yml`. The default theme colors are as follows:
+v0.9.0 adicionou a configuração `internal_theme` para personalizar as cores do tema. Você pode alterar as cores do tema modificando a configuração `internal_theme` em `params.yml`. As cores padrão do tema são as seguintes:
 
 ```yaml
 internal_theme:
@@ -887,14 +892,14 @@ internal_theme:
     --highlight-purple: "#dcbdfb"
 ```
 
-#### Customize theme font
+#### Personalizar fonte do tema
 
-You can define Google Fonts through the following configuration:
+Você pode definir fontes do Google através da seguinte configuração:
 
 ```yaml
 # https://fonts.google.com/
 font:
-  enable: true # Enable Google Fonts
+  enable: true # Habilitar Google Fonts
   article:
     - Mulish
     - Noto Serif SC
@@ -904,7 +909,7 @@ font:
     # - JetBrains Mono
 ```
 
-v0.2.0 added `local_font` configuration for defining local fonts, which has lower priority than Google Fonts:
+v0.2.0 adicionou a configuração `local_font` para definir fontes locais, que tem prioridade menor que as fontes do Google:
 
 ```yaml
 local_font:
@@ -920,33 +925,33 @@ local_font:
     - monospace
 ```
 
-v0.9.0 added `custom_font` configuration for defining custom fonts, which has the highest priority:
+v0.9.0 adicionou a configuração `custom_font` para definir fontes personalizadas, que tem a maior prioridade:
 
 ```yaml
 custom_font:
   enable: true
   article:
-    - css: https://fontsapi.zeoseven.com/292/main/result.css # font css
-      name: LXGW WenKai # font css
+    - css: https://fontsapi.zeoseven.com/292/main/result.css # css da fonte
+      name: LXGW WenKai # css da fonte
   code:
 ```
 
-#### Customizing Icons
+#### Personalizando Ícones
 
-##### Header / Sidebar Icons
+##### Ícones de Cabeçalho / Barra Lateral
 
-The `menu` configuration structure changed in v0.1.0, allowing users to customize icons. When icon is empty, it defaults to using the Taichi icon. You can fill in a hexadecimal number to customize the icon, supporting both FontAwesome and icon font.
+A estrutura de configuração `menu` mudou na v0.1.0, permitindo que os usuários personalizem os ícones. Quando o ícone está vazio, ele usa o ícone Taichi por padrão. Você pode preencher um número hexadecimal para personalizar o ícone, suportando FontAwesome e icon font.
 
-v0.10.2 icon supports image path, such as `/avatar/avatar.webp`.
+v0.10.2 o ícone suporta caminho de imagem, como `/avatar/avatar.webp`.
 
 ```yaml
 menu:
   - name: home
     url: /
-    icon: # Default Taichi icon when empty
+    icon: # Ícone Taichi padrão quando vazio
   - name: archives
     url: /archives
-    icon: f0c1 # You can fill in a hexadecimal number to customize the icon
+    icon: f0c1 # Você pode preencher um número hexadecimal para personalizar o ícone
   - name: about
     url: /about
     icon:
@@ -955,18 +960,18 @@ menu:
     icon:
 ```
 
-##### Footer / Back to Top / Sponsor Icons
+##### Ícones de Rodapé / Voltar ao Topo / Patrocinador
 
-v0.1.0 added `icon` configuration to `footer`, `top`, and `sponsor` for customizing icons.
+v0.1.0 adicionou a configuração `icon` para `footer`, `top` e `sponsor` para personalizar os ícones.
 
-- `url` is the icon path relative to `css/main.css`, so you need to go up one level to find the images folder.
-- `rotate` determines whether to rotate the icon, default is `true`.
-- `mask` determines whether to use the image as a mask (only showing PNG image outline), default is `true`.
+- `url` é o caminho do ícone relativo a `css/main.css`, então você precisa subir um nível para encontrar a pasta de imagens.
+- `rotate` determina se o ícone deve girar, o padrão é `true`.
+- `mask` determina se a imagem deve ser usada como máscara (mostrando apenas o contorno da imagem PNG), o padrão é `true`.
 
 ```yaml
 footer:
   icon:
-    url: "../images/taichi.png" # Path relative to css/main.css
+    url: "../images/taichi.png" # Caminho relativo a css/main.css
     rotate: true
     mask: true
 
@@ -983,11 +988,11 @@ sponsor:
     mask: true
 ```
 
-##### Loading Icon
+##### Ícone de Carregamento
 
-v0.1.0 added `icon` configuration to `preloader` for customizing the loading icon. When icon is empty, it defaults to using inline SVG (ensuring first-screen loading speed). You can enter a link to customize the loading icon.
+v0.1.0 adicionou a configuração `icon` para `preloader` para personalizar o ícone de carregamento. Quando o ícone está vazio, ele usa SVG inline por padrão (garantindo a velocidade de carregamento da primeira tela). Você pode inserir um link para personalizar o ícone de carregamento.
 
-It's not recommended to use large icons to avoid affecting loading speed.
+Não é recomendado usar ícones grandes para evitar afetar a velocidade de carregamento.
 
 ```yaml
 preloader:
@@ -995,23 +1000,23 @@ preloader:
   text:
     en: Loading...
     pt-BR: Carregando...
-  icon: # Default uses inline SVG when empty, you can enter a link like '/images/taichi.png'
+  icon: # Padrão usa SVG inline quando vazio, você pode inserir um link como 
   rotate: true
 ```
 
-##### Anchor Icon
+##### Ícone de Âncora
 
-v0.1.0 added `anchor_icon` configuration for customizing anchor icons. Default uses the `#` icon. You can fill in a hexadecimal number to customize the icon, supporting both FontAwesome and icon font.
+v0.1.0 adicionou a configuração `anchor_icon` para personalizar os ícones de âncora. O padrão usa o ícone `#`. Você pode preencher um número hexadecimal para personalizar o ícone, suportando FontAwesome e icon font.
 
 ```yaml
-anchor_icon: # Default uses # icon when empty
+anchor_icon: # Padrão usa o ícone # quando vazio
 ```
 
-v0.11.0 `anchor_icon` supports passing `false` to hide anchor icon
+v0.11.0 `anchor_icon` suporta a passagem de `false` para ocultar o ícone de âncora
 
-##### Cursor Icon (v0.5.0+)
+##### Ícone do Cursor (v0.5.0+)
 
-v0.5.0 added `reimu_cursor.cursor` configuration for customizing the cursor icon. You can fill in a path relative to `css/main.css` to customize the cursor icon.
+v0.5.0 adicionou a configuração `reimu_cursor.cursor` para personalizar o ícone do cursor. Você pode preencher um caminho relativo a `css/main.css` para personalizar o ícone do cursor.
 
 ```yaml
 reimu_cursor:
@@ -1019,50 +1024,7 @@ reimu_cursor:
   cursor:
     default: ../images/cursor/reimu-cursor-default.png
     pointer: ../images/cursor/reimu-cursor-pointer.png
-    text: ../images/cursor/reimu-cursor-text.png
 ```
 
 </details>
 
-<details>
-<summary>Vendor</summary>
-
-`vendor` is used to store third-party resources such as fontawesome, iconfont, katex, mathjax, etc.
-
-The `vendor` structure in hugo-theme-reimu is very flexible and supports the following formats:
-
-- `:cdn|:package@:version/:file`: Uses CDN acceleration, for example `cdn_jsdelivr_gh|katex@0.13.11/dist/katex.min.css`. The `:cdn` can be configured in `vendor`. Currently includes the following CDN sources:
-  ```yaml
-  cdn_jsdelivr_gh: https://cdn.jsdelivr.net/gh/ # GitHub acceleration only
-  cdn_jsdelivr_npm: https://cdn.jsdelivr.net/npm/ # NPM acceleration only
-  fastly_jsdelivr_gh: https://fastly.jsdelivr.net/gh/ # GitHub acceleration only
-  fastly_jsdelivr_npm: https://fastly.jsdelivr.net/npm/ # NPM acceleration only
-  unpkg: https://unpkg.com/ # NPM acceleration only
-  webcache: https://npm.webcache.cn/ # NPM acceleration only
-  local: /resources/ # Local resources
-  ```
-  Users can switch CDN sources based on their network conditions.
-- Starting with `https://:path`: Uses absolute links directly, such as `https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css`
-- Starting with `:path`: Local resources. You can place resources in the `static` folder, then reference them using paths like `katex.min.css`
-
-Additionally, `vendor` supports SRI (Subresource Integrity) verification. You can use `SHA-384` in `vendor` to verify resource integrity, for example:
-
-```yaml
-js:
-  clipboard: # Using SRI verification
-    src: webcache|clipboard@2.0.11/dist/clipboard.min.js
-    integrity: sha384-J08i8An/QeARD9ExYpvphB8BsyOj3Gh2TSh1aLINKO3L0cMSH2dN3E22zFoXEi0Q
-  lazysizes: webcache|lazysizes@5.3.2/lazysizes.min.js # Without SRI verification
-```
-
-Both formats are supported. It's recommended to use SRI verification for external CDN resources to ensure resource integrity.
-
-</details>
-
-## Contributors
-
-[![](https://contributors-img.web.app/image?repo=D-Sketon/hugo-theme-reimu)](https://github.com/D-Sketon/hugo-theme-reimu/graphs/contributors)
-
-## License
-
-MIT
