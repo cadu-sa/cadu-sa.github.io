@@ -25,6 +25,12 @@ defaultContentLanguage = "pt-br"
       xhtml = false
 
 
+[markup.highlight]
+guessSyntax = true
+noClasses = false
+
+
+
 [outputs]
 home = ["Algolia", "HTML", "RSS"]
 

@@ -304,8 +304,8 @@ Base de Dados
 <p>Com esse contexto em mente, vamos usar uma IA para definir as informações que estarão presente na base de dados.</p>
 <p>Apesar de termos várias opções de IA para usar (ChatGPT, Claude, Gemini, Grok, etc), para esse projeto vamos usar o ChatGPT por ser o mais conhecido.</p>
 <p>Segue o prompt usado:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-txt" data-lang="txt"><span style="display:flex;"><span>Pretendo criar uma base de dados artificial de uma lanchonete que atende apenas por Delivery. 
-</span></span><span style="display:flex;"><span>Quais dados essa base de dados precisa ter?
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-txt" data-lang="txt"><span class="line"><span class="cl">Pretendo criar uma base de dados artificial de uma lanchonete que atende apenas por Delivery. 
+</span></span><span class="line"><span class="cl">Quais dados essa base de dados precisa ter?
 </span></span></code></pre></div><p>O ChatGPT nos deu algumas sugestões de informações que poderemos adicionar na base de dados, vamos selecionar as opções que forem relevantes para a nossa base de dados.</p>
 <blockquote>
 <p><strong>Informações que estarão na base de dados:</strong></p>
@@ -336,27 +336,27 @@ Base de Dados
 Processo de Criação
 </h3><p>Agora vamos escrever um prompt para o ChatGPT criar a base de dados.</p>
 <p>Segue o prompt usado:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-txt" data-lang="txt"><span style="display:flex;"><span>Gere a base de dados seguindo os critérios:
-</span></span><span style="display:flex;"><span>- A base de dados terá 50 pedidos
-</span></span><span style="display:flex;"><span>- Os pedidos corresponderão ao mês de Maio de 2025
-</span></span><span style="display:flex;"><span>- Alguns clientes fizeram mais de um pedido
-</span></span><span style="display:flex;"><span>- Nem todos os clientes avaliaram
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>A base de dados deve ter as seguintes colunas:
-</span></span><span style="display:flex;"><span>- Código do pedido (identificador único)
-</span></span><span style="display:flex;"><span>- Nome do cliente
-</span></span><span style="display:flex;"><span>- Telefone
-</span></span><span style="display:flex;"><span>- Endereço de entrega
-</span></span><span style="display:flex;"><span>- Bairro
-</span></span><span style="display:flex;"><span>- Data do pedido
-</span></span><span style="display:flex;"><span>- Status do pedido (Entregue e Cancelado)
-</span></span><span style="display:flex;"><span>- Forma de pagamento (Dinheiro, Pix, Crédito e Débito)
-</span></span><span style="display:flex;"><span>- Valor do pedido
-</span></span><span style="display:flex;"><span>- Tempo de entrega (em minutos)
-</span></span><span style="display:flex;"><span>- Avaliação
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-txt" data-lang="txt"><span class="line"><span class="cl">Gere a base de dados seguindo os critérios:
+</span></span><span class="line"><span class="cl">- A base de dados terá 50 pedidos
+</span></span><span class="line"><span class="cl">- Os pedidos corresponderão ao mês de Maio de 2025
+</span></span><span class="line"><span class="cl">- Alguns clientes fizeram mais de um pedido
+</span></span><span class="line"><span class="cl">- Nem todos os clientes avaliaram
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">A base de dados deve ter as seguintes colunas:
+</span></span><span class="line"><span class="cl">- Código do pedido (identificador único)
+</span></span><span class="line"><span class="cl">- Nome do cliente
+</span></span><span class="line"><span class="cl">- Telefone
+</span></span><span class="line"><span class="cl">- Endereço de entrega
+</span></span><span class="line"><span class="cl">- Bairro
+</span></span><span class="line"><span class="cl">- Data do pedido
+</span></span><span class="line"><span class="cl">- Status do pedido (Entregue e Cancelado)
+</span></span><span class="line"><span class="cl">- Forma de pagamento (Dinheiro, Pix, Crédito e Débito)
+</span></span><span class="line"><span class="cl">- Valor do pedido
+</span></span><span class="line"><span class="cl">- Tempo de entrega (em minutos)
+</span></span><span class="line"><span class="cl">- Avaliação
 </span></span></code></pre></div><p>Infelizmente, o ChatGPT não conseguiu gerar a base de dados tabular diretamente no formato desejado, mas ele deu como sugestão de usar a linguagem de programação Python para criar um script que gerasse essa base de dados. Então vamos mudar a nossa estratégia: vamos pedir para que o ChatGPT gere um script Python para realizar essa tarefa.</p>
 <p>Segue o prompt usado:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-txt" data-lang="txt"><span style="display:flex;"><span>Crie um código em Python para ser usado no Google Colab que gera essa base de dados
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-txt" data-lang="txt"><span class="line"><span class="cl">Crie um código em Python para ser usado no Google Colab que gera essa base de dados
 </span></span></code></pre></div><p>O ChatGPT retornou o script em Python. O script utiliza as bibliotecas <code>pandas</code>, para manipulação de dados e DataFrames, <code>random</code>, para gerar números aleatórios, e <code>Faker</code>, para gerar dados aleatórios realistas, como nomes, endereços, etc.</p>
 <blockquote>
 <p>Ao analisar o script, podemos ver que:</p>
