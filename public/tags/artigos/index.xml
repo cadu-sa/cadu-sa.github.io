@@ -9,12 +9,41 @@
     
     <copyright>Todos os artigos deste blog estão licenciados sob BY-NC-SA salvo indicação em contrário. Por favor, indique a fonte ao reproduzir!</copyright>
     
-    <lastBuildDate>Sat, 05 Oct 2024 11:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 03 Jul 2025 14:00:00 -0700</lastBuildDate>
     
     
     <atom:link href="http://localhost:1313/tags/artigos/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
+    
+    
+
+    <item>
+      <title>Criando site com GoHugo e GitHub Pages</title>
+      <link>http://localhost:1313/post/10_criar-site/</link>
+      <pubDate>Thu, 03 Jul 2025 14:00:00 -0700</pubDate>
+      
+      <guid>http://localhost:1313/post/10_criar-site/</guid>
+      <description>
+        <![CDATA[<h1>Criando site com GoHugo e GitHub Pages</h1><p>Autor: Carlos Eduardo(<no value>)</p>
+        
+          <img src="https://raw.githubusercontent.com/cadu-sa/arquivos-site/refs/heads/main/meu-site.png"/>
+<h1 id="introdução">
+<a class="header-anchor" href="#introdu%c3%a7%c3%a3o"></a>
+Introdução
+</h1><p>Recentemente, criei um site pessoal usando o framework <a href="http://gohugo.io/">Hugo</a> (GoHugo) e hospedei no <a href="https://pages.github.com/">GitHub Pages</a>. Neste artigo, vou mostrar como foi esse processo, desde a escolha do tema até a publicação.</p>
+<p>Link do site: <a href="https://cadu-sa.github.io/">https://cadu-sa.github.io/</a></p>
+<h2 id="o-que-é-hugo">
+<a class="header-anchor" href="#o-que-%c3%a9-hugo"></a>
+O que é Hugo?
+</h2><p>Basicamente, Hugo é um gerador de sites estáticos de código aberto, escrito em Go (Golang). Com o Hugo, podemos definir a estrutura e a aparência do site usando templates e arquivos de configuração, gerando automaticamente páginas HTML estáticas extremamente rápidas, seguras e flexíveis. Além disso, podemos escrever as postagens em Markdown e o site criado tem uma integração fácil com o GitHub Pages.</p>
+        
+        <hr><p>Publicado em 2025-07-03 em <a href='http://localhost:1313/'>Meu Site</a>, última modificação em 2025-07-03</p>]]>
+      </description>
+      
+        <category>artigos</category>
+      
+    </item>
     
     
 
