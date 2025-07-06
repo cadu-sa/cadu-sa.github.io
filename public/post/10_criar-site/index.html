@@ -8,11 +8,11 @@
   name="viewport"
   content="width=device-width, initial-scale=1, shrink-to-fit=no"
 /><title>
-  Criando um site com GoHugo e GitHub Pages | Carlos Eduardo
+  Criando um site no GitHub Pages com HUGO | Carlos Eduardo
 </title>
 <meta
   name="description"
-  content="meu site"
+  content="Neste artigo, vou mostrar o processo de criação de um site usando o framework Hugo e como hospedar o site no GitHub com o GitHub Pages"
 /><script>
   window.siteConfig = JSON.parse("{\"anchor_icon\":null,\"base\":\"http://localhost:1313/\",\"clipboard\":{\"copyright\":{\"count\":50,\"enable\":false,\"license_type\":\"by-nc-sa\"},\"fail\":{\"en\":\"Copy failed (ﾟ⊿ﾟ)ﾂ\",\"pt-br\":\"Falha ao copiar (ﾟ⊿ﾟ)ﾂ\"},\"success\":{\"en\":\"Copy successfully (*^▽^*)\",\"pt-br\":\"Copiado com sucesso (*^▽^*)\"}},\"code_block\":{\"expand\":true},\"icon_font\":\"4552607_0khxww3tj3q9\",\"outdate\":{\"daysago\":180,\"enable\":false,\"message\":{\"en\":\"This article was last updated on {time}. Please note that the content may no longer be applicable.\",\"pt-br\":\"Este artigo foi atualizado pela última vez em {time}. Por favor, note que o conteúdo pode não ser mais aplicável.\"}}}");
   
@@ -37,10 +37,10 @@
     crossorigin="anonymous"
   /><link rel="stylesheet" href="/css/loader.css" />
 <meta property="og:type" content="website" />
-  <meta property="og:title" content="Criando um site com GoHugo e GitHub Pages | Carlos Eduardo" />
+  <meta property="og:title" content="Criando um site no GitHub Pages com HUGO | Carlos Eduardo" />
   <meta
     property="og:description"
-    content="meu site"
+    content="Neste artigo, vou mostrar o processo de criação de um site usando o framework Hugo e como hospedar o site no GitHub com o GitHub Pages"
   />
   <meta property="og:url" content="http://localhost:1313/post/10_criar-site/" />
   <meta
@@ -52,8 +52,8 @@
     content="https://raw.githubusercontent.com/cadu-sa/arquivos-site/refs/heads/main/rabisc.png"
   />
   <meta property="article:author" content="Carlos Eduardo" />
-  <meta property="article:published_time" content="2025-07-03T14:00:00-07:00" />
-  <meta property="article:modified_time" content="2025-07-03T14:00:00-07:00" /><meta property="article:tag" content="artigoslinkedin" /><meta name="twitter:card" content="summary" />
+  <meta property="article:published_time" content="2025-07-06T14:00:00&#43;00:00" />
+  <meta property="article:modified_time" content="2025-07-06T14:00:00&#43;00:00" /><meta property="article:tag" content="artigoslinkedinhugogithub pagesgolang" /><meta name="twitter:card" content="summary" />
   <meta name="twitter:image" content="https://raw.githubusercontent.com/cadu-sa/arquivos-site/refs/heads/main/rabisc.png" />
 <link rel="shortcut icon" href="/favicon.ico"><link rel="stylesheet" href="/css/main.css" />
 <link
@@ -126,9 +126,9 @@ Este artigo não possui uma versão neste idioma
   </nav>
   <nav id="sub-nav"><a id="nav-search-btn" class="nav-icon popup-trigger" title="Buscar"></a></nav></div>
 <header id="header"><picture></picture>
-    <img  fetchpriority="high" src="https://raw.githubusercontent.com/cadu-sa/arquivos-site/refs/heads/main/rabisc.png" alt="Criando um site com GoHugo e GitHub Pages"><div id="header-outer">
+    <img  fetchpriority="high" src="https://raw.githubusercontent.com/cadu-sa/arquivos-site/refs/heads/main/rabisc.png" alt="Criando um site no GitHub Pages com HUGO"><div id="header-outer">
     <div id="header-title"><a href="/" id="logo">
-            <h1 data-aos="slide-up">Criando um site com GoHugo e GitHub Pages</h1>
+            <h1 data-aos="slide-up">Criando um site no GitHub Pages com HUGO</h1>
           </a><h2 id="subtitle-wrap" data-aos="slide-down"></h2></div>
   </div>
 </header><div id="content"
@@ -187,7 +187,7 @@ Este artigo não possui uma versão neste idioma
   </div>
   <div class="sidebar-state-tag">
     <div>Tags</div>
-    <div class="sidebar-state-number">5</div>
+    <div class="sidebar-state-number">9</div>
   </div>
 </div>
 <div class="sidebar-social"><div class="icon-github sidebar-social-icon">
@@ -270,11 +270,11 @@ Este artigo não possui uma versão neste idioma
     class="article-date-link"
     data-aos="zoom-in"
   >
-    <time datetime="2025-07-03 14:00:00 -0700 -0700" itemprop="datePublished"
-      >03-07-2025</time
+    <time datetime="2025-07-06 14:00:00 &#43;0000 &#43;0000" itemprop="datePublished"
+      >06-07-2025</time
     >
     <time style="display: none;" id="post-update-time"
-      >03-07-2025</time
+      >06-07-2025</time
     >
   </span>
 </div>
@@ -285,23 +285,23 @@ Este artigo não possui uma versão neste idioma
       >ARTIGOS</a
     ></div>
 </div>
-    <div class="hr-line"></div><div class="e-content article-entry" itemprop="articleBody"><h1 id="criando-um-site-com-gohugo-e-github-pages">
-<a class="header-anchor" href="#criando-um-site-com-gohugo-e-github-pages"></a>
-Criando um site com GoHugo e GitHub Pages
+    <div class="hr-line"></div><div class="e-content article-entry" itemprop="articleBody"><h1 id="criando-um-site-no-github-pages-com-hugo">
+<a class="header-anchor" href="#criando-um-site-no-github-pages-com-hugo"></a>
+Criando um site no GitHub Pages com HUGO
 </h1><img src="https://raw.githubusercontent.com/cadu-sa/arquivos-site/refs/heads/main/meu-site.png"/>
 <h2 id="introdução">
 <a class="header-anchor" href="#introdu%c3%a7%c3%a3o"></a>
 Introdução
-</h2><p>Recentemente, criei um site pessoal usando o framework <a href="http://gohugo.io/">Hugo</a> (GoHugo) e hospedei no GitHub usando o <a href="https://pages.github.com/">GitHub Pages</a>. Neste artigo, vou mostrar como foi esse processo, desde a escolha do tema do site até a hospedagem no GitHub.</p>
-<p>Link do site: <a href="https://cadu-sa.github.io/">https://cadu-sa.github.io/</a></p>
+</h2><p>Recentemente, criei esse site pessoal usando o framework <a href="http://gohugo.io/">Hugo</a> (GoHugo) e hospedei no GitHub usando o <a href="https://pages.github.com/">GitHub Pages</a>. Neste artigo, vou mostrar como foi esse processo, desde a escolha do tema do site até a hospedagem no GitHub. Então, caso você esteja pensando em criar um site usando o Hugo, os passos apresentados aqui podem servir como base para a criação do seu site.</p>
+<p>Link do meu site: <a href="https://cadu-sa.github.io/">https://cadu-sa.github.io/</a></p>
 <h3 id="o-que-é-hugo">
 <a class="header-anchor" href="#o-que-%c3%a9-hugo"></a>
 O que é Hugo?
-</h3><p>Basicamente, Hugo é um gerador de sites estáticos de código aberto, escrito em Go (Golang). Com o Hugo, podemos definir a estrutura e a aparência do site usando templates e arquivos de configuração, gerando automaticamente páginas HTML estáticas extremamente rápidas, seguras e flexíveis. Além disso, podemos escrever as postagens em Markdown e o site criado tem uma integração fácil com o GitHub Pages.</p>
+</h3><p>Basicamente, Hugo é um gerador de sites estáticos de código aberto, escrito na liguagem de programação Go (Golang), da Google. Com o Hugo, podemos definir a estrutura e a aparência do site usando templates e arquivos de configuração, gerando automaticamente páginas HTML estáticas extremamente rápidas, seguras e flexíveis. Além disso, podemos escrever as postagens em Markdown e o site criado tem uma integração fácil com o GitHub Pages.</p>
 <h3 id="o-que-é-github-pages">
 <a class="header-anchor" href="#o-que-%c3%a9-github-pages"></a>
 O que é GitHub Pages?
-</h3><p>Basicamente, GitHub Pages é um serviço de hospedagem gratuita e segura de sites estáticos oferecido pelo GitHub. Ele permite publicar sites diretamente de um repositório GitHub, tornando-se uma solução popular para hospedar projetos pessoais, documentações, blogs e portfólios. Com o GitHub Pages, podemos fazer deploy automaticamente através de commits e teremos um site com domínio gratuíto do tipo <code>github.io</code>.</p>
+</h3><p>Basicamente, GitHub Pages é um serviço de hospedagem gratuita e segura de sites estáticos oferecido pelo GitHub. Ele permite publicar sites diretamente de um repositório GitHub, tornando-se uma solução popular para hospedar projetos pessoais, documentações, blogs e portfólios. Com o GitHub Pages, podemos fazer deploy automaticamente através de commits e teremos um site com domínio gratuíto do tipo <code>.github.io</code>.</p>
 <h2 id="passo-a-passo-da-criação">
 <a class="header-anchor" href="#passo-a-passo-da-cria%c3%a7%c3%a3o"></a>
 Passo a Passo da Criação
@@ -309,12 +309,12 @@ Passo a Passo da Criação
 <h3 id="instalando-o-hugo">
 <a class="header-anchor" href="#instalando-o-hugo"></a>
 Instalando o Hugo
-</h3><p>Para fazer a instalação, primeiro acesse o link abaixo para acessar a versão mais recente do Hugo para Windows ou Linux:</p>
+</h3><p>Para fazer a instalação do Hugo, primeiro acesse o link abaixo para baixar a versão mais recente do Hugo para Windows ou Linux:</p>
 <p><a href="https://github.com/gohugoio/hugo/tags">https://github.com/gohugoio/hugo/tags</a></p>
-<p>Após isso, na lista <strong>Assets</strong>, baixe o arquivo correspondente ao seu sistema operacional que tenha <code>hugo_extended</code> no nome. Por fim, acesso o arquivo baixado e execute para a instalação ser feita.</p>
+<p>Após acessar o link acima, vá na lista <strong>Assets</strong> e baixe o arquivo correspondente ao seu sistema operacional que tenha <code>hugo_extended</code> no nome. Por fim, execute o arquivo para a instalação ser feita.</p>
 <blockquote>
 <p>Como eu uso a distro Linux <strong>Debian 12.11</strong> como sistema operacional, fiz o download do arquivo <code>hugo_extended_0.147.9_linux-amd64.deb</code>. Após isso, abrir o terminal na pasta onde o arquivo foi salvo e executei o código abaixo:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo dpkg -i nome_do_arquivo.deb
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo dpkg -i hugo_extended_0.147.9_linux-amd64.deb
 </span></span></code></pre></div><p>Para verificar se a instalação foi bem-sucedida, executei o códigio abaixo:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo version
 </span></span></code></pre></div><p>Eu também poderia fazer a instalação do Hugo via terminal através do código abaixo:</p>
@@ -328,16 +328,16 @@ Instalando o Hugo
 Escolhendo o Tema do Site
 </h3><p>No site do Hugo podemos encontrar vários temas que podemos usar no site. Segue o link dos temas do Hugo:</p>
 <p><a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a></p>
-<p><strong>Observação:</strong> nesse artigo, irei focar no tema escolhido para o meu site (<a href="https://themes.gohugo.io/themes/hugo-theme-reimu/">hugo-theme-reimu</a>)</p>
+<p><strong>Observação:</strong> nesse artigo, irei focar no tema escolhido para o meu site: <a href="https://themes.gohugo.io/themes/hugo-theme-reimu/">hugo-theme-reimu</a></p>
 <img src="https://themes.gohugo.io/themes/hugo-theme-reimu/screenshot_hu_408a192743931e1e.webp"/>
 <blockquote>
 <p>Sobre o tema <code>hugo-theme-reimu</code>:</p>
 <ul>
 <li>É um tema criado por <a href="https://github.com/D-Sketon">D-Sketon</a>;</li>
-<li>O tema é inspirado em Hakurei Reimu (uma personagem do Touhou Project);</li>
-<li>Combina elementos de outros temas populares: landscape, Tangyuxian e Shoka;</li>
+<li>O tema é inspirado em Hakurei Reimu, uma personagem do Touhou Project;</li>
+<li>Combina elementos de outros temas populares na China: <a href="https://github.com/hexojs/hexo-theme-landscape">landscape</a>, <a href="https://github.com/tangyuxian/hexo-theme-tangyuxian">Tangyuxian</a> e <a href="https://github.com/amehime/hexo-theme-shoka">Shoka</a>;</li>
 <li>Originalmente o tema foi criado para o framework <a href="https://hexo.io/pt-br/">Hexo</a> e depois foi adaptado para Hugo;</li>
-<li>O design é limpo e moderno, tem suporte multilíngue (implementação de i18n - internacionalização), é otimizado para Performance, é responsivo e possui um guia de customização bem explicado.</li>
+<li>O design é limpo e moderno, tem suporte multilíngue (implementação de i18n), é otimizado para performance, é responsivo e possui um guia de customização bem explicado.</li>
 </ul></blockquote>
 <p>Após escolher o tema, vamos baixar o tema no computador.</p>
 <h3 id="baixando-o-tema">
@@ -346,7 +346,7 @@ Baixando o Tema
 </h3><ol>
 <li>Acesse o tema que está hospedado no <a href="https://github.com/D-Sketon/hugo-theme-reimu/tree/main">GitHub</a>;</li>
 <li>Clique em &ldquo;Code&rdquo;;</li>
-<li>Clique &ldquo;Download ZIP&rdquo;;</li>
+<li>Clique em &ldquo;Download ZIP&rdquo; para baixar o arquivo .zip;</li>
 <li>Extraia o arquivo .zip.</li>
 <li>Abra a pasta que foi extraida.</li>
 </ol>
@@ -369,14 +369,14 @@ Baixando o Tema
 </span></span><span class="line"><span class="cl">  ├── go.mod
 </span></span><span class="line"><span class="cl">  ├── package.json
 </span></span><span class="line"><span class="cl">  └── theme.toml
-</span></span></code></pre></div><p>Com o tema no computador, agora vamos iniciar o servidor hugo.</p>
+</span></span></code></pre></div><p>Com o tema no computador, vamos iniciar o servidor Hugo.</p>
 <h3 id="iniciando-o-servidor-hugo">
 <a class="header-anchor" href="#iniciando-o-servidor-hugo"></a>
 Iniciando o Servidor Hugo
 </h3><p>Antes de começarmos a fazer a customização do site, vamos ver como o site está atualmente. Para fazer isso, primeiro abra o terminal na pasta do tema e execute o comando abaixo para iniciar o servidor local.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo server
 </span></span></code></pre></div><p>O servidor será iniciado no link: <code>http://localhost:1313</code></p>
-<p>Agora vamos fazer a customização do site. Vamos começar deixando o site em Português.</p>
+<p>Agora vamos fazer a customização do site. Vamos começar deixando o site em Português, já que, por padrão do tema, o site está em Chinês.</p>
 <h3 id="traduzindo-o-site-para-português">
 <a class="header-anchor" href="#traduzindo-o-site-para-portugu%c3%aas"></a>
 Traduzindo o site para Português
@@ -427,7 +427,7 @@ Traduzindo o site para Português
 <p>Dessa forma, a maior parte do site estará em português. Agora vamos traduzir alguns textos específicos do site.</p>
 <ol>
 <li>Acesse o arquivo <code>params.yml</code> que está na pasta <code>config/_default/</code>;</li>
-<li>No arquivo você vai adicionar <code>pt-BR:+ &quot;texto traduzido&quot;</code> em algumas partes do código:</li>
+<li>No arquivo você vai adicionar <code>pt-BR: &quot;texto traduzido&quot;</code> em algumas partes do código:</li>
 </ol>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yml" data-lang="yml"><span class="line"><span class="cl"><span class="nt">preloader</span><span class="p">:</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">enable</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
@@ -458,28 +458,29 @@ Traduzindo o site para Português
 <h3 id="customizações-básicas">
 <a class="header-anchor" href="#customiza%c3%a7%c3%b5es-b%c3%a1sicas"></a>
 Customizações Básicas
-</h3><h4 id="avatar-banner-favicon">
+</h3><p>Agora vamos fazer algumas customizações básicas no site.</p>
+<h4 id="avatar-banner-favicon">
 <a class="header-anchor" href="#avatar-banner-favicon"></a>
 Avatar, Banner, Favicon
-</h4><p>Os recursos estáticos do tema (favicon, imagens de cabeçalho e avatar) estão localizados na pasta <code>static</code>. Portanto, para alterar esses recursos no site, basta sobrescrever os arquivos da pasta com as imagens que você deseja, mantendo o mesmo nome.</p>
+</h4><p>Os recursos estáticos do tema (favicon, imagens de cabeçalho e avatar) estão localizados na pasta <code>static/</code>. Portanto, para alterar esses recursos no site, basta sobrescrever os arquivos da pasta com as imagens que você deseja, mantendo o mesmo nome.</p>
 <p>Esses recursos estáticos também estão presentes no arquivo <code>params.yml</code>. Por exemplo, em <code>params.yml</code>, podemos ver a linha responsável pelo avatar:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yml" data-lang="yml"><span class="line"><span class="cl"><span class="nt">avatar</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;avatar.webp&#34;</span><span class="w">
-</span></span></span></code></pre></div><p>Em relação a capa, a lógica de exibição da capa é a seguinte: se o Front matter (cover) do artigo contiver uma URL de capa, tanto o cabeçalho do artigo quanto a miniatura da página inicial exibirão a imagem da URL.</p>
+</span></span></span></code></pre></div><p>Em relação a capa, a lógica de exibição da capa é a seguinte: se no Front Matter  do artigo contiver uma URL de capa em <code>cover</code>, tanto o cabeçalho do artigo quanto a miniatura da página inicial exibirão a imagem da URL.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">---
 </span></span><span class="line"><span class="cl">title: Título do post
 </span></span><span class="line"><span class="cl">cover: https://example.com
 </span></span><span class="line"><span class="cl">---
-</span></span></code></pre></div><p>Se o Front matter do artigo contiver cover definido como <code>false</code>, o artigo não exibirá uma imagem de cabeçalho, mas a página inicial ainda mostrará imagens aleatórias, que são as imagens definidas no arquivo <code>covers.yml</code> da pasta <code>data</code>.</p>
+</span></span></code></pre></div><p>Se o Front Matter do artigo contiver <code>cover</code> definido como <code>false</code>, o artigo não exibirá uma imagem de cabeçalho, mas a página inicial ainda mostrará imagens aleatórias, que são as imagens definidas no arquivo <code>covers.yml</code> da pasta <code>data/</code>.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">---
 </span></span><span class="line"><span class="cl">title: Título do post
 </span></span><span class="line"><span class="cl">cover: false
 </span></span><span class="line"><span class="cl">---
-</span></span></code></pre></div><p>Se o Front matter do artigo contiver cover definido como <code>rgb(xxx,xxx,xxx)</code>, o cabeçalho do artigo será um gradiente dessa cor sólida (a página inicial ainda mostrará imagens aleatórias).</p>
+</span></span></code></pre></div><p>Se o Front Matter do artigo contiver <code>cover</code> definido como <code>rgb(xxx,xxx,xxx)</code>, o cabeçalho do artigo será um gradiente dessa cor sólida, mas a página inicial ainda mostrará imagens aleatórias.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">---
 </span></span><span class="line"><span class="cl">title: Título do post
 </span></span><span class="line"><span class="cl">cover: rgb(255,117,117)
 </span></span><span class="line"><span class="cl">---
-</span></span></code></pre></div><p>Se não tiver nenhuma imagem em <code>covers.yml</code>, será exibido a imagem do banner.</p>
+</span></span></code></pre></div><p>Se não tiver nenhuma imagem em <code>covers.yml</code>, será exibido a imagem do banner, que está em <code>static/images/banner.webp</code>.</p>
 <h4 id="blocos-de-código">
 <a class="header-anchor" href="#blocos-de-c%c3%b3digo"></a>
 Blocos de Código
@@ -503,7 +504,7 @@ Criação de Posts
 <p>Observações:</p>
 <ul>
 <li>Em <code>archives/</code>, o arquivo <code>_index.md</code> é usado para exibir a página de arquivo, não pode ser omitido;</li>
-<li>Em <code>post/</code>, o arquivo <code>_index.md</code> é usado para evitar a geração de post/index.html, não pode ser omitido;</li>
+<li>Em <code>post/</code>, o arquivo <code>_index.md</code> é usado para evitar a geração de <code>post/index.html</code>, não pode ser omitido;</li>
 <li>O arquivo <code>about.md</code> é a página &ldquo;sobre&rdquo;;</li>
 <li>O arquivo <code>friend.md</code> é a página de links de amigos. Como não farei uso dessa arquivo, então irei remover-lo.</li>
 </ul></blockquote>
@@ -514,15 +515,15 @@ Criação de Posts
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">date: 2024-08-05T11:00:00-07:00
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">categories:
-</span></span><span class="line"><span class="cl">  <span class="k">-</span> categoria1
-</span></span><span class="line"><span class="cl">tags:
-</span></span><span class="line"><span class="cl">  <span class="k">-</span> tag1
+</span></span><span class="line"><span class="cl">categories: [categoria1, categoria2]
+</span></span><span class="line"><span class="cl">tags: [tag1, tag2]
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">cover: https://example.com
 </span></span><span class="line"><span class="cl">---
-</span></span><span class="line"><span class="cl">[escreve o conteúdo do post aqui]
-</span></span></code></pre></div><h2 id="hospedando-no-github">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">escreva o conteúdo do post aqui
+</span></span></code></pre></div><p>As customizações acima já são suficientes para ter um site funcional. Agora vamos hospedar o site no GitHub.</p>
+<h2 id="hospedando-no-github">
 <a class="header-anchor" href="#hospedando-no-github"></a>
 Hospedando no GitHub
 </h2><ol>
@@ -530,15 +531,15 @@ Hospedando no GitHub
 <li>Clone o repertório no seu computador:</li>
 </ol>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git init
-</span></span><span class="line"><span class="cl">git remote add origin https://github.com/SEU-USUARIO/SEU-USUARIO.github.io.git
+</span></span><span class="line"><span class="cl">git remote add origin https://github.com/seu-usuario/seu-usuario.github.io.git
 </span></span></code></pre></div><ol start="3">
-<li>Copie todos os arquivos e pastas de <code>hugo-theme-reimu</code> que você estava editando e cole dentro da pasta clonada <code>seu-usuario.github.io</code>;</li>
-<li>Acesse a pasta <code>seu-usuario.github.io</code> e inicialize o servidor Hugo na pasta;</li>
+<li>Copie todos os arquivos e pastas de <code>hugo-theme-reimu/</code> que você estava editando e cole dentro da pasta clonada <code>seu-usuario.github.io/</code>;</li>
+<li>Acesse a pasta <code>seu-usuario.github.io/</code> e inicialize o servidor Hugo na pasta;</li>
 <li>Abra o arquivo <code>config.toml</code> e inclua a seguinte configuração:</li>
 </ol>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yml" data-lang="yml"><span class="line"><span class="cl"><span class="l">baseURL = &#34;https://seu-usuario.github.io/&#34;</span><span class="w">
 </span></span></span></code></pre></div><ol start="6">
-<li>Na pasta <code>seu-usuario.github.io</code>, crie a pasta <code>.github</code>. Dentro dela, crie a pasta <code>workflows</code>. E dentro dessa última pasta, crie o arquivo <code>hugo.yml</code> e coloque a seguinte configuração em <code>hugo.yml</code>:</li>
+<li>Na pasta <code>seu-usuario.github.io/</code>, crie a pasta <code>.github</code>. Dentro dela, crie a pasta <code>workflows</code>. E dentro dessa última pasta, crie o arquivo <code>hugo.yml</code> e coloque a seguinte configuração em <code>hugo.yml</code>:</li>
 </ol>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yml" data-lang="yml"><span class="line"><span class="cl"><span class="c"># Sample workflow for building and deploying a Hugo site to GitHub Pages</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Deploy Hugo site to Pages</span><span class="w">
@@ -617,7 +618,8 @@ Hospedando no GitHub
 </span></span></span></code></pre></div><ol start="7">
 <li>Faça o commit:</li>
 </ol>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git commit -m <span class="s2">&#34;commit inicial&#34;</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git add .
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;commit inicial&#34;</span>
 </span></span><span class="line"><span class="cl">git push -u origin main
 </span></span></code></pre></div><ol start="8">
 <li>Abra o seu GitHub e acesse a página <code>Settings</code>;</li>
@@ -628,16 +630,17 @@ Hospedando no GitHub
 <h2 id="conclusão">
 <a class="header-anchor" href="#conclus%c3%a3o"></a>
 Conclusão
-</h2><p>Em breve, postarei um artigo explicando como implementar o buscador <a href="https://www.algolia.com/">algolia</a> no site.</p>
-<p>Até a próxima!</p>
+</h2><p>Ao longo deste artigo, exploramos o processo de criação de um site utilizando o tema <code>hugo-theme-reimu</code>. Os passos apresentados não apenas permitem construir um site funcional com este tema específico, mas também servem como base para trabalhar com qualquer outro <a href="https://themes.gohugo.io/">tema disponível no Hugo</a>.</p>
+<p>Caso você escolha o tema <code>hugo-theme-reimu</code> como tema do seu site, considere ler a documentação para fazer mais customizações no site: <a href="https://github.com/D-Sketon/hugo-theme-reimu/blob/main/README.en.md">https://github.com/D-Sketon/hugo-theme-reimu/blob/main/README.en.md</a>.</p>
+<p>Espero que tenham gostado desse artigo e até a próxima!</p>
 </div>
-    <footer class="article-footer"><div class="share-wrapper"><a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:1313/post/10_criar-site/" target="_blank" rel="noopener noreferrer" title="Criando um site com GoHugo e GitHub Pages">
+    <footer class="article-footer"><div class="share-wrapper"><a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:1313/post/10_criar-site/" target="_blank" rel="noopener noreferrer" title="Criando um site no GitHub Pages com HUGO">
       <div class="share-icon icon icon-facebook"></div>
-    </a><a href="https://twitter.com/intent/tweet?url=http://localhost:1313/post/10_criar-site/&amp;text=Criando%20um%20site%20com%20GoHugo%20e%20GitHub%20Pages&amp;via=http://localhost:1313/" target="_blank" rel="noopener noreferrer" title="Criando um site com GoHugo e GitHub Pages">
+    </a><a href="https://twitter.com/intent/tweet?url=http://localhost:1313/post/10_criar-site/&amp;text=Criando%20um%20site%20no%20GitHub%20Pages%20com%20HUGO&amp;via=http://localhost:1313/" target="_blank" rel="noopener noreferrer" title="Criando um site no GitHub Pages com HUGO">
       <div class="share-icon icon icon-twitter"></div>
-    </a><a href="https://www.linkedin.com/shareArticle?url=http://localhost:1313/post/10_criar-site/&amp;title=Criando%20um%20site%20com%20GoHugo%20e%20GitHub%20Pages&amp;summary=meu%20site&amp;mini=true&amp;ro=true" target="_blank" rel="noopener noreferrer" title="Criando um site com GoHugo e GitHub Pages">
+    </a><a href="https://www.linkedin.com/shareArticle?url=http://localhost:1313/post/10_criar-site/&amp;title=Criando%20um%20site%20no%20GitHub%20Pages%20com%20HUGO&amp;summary=Neste%20artigo,%20vou%20mostrar%20o%20processo%20de%20cria%c3%a7%c3%a3o%20de%20um%20site%20usando%20o%20framework%20Hugo%20e%20como%20hospedar%20o%20site%20no%20GitHub%20com%20o%20GitHub%20Pages&amp;mini=true&amp;ro=true" target="_blank" rel="noopener noreferrer" title="Criando um site no GitHub Pages com HUGO">
       <div class="share-icon icon icon-linkedin"></div>
-    </a><a href="https://www.reddit.com/submit?url=http://localhost:1313/post/10_criar-site/&amp;title=Criando%20um%20site%20com%20GoHugo%20e%20GitHub%20Pages" target="_blank" rel="noopener noreferrer" title="Criando um site com GoHugo e GitHub Pages">
+    </a><a href="https://www.reddit.com/submit?url=http://localhost:1313/post/10_criar-site/&amp;title=Criando%20um%20site%20no%20GitHub%20Pages%20com%20HUGO" target="_blank" rel="noopener noreferrer" title="Criando um site no GitHub Pages com HUGO">
       <div class="share-icon icon icon-reddit"></div>
     </a></div><ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item" data-aos="zoom-in">
       <a
@@ -652,6 +655,27 @@ Conclusão
         href="/tags/linkedin"
         rel="tag"
         >LINKEDIN</a
+      >
+    </li><li class="article-tag-list-item" data-aos="zoom-in">
+      <a
+        class="article-tag-list-link"
+        href="/tags/hugo"
+        rel="tag"
+        >HUGO</a
+      >
+    </li><li class="article-tag-list-item" data-aos="zoom-in">
+      <a
+        class="article-tag-list-link"
+        href="/tags/github-pages"
+        rel="tag"
+        >GITHUB PAGES</a
+      >
+    </li><li class="article-tag-list-item" data-aos="zoom-in">
+      <a
+        class="article-tag-list-link"
+        href="/tags/golang"
+        rel="tag"
+        >GOLANG</a
       >
     </li></ul>
 </footer>
@@ -672,7 +696,7 @@ Conclusão
     <div class="footer-line"></div>
   </div>
   <div id="footer-info"><div>
-      <span class="icon-copyright"></span>2020-2025<span class="footer-info-sep rotate"></span>
+      <span class="icon-copyright"></span>2025<span class="footer-info-sep rotate"></span>
       Carlos Eduardo
     </div><div>
         Desenvolvido com&nbsp;<a
@@ -686,10 +710,10 @@ Conclusão
         >
       </div><div>
         <span class="icon-brush"
-          >&nbsp;6.2k</span
+          >&nbsp;6.4k</span
         >
         &nbsp;|&nbsp;
-        <span class="icon-coffee">&nbsp;00:36</span>
+        <span class="icon-coffee">&nbsp;00:37</span>
       </div><div>
         <span class="icon-eye"></span>
         <span id="busuanzi_container_site_pv"
@@ -761,7 +785,7 @@ Conclusão
   </div>
   <div class="sidebar-state-tag">
     <div>Tags</div>
-    <div class="sidebar-state-number">5</div>
+    <div class="sidebar-state-number">9</div>
   </div>
 </div>
 <div class="sidebar-social"><div class="icon-github sidebar-social-icon">
@@ -903,9 +927,9 @@ Conclusão
   <div><script data-pjax>
         window.REIMU_POST = {
           author: "Carlos Eduardo",
-          title: "Criando um site com GoHugo e GitHub Pages",
+          title: "Criando um site no GitHub Pages com HUGO",
           url: "http:\/\/localhost:1313\/post\/10_criar-site\/",
-          description: "meu site",
+          description: "Neste artigo, vou mostrar o processo de criação de um site usando o framework Hugo e como hospedar o site no GitHub com o GitHub Pages",
           cover: "https:\/\/raw.githubusercontent.com\/cadu-sa\/arquivos-site\/refs\/heads\/main\/rabisc.png",
         };
       </script><script src="/js/insert_highlight.js" data-pjax></script><script type="module" data-pjax>const PhotoSwipeLightbox = (await safeImport("https:\/\/npm.webcache.cn\/photoswipe@5.4.4\/dist\/photoswipe-lightbox.esm.min.js", "sha384-DiL6M\/gG\u002bwmTxmCRZyD1zee6lIhawn5TGvED0FOh7fXcN9B0aZ9dexSF\/N6lrZi\/")).default;const pswp = () => {

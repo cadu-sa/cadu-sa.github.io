@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Golang on Meu Site</title>
+    <link>http://localhost:1313/tags/golang/</link>
+    <description>Conteúdo recente de Meu Site</description>
+    <generator>Hugo</generator>
+    <language>pt-BR</language>
+    
+    <copyright>Todos os artigos deste blog estão licenciados sob BY-NC-SA salvo indicação em contrário. Por favor, indique a fonte ao reproduzir!</copyright>
+    
+    <lastBuildDate>Sun, 06 Jul 2025 14:00:00 +0000</lastBuildDate>
+    
+    
+    <atom:link href="http://localhost:1313/tags/golang/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+
+    
+    
+
+    <item>
+      <title>Criando um site no GitHub Pages com HUGO</title>
+      <link>http://localhost:1313/post/11_criando-site/</link>
+      <pubDate>Sun, 06 Jul 2025 14:00:00 &#43;0000</pubDate>
+      
+      <guid>http://localhost:1313/post/11_criando-site/</guid>
+      <description>
+        <![CDATA[<h1>Criando um site no GitHub Pages com HUGO</h1><p>Autor: Carlos Eduardo(<no value>)</p>
+        
+          <h1 id="criando-um-site-no-github-pages-com-hugo">
+<a class="header-anchor" href="#criando-um-site-no-github-pages-com-hugo"></a>
+Criando um site no GitHub Pages com HUGO
+</h1><img src="https://raw.githubusercontent.com/cadu-sa/arquivos-site/refs/heads/main/meu-site.png"/>
+<h2 id="introdução">
+<a class="header-anchor" href="#introdu%c3%a7%c3%a3o"></a>
+Introdução
+</h2><p>Recentemente, criei esse site pessoal usando o framework <a href="http://gohugo.io/">Hugo</a> (GoHugo) e hospedei no GitHub usando o <a href="https://pages.github.com/">GitHub Pages</a>. Neste artigo, vou mostrar como foi esse processo, desde a escolha do tema do site até a hospedagem no GitHub. Então, caso você esteja pensando em criar um site usando o Hugo, os passos apresentados aqui podem servir como base para a criação do seu site.</p>
+        
+        <hr><p>Publicado em 2025-07-06 em <a href='http://localhost:1313/'>Meu Site</a>, última modificação em 2025-07-06</p>]]>
+      </description>
+      
+        <category>artigos</category>
+      
+    </item>
+    
+  </channel>
+</rss>

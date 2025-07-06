@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Llm on Meu Site</title>
+    <link>http://localhost:1313/tags/llm/</link>
+    <description>Conteúdo recente de Meu Site</description>
+    <generator>Hugo</generator>
+    <language>pt-BR</language>
+    
+    <copyright>Todos os artigos deste blog estão licenciados sob BY-NC-SA salvo indicação em contrário. Por favor, indique a fonte ao reproduzir!</copyright>
+    
+    <lastBuildDate>Sat, 24 May 2025 11:00:00 -0700</lastBuildDate>
+    
+    
+    <atom:link href="http://localhost:1313/tags/llm/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+
+    
+    
+
+    <item>
+      <title>Organizando a Base de Dados Artificial no Google Planilha (Google Sheets)</title>
+      <link>http://localhost:1313/post/06_organizando/</link>
+      <pubDate>Sat, 24 May 2025 11:00:00 -0700</pubDate>
+      
+      <guid>http://localhost:1313/post/06_organizando/</guid>
+      <description>
+        <![CDATA[<h1>Organizando a Base de Dados Artificial no Google Planilha (Google Sheets)</h1><p>Autor: Carlos Eduardo(<no value>)</p>
+        
+          <p><a href="https://www.youtube.com/watch?v=MYJdvzgTe8g" target="_blank" >Clique aqui para acessar o vídeo no YouTube</a></p>
+<div class="video-container"> 
+  <iframe
+    src="https://www.youtube.com/embed/MYJdvzgTe8g?si=D_noUvcUC9CRnPez" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen>
+  </iframe>
+</div>
+<p>Em breve estarei publicando a parte escrita do vídeo!</p>
+        
+        <hr><p>Publicado em 2025-05-24 em <a href='http://localhost:1313/'>Meu Site</a>, última modificação em 2025-05-24</p>]]>
+      </description>
+      
+        <category>vídeos</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>Criando uma base de dados artificial (ChatGPT &#43; Google Colab)</title>
+      <link>http://localhost:1313/post/05_base-dados/</link>
+      <pubDate>Wed, 21 May 2025 11:00:00 -0700</pubDate>
+      
+      <guid>http://localhost:1313/post/05_base-dados/</guid>
+      <description>
+        <![CDATA[<h1>Criando uma base de dados artificial (ChatGPT + Google Colab)</h1><p>Autor: Carlos Eduardo(<no value>)</p>
+        
+          <h1 id="criando-uma-base-de-dados-artificial-chatgpt--google-colab">
+<a class="header-anchor" href="#criando-uma-base-de-dados-artificial-chatgpt--google-colab"></a>
+Criando uma base de dados artificial (ChatGPT + Google Colab)
+</h1><p><a href="https://www.youtube.com/watch?v=uTt1TX5ebiU" target="_blank" >Clique aqui para acessar o vídeo no YouTube</a></p>
+<div class="video-container"> 
+  <iframe 
+    src="https://www.youtube.com/embed/uTt1TX5ebiU?si=gjYmeyjvhLT3iBfP" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen>
+  </iframe>
+</div>
+<p>Inicialmente, a intenção do vídeo era que a própria IA (ChatGPT) gerasse uma base de dados, mas não deu muito certo, então tive que contornar essa situação pedindo para que o ChatGPT gerasse um script em Python.</p>
+<p>Segue abaixo a parte escrita desse projeto.</p>
+        
+        <hr><p>Publicado em 2025-05-21 em <a href='http://localhost:1313/'>Meu Site</a>, última modificação em 2025-05-21</p>]]>
+      </description>
+      
+        <category>vídeos</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>Prompts Eficazes e Interação com IA: 7 Dicas Essenciais para uma Boa Comunicação</title>
+      <link>http://localhost:1313/post/02_prompts/</link>
+      <pubDate>Mon, 05 Aug 2024 11:00:00 -0700</pubDate>
+      
+      <guid>http://localhost:1313/post/02_prompts/</guid>
+      <description>
+        <![CDATA[<h1>Prompts Eficazes e Interação com IA: 7 Dicas Essenciais para uma Boa Comunicação</h1><p>Autor: Carlos Eduardo(<no value>)</p>
+        
+          <h1 id="prompts-eficazes-e-interação-com-ia-7-dicas-essenciais-para-uma-boa-comunicação">
+<a class="header-anchor" href="#prompts-eficazes-e-intera%c3%a7%c3%a3o-com-ia-7-dicas-essenciais-para-uma-boa-comunica%c3%a7%c3%a3o"></a>
+Prompts Eficazes e Interação com IA: 7 Dicas Essenciais para uma Boa Comunicação
+</h1><p><a href="https://www.linkedin.com/posts/cadu-sa_ia-chatgpt-claude-activity-7226193874220703745-u6tm?utm_source=share&utm_medium=member_desktop&rcm=ACoAADgR1KYBnoUXo81anxyLFtldIcGuCI92gqU" target="_blank" >Clique aqui para acessar o post no LinkedIn</a></p>
+<p>No cenário tecnológico atual, a inteligência artificial (IA) revoluciona a forma como interagimos com a informação. Ferramentas como <strong>ChatGPT, Microsoft Copilot, Claude, Gemini e Perplexity</strong> emergem como poderosos aliados, capazes de responder perguntas complexas e executar tarefas sofisticadas - tudo através de prompts bem elaborados.</p>
+<p>A habilidade de formular prompts eficazes tornou-se uma competência crucial no mundo digital e, independentemente de sua área de atuação, compreender como extrair o máximo dessas ferramentas é um diferencial significativo que impulsionará sua produtividade e criatividade.</p>
+        
+        <hr><p>Publicado em 2024-08-05 em <a href='http://localhost:1313/'>Meu Site</a>, última modificação em 2024-08-05</p>]]>
+      </description>
+      
+        <category>artigos</category>
+      
+    </item>
+    
+  </channel>
+</rss>

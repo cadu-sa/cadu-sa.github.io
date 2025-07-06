@@ -9,7 +9,7 @@
     
     <copyright>Todos os artigos deste blog estão licenciados sob BY-NC-SA salvo indicação em contrário. Por favor, indique a fonte ao reproduzir!</copyright>
     
-    <lastBuildDate>Fri, 01 Apr 2022 11:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 01 Apr 2022 11:00:00 +0000</lastBuildDate>
     
     
     <atom:link href="http://localhost:1313/tags/tcc/index.xml" rel="self" type="application/rss&#43;xml" />
@@ -20,10 +20,10 @@
 
     <item>
       <title>Estimativa de Curvatura Riemanniana em uma Nuvem de Pontos</title>
-      <link>http://localhost:1313/post/tcc-post/</link>
-      <pubDate>Fri, 01 Apr 2022 11:00:00 -0700</pubDate>
+      <link>http://localhost:1313/post/01_tcc/</link>
+      <pubDate>Fri, 01 Apr 2022 11:00:00 &#43;0000</pubDate>
       
-      <guid>http://localhost:1313/post/tcc-post/</guid>
+      <guid>http://localhost:1313/post/01_tcc/</guid>
       <description>
         <![CDATA[<h1>Estimativa de Curvatura Riemanniana em uma Nuvem de Pontos</h1><p>Autor: Carlos Eduardo(<no value>)</p>
         

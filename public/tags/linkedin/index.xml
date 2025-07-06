@@ -9,7 +9,7 @@
     
     <copyright>Todos os artigos deste blog estão licenciados sob BY-NC-SA salvo indicação em contrário. Por favor, indique a fonte ao reproduzir!</copyright>
     
-    <lastBuildDate>Thu, 03 Jul 2025 14:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 06 Jul 2025 14:00:00 +0000</lastBuildDate>
     
     
     <atom:link href="http://localhost:1313/tags/linkedin/index.xml" rel="self" type="application/rss&#43;xml" />
@@ -19,29 +19,24 @@
     
 
     <item>
-      <title>Criando um site com GoHugo e GitHub Pages</title>
-      <link>http://localhost:1313/post/10_criar-site/</link>
-      <pubDate>Thu, 03 Jul 2025 14:00:00 -0700</pubDate>
+      <title>Criando um site no GitHub Pages com HUGO</title>
+      <link>http://localhost:1313/post/11_criando-site/</link>
+      <pubDate>Sun, 06 Jul 2025 14:00:00 &#43;0000</pubDate>
       
-      <guid>http://localhost:1313/post/10_criar-site/</guid>
+      <guid>http://localhost:1313/post/11_criando-site/</guid>
       <description>
-        <![CDATA[<h1>Criando um site com GoHugo e GitHub Pages</h1><p>Autor: Carlos Eduardo(<no value>)</p>
+        <![CDATA[<h1>Criando um site no GitHub Pages com HUGO</h1><p>Autor: Carlos Eduardo(<no value>)</p>
         
-          <h1 id="criando-um-site-com-gohugo-e-github-pages">
-<a class="header-anchor" href="#criando-um-site-com-gohugo-e-github-pages"></a>
-Criando um site com GoHugo e GitHub Pages
+          <h1 id="criando-um-site-no-github-pages-com-hugo">
+<a class="header-anchor" href="#criando-um-site-no-github-pages-com-hugo"></a>
+Criando um site no GitHub Pages com HUGO
 </h1><img src="https://raw.githubusercontent.com/cadu-sa/arquivos-site/refs/heads/main/meu-site.png"/>
 <h2 id="introdução">
 <a class="header-anchor" href="#introdu%c3%a7%c3%a3o"></a>
 Introdução
-</h2><p>Recentemente, criei um site pessoal usando o framework <a href="http://gohugo.io/">Hugo</a> (GoHugo) e hospedei no GitHub usando o <a href="https://pages.github.com/">GitHub Pages</a>. Neste artigo, vou mostrar como foi esse processo, desde a escolha do tema do site até a hospedagem no GitHub.</p>
-<p>Link do site: <a href="https://cadu-sa.github.io/">https://cadu-sa.github.io/</a></p>
-<h3 id="o-que-é-hugo">
-<a class="header-anchor" href="#o-que-%c3%a9-hugo"></a>
-O que é Hugo?
-</h3><p>Basicamente, Hugo é um gerador de sites estáticos de código aberto, escrito em Go (Golang). Com o Hugo, podemos definir a estrutura e a aparência do site usando templates e arquivos de configuração, gerando automaticamente páginas HTML estáticas extremamente rápidas, seguras e flexíveis. Além disso, podemos escrever as postagens em Markdown e o site criado tem uma integração fácil com o GitHub Pages.</p>
+</h2><p>Recentemente, criei esse site pessoal usando o framework <a href="http://gohugo.io/">Hugo</a> (GoHugo) e hospedei no GitHub usando o <a href="https://pages.github.com/">GitHub Pages</a>. Neste artigo, vou mostrar como foi esse processo, desde a escolha do tema do site até a hospedagem no GitHub. Então, caso você esteja pensando em criar um site usando o Hugo, os passos apresentados aqui podem servir como base para a criação do seu site.</p>
         
-        <hr><p>Publicado em 2025-07-03 em <a href='http://localhost:1313/'>Meu Site</a>, última modificação em 2025-07-03</p>]]>
+        <hr><p>Publicado em 2025-07-06 em <a href='http://localhost:1313/'>Meu Site</a>, última modificação em 2025-07-06</p>]]>
       </description>
       
         <category>artigos</category>
@@ -52,10 +47,10 @@ O que é Hugo?
 
     <item>
       <title>A Importância da Documentação no Ambiente de Trabalho</title>
-      <link>http://localhost:1313/post/linkedin-post-03/</link>
+      <link>http://localhost:1313/post/04_documentacao/</link>
       <pubDate>Sat, 05 Oct 2024 11:00:00 -0700</pubDate>
       
-      <guid>http://localhost:1313/post/linkedin-post-03/</guid>
+      <guid>http://localhost:1313/post/04_documentacao/</guid>
       <description>
         <![CDATA[<h1>A Importância da Documentação no Ambiente de Trabalho</h1><p>Autor: Carlos Eduardo(<no value>)</p>
         
@@ -78,10 +73,10 @@ A Importância da Documentação no Ambiente de Trabalho.
 
     <item>
       <title>Seja Simples Neste Mundo Complexo: O Básico Funciona!</title>
-      <link>http://localhost:1313/post/linkedin-post-02/</link>
+      <link>http://localhost:1313/post/03_seja-simples/</link>
       <pubDate>Thu, 05 Sep 2024 11:00:00 -0700</pubDate>
       
-      <guid>http://localhost:1313/post/linkedin-post-02/</guid>
+      <guid>http://localhost:1313/post/03_seja-simples/</guid>
       <description>
         <![CDATA[<h1>Seja Simples Neste Mundo Complexo: O Básico Funciona!</h1><p>Autor: Carlos Eduardo(<no value>)</p>
         
@@ -103,10 +98,10 @@ Seja Simples Neste Mundo Complexo: O Básico Funciona!
 
     <item>
       <title>Prompts Eficazes e Interação com IA: 7 Dicas Essenciais para uma Boa Comunicação</title>
-      <link>http://localhost:1313/post/linkedin-post-01/</link>
+      <link>http://localhost:1313/post/02_prompts/</link>
       <pubDate>Mon, 05 Aug 2024 11:00:00 -0700</pubDate>
       
-      <guid>http://localhost:1313/post/linkedin-post-01/</guid>
+      <guid>http://localhost:1313/post/02_prompts/</guid>
       <description>
         <![CDATA[<h1>Prompts Eficazes e Interação com IA: 7 Dicas Essenciais para uma Boa Comunicação</h1><p>Autor: Carlos Eduardo(<no value>)</p>
         
