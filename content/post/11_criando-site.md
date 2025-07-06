@@ -1,5 +1,5 @@
 ---
-title: 'Criando um site no GitHub Pages com HUGO'
+title: 'Criando um site com HUGO e GitHub Pages'
 description: "Neste artigo, vou mostrar o processo de criação de um site usando o framework Hugo e como hospedar o site no GitHub com o GitHub Pages"
 
 date: 2025-07-06T14:00:00-00:00
@@ -11,7 +11,7 @@ tags: [artigos, linkedin, hugo, github pages, golang]
 cover: https://raw.githubusercontent.com/cadu-sa/arquivos-site/refs/heads/main/rabisc.png
 ---
 
-# Criando um site no GitHub Pages com HUGO
+# Criando um site com HUGO e GitHub Pages
 
 <img src="https://raw.githubusercontent.com/cadu-sa/arquivos-site/refs/heads/main/meu-site.png"/>
 
