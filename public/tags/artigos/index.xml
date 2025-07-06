@@ -19,15 +19,18 @@
     
 
     <item>
-      <title>Criando site com GoHugo e GitHub Pages</title>
+      <title>Criando um site com GoHugo e GitHub Pages</title>
       <link>http://localhost:1313/post/10_criar-site/</link>
       <pubDate>Thu, 03 Jul 2025 14:00:00 -0700</pubDate>
       
       <guid>http://localhost:1313/post/10_criar-site/</guid>
       <description>
-        <![CDATA[<h1>Criando site com GoHugo e GitHub Pages</h1><p>Autor: Carlos Eduardo(<no value>)</p>
+        <![CDATA[<h1>Criando um site com GoHugo e GitHub Pages</h1><p>Autor: Carlos Eduardo(<no value>)</p>
         
-          <img src="https://raw.githubusercontent.com/cadu-sa/arquivos-site/refs/heads/main/meu-site.png"/>
+          <h1 id="criando-um-site-com-gohugo-e-github-pages">
+<a class="header-anchor" href="#criando-um-site-com-gohugo-e-github-pages"></a>
+Criando um site com GoHugo e GitHub Pages
+</h1><img src="https://raw.githubusercontent.com/cadu-sa/arquivos-site/refs/heads/main/meu-site.png"/>
 <h2 id="introdução">
 <a class="header-anchor" href="#introdu%c3%a7%c3%a3o"></a>
 Introdução

@@ -1,5 +1,5 @@
 ---
-title: 'Criando site com GoHugo e GitHub Pages'
+title: 'Criando um site com GoHugo e GitHub Pages'
 description: "meu site"
 #keywords: "meu,primeiro,artigo"
 
@@ -18,6 +18,7 @@ tags:
 cover: https://raw.githubusercontent.com/cadu-sa/arquivos-site/refs/heads/main/rabisc.png
 ---
 
+# Criando um site com GoHugo e GitHub Pages
 
 <img src="https://raw.githubusercontent.com/cadu-sa/arquivos-site/refs/heads/main/meu-site.png"/>
 
@@ -318,16 +319,13 @@ cover: https://example.com
 [escreve o conteúdo do post aqui]
 ```
 
-## Hospedagem no GitHub
+## Hospedando no GitHub
 
 1. Abra o seu GitHub e crie um repertório público com o nome: `seu-usuario.github.io`. Por exemplo, `cadu-sa.github.io`;
 2. Clone o repertório no seu computador:
 
 ```bash
-# Inicializar git
 git init
-
-# Adicionar remote
 git remote add origin https://github.com/SEU-USUARIO/SEU-USUARIO.github.io.git
 ```
 
@@ -339,7 +337,7 @@ git remote add origin https://github.com/SEU-USUARIO/SEU-USUARIO.github.io.git
 baseURL = "https://seu-usuario.github.io/"
 ```
 
-6. Crie o arquivo `.github/workflows/hugo.yaml` na pasta `seu-usuario.github.io` e coloque a seguinte configuração em `hugo.yaml`:
+6. Na pasta `seu-usuario.github.io`, crie a pasta `.github`. Dentro dela, crie a pasta `workflows`. E dentro dessa última pasta, crie o arquivo `hugo.yml` e coloque a seguinte configuração em `hugo.yml`:
 
 ```yml
 # Sample workflow for building and deploying a Hugo site to GitHub Pages
@@ -421,17 +419,17 @@ jobs:
 7. Faça o commit:
 
 ```bash
-# Commit inicial
 git commit -m "commit inicial"
-
-# Push
 git push -u origin main
 ```
 
 8. Abra o seu GitHub e acesse a página `Settings`;
 9. No campo `Source`, selecione a opção `GitHub Actions`;
 10. Vá na página `Actions` e aguarde o deploy finalizar;
-11. Acesse seu site em `https://seu-usuario.github.io/`
+11. Após o deploy finalizar, acesse seu site em `https://seu-usuario.github.io/`
 
 ## Conclusão
 
+Em breve, postarei um artigo explicando como implementar o buscador [algolia](https://www.algolia.com/) no site.
+
+Até a próxima!
