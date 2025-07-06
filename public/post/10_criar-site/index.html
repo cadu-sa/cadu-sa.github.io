@@ -142,25 +142,25 @@ Este artigo não possui uma versão neste idioma
   <div class="sidebar-toc-wrapper toc-div-class">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#o-que-é-hugo">O que é Hugo?</a></li>
-    <li><a href="#o-que-é-github-pages">O que é GitHub Pages?</a></li>
-  </ul>
-
-  <ul>
-    <li><a href="#instalando-o-hugo">Instalando o Hugo</a>
+    <li><a href="#introdução">Introdução</a>
       <ul>
-        <li><a href="#instalação-via-terminal">Instalação via terminal</a></li>
-        <li><a href="#instalação-através-do-arquivo-deb">Instalação através do arquivo .deb</a></li>
+        <li><a href="#o-que-é-hugo">O que é Hugo?</a></li>
+        <li><a href="#o-que-é-github-pages">O que é GitHub Pages?</a></li>
       </ul>
     </li>
-    <li><a href="#escolha-e-personalização-do-tema">Escolha e Personalização do Tema</a>
+    <li><a href="#passo-a-passo-da-criação">Passo a Passo da Criação</a>
       <ul>
-        <li><a href="#hugo-theme-reimu">hugo-theme-reimu</a></li>
-        <li><a href="#configurando-o-tema">Configurando o tema</a></li>
+        <li><a href="#instalando-o-hugo">Instalando o Hugo</a></li>
+        <li><a href="#escolhendo-o-tema-do-site">Escolhendo o Tema do Site</a></li>
+        <li><a href="#baixando-o-tema">Baixando o Tema</a></li>
+        <li><a href="#iniciando-o-servidor-hugo">Iniciando o Servidor Hugo</a></li>
         <li><a href="#traduzindo-o-site-para-português">Traduzindo o site para Português</a></li>
-        <li><a href="#outras-alterações-que-podem-ser-feitas">Outras alterações que podem ser feitas</a></li>
+        <li><a href="#customizações-básicas">Customizações Básicas</a></li>
+        <li><a href="#criação-de-posts">Criação de Posts</a></li>
       </ul>
     </li>
+    <li><a href="#hospedagem-no-github">Hospedagem no GitHub</a></li>
+    <li><a href="#conclusão">Conclusão</a></li>
   </ul>
 </nav>
   </div>
@@ -286,67 +286,68 @@ Este artigo não possui uma versão neste idioma
     ></div>
 </div>
     <div class="hr-line"></div><div class="e-content article-entry" itemprop="articleBody"><img src="https://raw.githubusercontent.com/cadu-sa/arquivos-site/refs/heads/main/meu-site.png"/>
-<h1 id="introdução">
+<h2 id="introdução">
 <a class="header-anchor" href="#introdu%c3%a7%c3%a3o"></a>
 Introdução
-</h1><p>Recentemente, criei um site pessoal usando o framework <a href="http://gohugo.io/">Hugo</a> (GoHugo) e hospedei no <a href="https://pages.github.com/">GitHub Pages</a>. Neste artigo, vou mostrar como foi esse processo, desde a escolha do tema até a publicação.</p>
+</h2><p>Recentemente, criei um site pessoal usando o framework <a href="http://gohugo.io/">Hugo</a> (GoHugo) e hospedei no GitHub usando o <a href="https://pages.github.com/">GitHub Pages</a>. Neste artigo, vou mostrar como foi esse processo, desde a escolha do tema do site até a hospedagem no GitHub.</p>
 <p>Link do site: <a href="https://cadu-sa.github.io/">https://cadu-sa.github.io/</a></p>
-<h2 id="o-que-é-hugo">
+<h3 id="o-que-é-hugo">
 <a class="header-anchor" href="#o-que-%c3%a9-hugo"></a>
 O que é Hugo?
-</h2><p>Basicamente, Hugo é um gerador de sites estáticos de código aberto, escrito em Go (Golang). Com o Hugo, podemos definir a estrutura e a aparência do site usando templates e arquivos de configuração, gerando automaticamente páginas HTML estáticas extremamente rápidas, seguras e flexíveis. Além disso, podemos escrever as postagens em Markdown e o site criado tem uma integração fácil com o GitHub Pages.</p>
-<h2 id="o-que-é-github-pages">
+</h3><p>Basicamente, Hugo é um gerador de sites estáticos de código aberto, escrito em Go (Golang). Com o Hugo, podemos definir a estrutura e a aparência do site usando templates e arquivos de configuração, gerando automaticamente páginas HTML estáticas extremamente rápidas, seguras e flexíveis. Além disso, podemos escrever as postagens em Markdown e o site criado tem uma integração fácil com o GitHub Pages.</p>
+<h3 id="o-que-é-github-pages">
 <a class="header-anchor" href="#o-que-%c3%a9-github-pages"></a>
 O que é GitHub Pages?
-</h2><p>Basicamente, GitHub Pages é um serviço de hospedagem gratuita e segura de sites estáticos oferecido pelo GitHub. Ele permite publicar sites diretamente de um repositório GitHub, tornando-se uma solução popular para hospedar projetos pessoais, documentações, blogs e portfólios. Com o GitHub Pages, podemos fazer deploy automaticamente através de commits e teremos um site com domínio gratuíto do tipo <code>github.io</code>.</p>
-<h1 id="passo-a-passo-da-criação">
+</h3><p>Basicamente, GitHub Pages é um serviço de hospedagem gratuita e segura de sites estáticos oferecido pelo GitHub. Ele permite publicar sites diretamente de um repositório GitHub, tornando-se uma solução popular para hospedar projetos pessoais, documentações, blogs e portfólios. Com o GitHub Pages, podemos fazer deploy automaticamente através de commits e teremos um site com domínio gratuíto do tipo <code>github.io</code>.</p>
+<h2 id="passo-a-passo-da-criação">
 <a class="header-anchor" href="#passo-a-passo-da-cria%c3%a7%c3%a3o"></a>
 Passo a Passo da Criação
-</h1><h2 id="instalando-o-hugo">
+</h2><p>Primeiramente, precisamos fazer a instalação do Hugo no computador.</p>
+<h3 id="instalando-o-hugo">
 <a class="header-anchor" href="#instalando-o-hugo"></a>
 Instalando o Hugo
-</h2><p>Primeiramente, precisamos fazer a instalação do Hugo no computador. Como eu uso a distro Linux Debian 12.11 como sistema operacional, então fiz a instalação do Hugo através da execução direto do arquivo <code>.deb</code>, mas essa instalação também pode ser feita via terminal.</p>
-<h3 id="instalação-via-terminal">
-<a class="header-anchor" href="#instala%c3%a7%c3%a3o-via-terminal"></a>
-Instalação via terminal
-</h3><p>Execute o código abaixo para fazer a instalação do hugo:</p>
+</h3><p>Para fazer a instalação, primeiro acesse o link abaixo para acessar a versão mais recente do Hugo para Windows ou Linux:</p>
+<p><a href="https://github.com/gohugoio/hugo/tags">https://github.com/gohugoio/hugo/tags</a></p>
+<p>Após isso, na lista <strong>Assets</strong>, baixe o arquivo correspondente ao seu sistema operacional que tenha <code>hugo_extended</code> no nome. Por fim, acesso o arquivo baixado e execute para a instalação ser feita.</p>
+<blockquote>
+<p>Como eu uso a distro Linux <strong>Debian 12.11</strong> como sistema operacional, fiz o download do arquivo <code>hugo_extended_0.147.9_linux-amd64.deb</code>. Após isso, abrir o terminal na pasta onde o arquivo foi salvo e executei o código abaixo:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo dpkg -i nome_do_arquivo.deb
+</span></span></code></pre></div><p>Para verificar se a instalação foi bem-sucedida, executei o códigio abaixo:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo version
+</span></span></code></pre></div><p>Eu também poderia fazer a instalação do Hugo via terminal através do código abaixo:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt update
 </span></span><span class="line"><span class="cl">sudo apt install hugo
-</span></span></code></pre></div><p>Para verificar se a instalação foi bem-sucedida:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo version
-</span></span></code></pre></div><h3 id="instalação-através-do-arquivo-deb">
-<a class="header-anchor" href="#instala%c3%a7%c3%a3o-atrav%c3%a9s-do-arquivo-deb"></a>
-Instalação através do arquivo .deb
-</h3><blockquote>
-<p>Segue o link da versão mais recente do Hugo para Windows, Linux ou macOS:</p>
-<p><a href="https://github.com/gohugoio/hugo/tags">https://github.com/gohugoio/hugo/tags</a></p></blockquote>
-<p>Observação: escolha o arquivo que tenha <code>hugo_extended</code> no nome.</p>
-<p>Após baixar o arquivo <code>.deb</code>, acesse o terminal na pasta de Downloads e execute o código abaixo:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo dpkg -i nome_do_arquivo.deb
-</span></span></code></pre></div><p>Para verificar se a instalação foi bem-sucedida:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo version
-</span></span></code></pre></div><h2 id="escolha-e-personalização-do-tema">
-<a class="header-anchor" href="#escolha-e-personaliza%c3%a7%c3%a3o-do-tema"></a>
-Escolha e Personalização do Tema
-</h2><p>Após a instalação do Hugo, vamos escolher um tema para o site. No site do Hugo podemos encontrar vários temas que podemos usar no site.</p>
-<blockquote>
-<p>Segue o link dos temas do GoHugo: <a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a></p></blockquote>
-<h3 id="hugo-theme-reimu">
-<a class="header-anchor" href="#hugo-theme-reimu"></a>
-hugo-theme-reimu
-</h3><p>Para o meu site, escolhi o tema <code>hugo-theme-reimu</code>. É um tema que foi criado por <a href="https://github.com/D-Sketon">D-Sketon</a>. O tema é inspirado em Hakurei Reimu (personagem do Touhou Project) e combina elementos de outros temas populares: landscape, Tangyuxian e Shoka. Além disso, originalmente o tema foi criado para o framework <a href="https://hexo.io/pt-br/">Hexo</a> e depois foi adaptado para Hugo.</p>
-<blockquote>
-<p>Segue o link do hugo-theme-reimu: <a href="https://themes.gohugo.io/themes/hugo-theme-reimu/">https://themes.gohugo.io/themes/hugo-theme-reimu/</a></p></blockquote>
+</span></span><span class="line"><span class="cl">hugo version
+</span></span></code></pre></div></blockquote>
+<p>Após a instalação do Hugo, vamos escolher um tema para o site.</p>
+<h3 id="escolhendo-o-tema-do-site">
+<a class="header-anchor" href="#escolhendo-o-tema-do-site"></a>
+Escolhendo o Tema do Site
+</h3><p>No site do Hugo podemos encontrar vários temas que podemos usar no site. Segue o link dos temas do Hugo:</p>
+<p><a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a></p>
+<p><strong>Observação:</strong> nesse artigo, irei focar no tema escolhido para o meu site (<a href="https://themes.gohugo.io/themes/hugo-theme-reimu/">hugo-theme-reimu</a>)</p>
 <img src="https://themes.gohugo.io/themes/hugo-theme-reimu/screenshot_hu_408a192743931e1e.webp"/>
-<p>O design é limpo e moderno, tem suporte multilíngue (implementação de i18n - internacionalização), é otimizado para Performance, é responsivo e possui um guia de customização bem explicado.</p>
-<h3 id="configurando-o-tema">
-<a class="header-anchor" href="#configurando-o-tema"></a>
-Configurando o tema
-</h3><p>Agora vamos fazer o fork do tema no GitHub. Para fazer isso, acesse o link abaixo e depois clique em Fork</p>
 <blockquote>
-<p>Segue o link do hugo-theme-reimu: <a href="https://github.com/D-Sketon/hugo-theme-reimu/tree/main">https://github.com/D-Sketon/hugo-theme-reimu/tree/main</a></p></blockquote>
-<p>Após isso, podemos usar o GitHub Desktop para abrir o repertório do fork no computador.</p>
-<p>Ao abrir a pasta no computador, veremos uma estrutura mais ou menos assim:</p>
+<p>Sobre o tema <code>hugo-theme-reimu</code>:</p>
+<ul>
+<li>É um tema criado por <a href="https://github.com/D-Sketon">D-Sketon</a>;</li>
+<li>O tema é inspirado em Hakurei Reimu (uma personagem do Touhou Project);</li>
+<li>Combina elementos de outros temas populares: landscape, Tangyuxian e Shoka;</li>
+<li>Originalmente o tema foi criado para o framework <a href="https://hexo.io/pt-br/">Hexo</a> e depois foi adaptado para Hugo;</li>
+<li>O design é limpo e moderno, tem suporte multilíngue (implementação de i18n - internacionalização), é otimizado para Performance, é responsivo e possui um guia de customização bem explicado.</li>
+</ul></blockquote>
+<p>Após escolher o tema, vamos baixar o tema no computador.</p>
+<h3 id="baixando-o-tema">
+<a class="header-anchor" href="#baixando-o-tema"></a>
+Baixando o Tema
+</h3><ol>
+<li>Acesse o tema que está hospedado no <a href="https://github.com/D-Sketon/hugo-theme-reimu/tree/main">GitHub</a>;</li>
+<li>Clique em &ldquo;Code&rdquo;;</li>
+<li>Clique &ldquo;Download ZIP&rdquo;;</li>
+<li>Extraia o arquivo .zip.</li>
+<li>Abra a pasta que foi extraida.</li>
+</ol>
+<p>Ao abrir a pasta, veremos uma estrutura mais ou menos assim:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo-theme-reimu/
 </span></span><span class="line"><span class="cl">  ├── _example/
 </span></span><span class="line"><span class="cl">  ├── archetypes/
@@ -365,49 +366,30 @@ Configurando o tema
 </span></span><span class="line"><span class="cl">  ├── go.mod
 </span></span><span class="line"><span class="cl">  ├── package.json
 </span></span><span class="line"><span class="cl">  └── theme.toml
-</span></span></code></pre></div><p>Assim como explicado na <code>README.md</code> do <a href="https://github.com/D-Sketon/hugo-theme-reimu/tree/main">tema</a>, vamos mudar o nome da pasta <code>_examples</code> para <code>content</code>. Agora vamos ver o que tem nesta pasta:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">content/
-</span></span><span class="line"><span class="cl">  ├── archives/
-</span></span><span class="line"><span class="cl">  │   └── _index.md
-</span></span><span class="line"><span class="cl">  ├── post/
-</span></span><span class="line"><span class="cl">  │   ├── _index.md
-</span></span><span class="line"><span class="cl">  │   └── hello.md
-</span></span><span class="line"><span class="cl">  ├── about.md
-</span></span><span class="line"><span class="cl">  └── friend.md
-</span></span></code></pre></div><p>Observações:</p>
-<ul>
-<li>Em <code>archives/</code>, o arquivo <code>_index.md</code> é usado para exibir a página de arquivo, não pode ser omitido;</li>
-<li>Em <code>post/</code>, o arquivo <code>_index.md</code> é usado para evitar a geração de post/index.html, não pode ser omitido. Além disso, é nessa pasta que criaremos os artigos do site;</li>
-<li>O arquivo <code>about.md</code> é a página &ldquo;sobre&rdquo;;</li>
-<li>O arquivo <code>friend.md</code> é a página de links de amigos. Como não farei uso dessa arquivo, então irei remover-lo.</li>
-</ul>
-<p>Antes de começarmos a fazer a customização do site, vamos ver como o site está atualmente. Para fazer isso, primeiro abra o terminal na pasta principal e  execute o comando abaixo para iniciar o servidor local.</p>
+</span></span></code></pre></div><p>Com o tema no computador, agora vamos iniciar o servidor hugo.</p>
+<h3 id="iniciando-o-servidor-hugo">
+<a class="header-anchor" href="#iniciando-o-servidor-hugo"></a>
+Iniciando o Servidor Hugo
+</h3><p>Antes de começarmos a fazer a customização do site, vamos ver como o site está atualmente. Para fazer isso, primeiro abra o terminal na pasta do tema e execute o comando abaixo para iniciar o servidor local.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo server
-</span></span></code></pre></div><p>O servidor será iniciado e abrirá o site no link: <code>http://localhost:1313</code></p>
-<p>Agora vamos para a customização. Vamos começar deixando o site em Português.</p>
+</span></span></code></pre></div><p>O servidor será iniciado no link: <code>http://localhost:1313</code></p>
+<p>Agora vamos fazer a customização do site. Vamos começar deixando o site em Português.</p>
 <h3 id="traduzindo-o-site-para-português">
 <a class="header-anchor" href="#traduzindo-o-site-para-portugu%c3%aas"></a>
 Traduzindo o site para Português
-</h3><p>Acesse o arquivo <code>config.toml</code> na pasta principal e adicione a seguinte configuração:</p>
+</h3><p>Acesse o arquivo <code>config.toml</code> na pasta principal e adicione o seguinte código:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nv">languageCode</span> <span class="o">=</span> <span class="s1">&#39;pt-BR&#39;</span>
 </span></span><span class="line"><span class="cl"><span class="nv">defaultContentLanguage</span> <span class="o">=</span> <span class="s1">&#39;pt-BR&#39;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="o">[</span>languages<span class="o">]</span>
-</span></span><span class="line"><span class="cl"><span class="o">[</span>languages.pt-BR<span class="o">]</span>
-</span></span><span class="line"><span class="cl"><span class="nv">languageName</span> <span class="o">=</span> <span class="s1">&#39;Português (Brasil)&#39;</span>
-</span></span><span class="line"><span class="cl"><span class="nv">weight</span> <span class="o">=</span> <span class="m">1</span>
-</span></span></code></pre></div><p>Observações:</p>
+</span></span></code></pre></div><blockquote>
+<p><strong>Observações:</strong></p>
 <ul>
 <li><code>languageCode = 'pt-BR'</code>: define o código do idioma principal como Português Brasileiro;</li>
-<li><code>defaultContentLanguage = 'pt-BR'</code>: define <code>pt-BR</code> como idioma padrão do conteúdo;</li>
-<li><code>[languages.pt-BR]</code>: seção específica para configurações do Português Brasileiro;</li>
-<li><code>languageName = 'Português (Brasil)'</code>: nome amigável do idioma (aparece no seletor de idiomas, se houver);</li>
-<li><code>weight = 1</code>: prioridade do idioma (útil quando há múltiplos idiomas)</li>
-</ul>
+<li><code>defaultContentLanguage = 'pt-BR'</code>: define pt-BR como idioma padrão do conteúdo;</li>
+</ul></blockquote>
 <p>Isso não é suficiente para deixar o site totalmente em português, pois dentro da pasta <code>i18n/</code> não tem o arquivo <code>pt-BR.yml</code>, que é responsável pela tradução. Então vamos criar esse arquivo:</p>
 <ol>
-<li>Acesse a pasta <code>i18n/</code>;</li>
-<li>Faça uma cópia do arquivo <code>en.yml</code> e renomeie de <code>pt-BR.yml</code>;</li>
+<li>Acesse a pasta <code>i18n</code>;</li>
+<li>Faça uma cópia do arquivo <code>en.yml</code> e nomeie a cópia de <code>pt-BR.yml</code>;</li>
 <li>Ao abrir o arquivo <code>pt-BR.yml</code>, veremos algo parecido com:</li>
 </ol>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">categories: Categories
@@ -421,7 +403,7 @@ Traduzindo o site para Português
 </span></span><span class="line"><span class="cl">...
 </span></span><span class="line"><span class="cl">...
 </span></span><span class="line"><span class="cl">...
-</span></span></code></pre></div><p>Faça a tradução dos termos da esquerda e escreva do lado direito, deixando assim:</p>
+</span></span></code></pre></div><p>Nesse caso, precisamos colocar a tradução do lado direito dos dois pontos. Vai ficar mais ou menos assim:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">categories: Categorias
 </span></span><span class="line"><span class="cl">search: Buscar
 </span></span><span class="line"><span class="cl">tags: Tags
@@ -433,14 +415,16 @@ Traduzindo o site para Português
 </span></span><span class="line"><span class="cl">...
 </span></span><span class="line"><span class="cl">...
 </span></span><span class="line"><span class="cl">...
-</span></span></code></pre></div><p>Observação: você pode fazer isso manualmente ou pode usar alguma LLM (ChatGPT, por exemplo) para auxiliar na tradução, é só copiar todo conteúdo do arquivo, cola na LLM e escreve</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">Estou criando um site usando o GoHugo. O conteúdo abaixo é <span class="k">do</span> arquivo en.yml da pasta i18n, me ajude a criar o arquivo pt-BR.yml traduzindo o conteúdo.
+</span></span></code></pre></div><blockquote>
+<p>Observação: você pode fazer a tradução manualmente ou pode usar alguma LLM (por exemplo, ChatGPT) para auxiliar na tradução, basta copiar o conteúdo do arquivo <code>pt-BR.yml</code>, cola na LLM e escreve o seguinte prompt:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">Estou criando um site usando o GoHugo. O conteúdo abaixo é <span class="k">do</span> arquivo en.yml da pasta i18n, me ajude a criar o arquivo pt-BR.yml traduzindo o conteúdo abaixo para português brasileiro.
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">&lt;conteúdo <span class="k">do</span> arquivo pt-BR.yml&gt;
-</span></span></code></pre></div><p>Após isso, é só conferir as traduções dadas pela LLM e cola no arquivo <code>pt-BR.yml</code>. Dessa forma, a maior parte do site estará em português. Vamos traduzir agora alguns textos específicos.</p>
+</span></span><span class="line"><span class="cl">&lt;cole aqui o conteúdo <span class="k">do</span> arquivo pt-BR.yml&gt;
+</span></span></code></pre></div><p>Após isso, é só conferir se as traduções estão corretas e depois cola no arquivo <code>pt-BR.yml</code>.</p></blockquote>
+<p>Dessa forma, a maior parte do site estará em português. Agora vamos traduzir alguns textos específicos do site.</p>
 <ol>
 <li>Acesse o arquivo <code>params.yml</code> que está na pasta <code>config/_default/</code>;</li>
-<li>No arquivo você vai adicionar <code>pt-BR:+ &quot;texto traduzido&quot;</code> em algumas partes:</li>
+<li>No arquivo você vai adicionar <code>pt-BR:+ &quot;texto traduzido&quot;</code> em algumas partes do código:</li>
 </ol>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yml" data-lang="yml"><span class="line"><span class="cl"><span class="nt">preloader</span><span class="p">:</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">enable</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
@@ -468,77 +452,186 @@ Traduzindo o site para Português
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">tip</span><span class="p">:</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">pt-BR</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;Me pague um café ☕&#34;</span><span class="w">
 </span></span></span></code></pre></div><p>Prontinho, agora o site estará em português.</p>
-<h3 id="outras-alterações-que-podem-ser-feitas">
-<a class="header-anchor" href="#outras-altera%c3%a7%c3%b5es-que-podem-ser-feitas"></a>
-Outras alterações que podem ser feitas
-</h3><p>Os recursos estáticos do tema (favicon, imagens de cabeçalho, avatar, etc.) estão localizados na pasta <code>static</code>, basta apenas sobrescrever os arquivos da pasta com os arquivos que você deseja no site. Esses recursos estáticos também estão presentes no código do arquivo <code>params.yml</code>.</p>
-<h4 id="avatar">
-<a class="header-anchor" href="#avatar"></a>
-Avatar
-</h4><p>Em <code>params.yml</code>, podemos ver a linha responsável pelo avatar:</p>
+<h3 id="customizações-básicas">
+<a class="header-anchor" href="#customiza%c3%a7%c3%b5es-b%c3%a1sicas"></a>
+Customizações Básicas
+</h3><h4 id="avatar-banner-favicon">
+<a class="header-anchor" href="#avatar-banner-favicon"></a>
+Avatar, Banner, Favicon
+</h4><p>Os recursos estáticos do tema (favicon, imagens de cabeçalho e avatar) estão localizados na pasta <code>static</code>. Portanto, para alterar esses recursos no site, basta sobrescrever os arquivos da pasta com as imagens que você deseja, mantendo o mesmo nome.</p>
+<p>Esses recursos estáticos também estão presentes no arquivo <code>params.yml</code>. Por exemplo, em <code>params.yml</code>, podemos ver a linha responsável pelo avatar:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yml" data-lang="yml"><span class="line"><span class="cl"><span class="nt">avatar</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;avatar.webp&#34;</span><span class="w">
-</span></span></span></code></pre></div><h4 id="capa">
-<a class="header-anchor" href="#capa"></a>
-Capa
-</h4><p>A lógica de exibição da capa é a seguinte: se o Front matter (<code>cover</code>) do artigo contiver uma URL de capa, tanto o cabeçalho do artigo quanto a miniatura da página inicial exibirão essa URL</p>
+</span></span></span></code></pre></div><p>Em relação a capa, a lógica de exibição da capa é a seguinte: se o Front matter (cover) do artigo contiver uma URL de capa, tanto o cabeçalho do artigo quanto a miniatura da página inicial exibirão a imagem da URL.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">---
-</span></span><span class="line"><span class="cl">title: Olá Mundo
+</span></span><span class="line"><span class="cl">title: Título do post
 </span></span><span class="line"><span class="cl">cover: https://example.com
 </span></span><span class="line"><span class="cl">---
 </span></span></code></pre></div><p>Se o Front matter do artigo contiver cover definido como <code>false</code>, o artigo não exibirá uma imagem de cabeçalho, mas a página inicial ainda mostrará imagens aleatórias, que são as imagens definidas no arquivo <code>covers.yml</code> da pasta <code>data</code>.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">---
-</span></span><span class="line"><span class="cl">title: Olá Mundo
+</span></span><span class="line"><span class="cl">title: Título do post
 </span></span><span class="line"><span class="cl">cover: false
 </span></span><span class="line"><span class="cl">---
-</span></span></code></pre></div><p>Se o Front matter do artigo contiver cover definido como <code>rgb(xxx,xxx,xxx)</code>, o cabeçalho do artigo será um gradiente dessa cor sólida (a página inicial ainda mostrará imagens aleatórias)</p>
+</span></span></code></pre></div><p>Se o Front matter do artigo contiver cover definido como <code>rgb(xxx,xxx,xxx)</code>, o cabeçalho do artigo será um gradiente dessa cor sólida (a página inicial ainda mostrará imagens aleatórias).</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">---
-</span></span><span class="line"><span class="cl">title: Olá Mundo
+</span></span><span class="line"><span class="cl">title: Título do post
 </span></span><span class="line"><span class="cl">cover: rgb(255,117,117)
 </span></span><span class="line"><span class="cl">---
-</span></span></code></pre></div><p>Se nenhum dos arquivos acima existir, ele exibirá a imagem do banner.</p>
-<p>Observação: para imagens de capa aleatórias, consulte a estrutura de arquivos em <code>data/covers.yml</code> do tema:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yml" data-lang="yml"><span class="line"><span class="cl">- <span class="l">https://example.com/1.jpg</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span>- <span class="l">https://example.com/2.jpg</span><span class="w">
-</span></span></span></code></pre></div><h4 id="banner">
-<a class="header-anchor" href="#banner"></a>
-Banner
-</h4><p>O banner é salvo em <code>static/images/banner.webp</code>. Você pode modificar o caminho e o nome em <code>params.yml</code></p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yml" data-lang="yml"><span class="line"><span class="cl"><span class="nt">banner</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;images/banner.webp&#34;</span><span class="w">
-</span></span></span></code></pre></div><h4 id="favicon">
-<a class="header-anchor" href="#favicon"></a>
-Favicon
-</h4><p>O favicon é salvo em <code>static/favicon.ico</code>. Você pode substituí-lo pelo seu próprio arquivo.</p>
+</span></span></code></pre></div><p>Se não tiver nenhuma imagem em <code>covers.yml</code>, será exibido a imagem do banner.</p>
 <h4 id="blocos-de-código">
 <a class="header-anchor" href="#blocos-de-c%c3%b3digo"></a>
 Blocos de Código
-</h4><p>Para garantir a exibição correta dos blocos de código, certifique-se de ter a seguinte configuração em <code>config.toml</code>.</p>
+</h4><p>Para garantir a exibição correta dos blocos de código nos posts, devemos incluir a seguinte configuração em <code>config.toml</code>:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yml" data-lang="yml"><span class="line"><span class="cl"><span class="p">[</span><span class="l">markup.highlight]</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="l">guessSyntax = true</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="l">noClasses = false</span><span class="w">
-</span></span></span></code></pre></div><p>Os blocos de código também fornecem funcionalidade de cópia de código. Clique no botão de copiar no canto superior direito do bloco de código para copiar o código.</p>
-<h4 id="pesquisa-no-site">
-<a class="header-anchor" href="#pesquisa-no-site"></a>
-Pesquisa no Site
-</h4><p>Com base em Algolia, adicione a seguinte configuração ao seu <code>config.toml</code>:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yml" data-lang="yml"><span class="line"><span class="cl"><span class="p">[</span><span class="l">outputs]</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="l">home = [&#34;Algolia&#34;, &#34;HTML&#34;, &#34;RSS&#34;]</span><span class="w">
+</span></span></span></code></pre></div><h3 id="criação-de-posts">
+<a class="header-anchor" href="#cria%c3%a7%c3%a3o-de-posts"></a>
+Criação de Posts
+</h3><p>Assim como explicado na <code>README.md</code> do <a href="https://github.com/D-Sketon/hugo-theme-reimu/tree/main">tema</a>, vamos mudar o nome da pasta <code>_examples</code> para <code>content</code>. Agora vamos ver o que tem nessa pasta:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">content/
+</span></span><span class="line"><span class="cl">  ├── archives/
+</span></span><span class="line"><span class="cl">  │   └── _index.md
+</span></span><span class="line"><span class="cl">  ├── post/
+</span></span><span class="line"><span class="cl">  │   ├── _index.md
+</span></span><span class="line"><span class="cl">  │   └── hello.md
+</span></span><span class="line"><span class="cl">  ├── about.md
+</span></span><span class="line"><span class="cl">  └── friend.md
+</span></span></code></pre></div><blockquote>
+<p>Observações:</p>
+<ul>
+<li>Em <code>archives/</code>, o arquivo <code>_index.md</code> é usado para exibir a página de arquivo, não pode ser omitido;</li>
+<li>Em <code>post/</code>, o arquivo <code>_index.md</code> é usado para evitar a geração de post/index.html, não pode ser omitido;</li>
+<li>O arquivo <code>about.md</code> é a página &ldquo;sobre&rdquo;;</li>
+<li>O arquivo <code>friend.md</code> é a página de links de amigos. Como não farei uso dessa arquivo, então irei remover-lo.</li>
+</ul></blockquote>
+<p>Os arquivos do posts devem ser criados na pasta <code>post/</code> e devem está no formato <code>.md</code> (Markdown). Segue a estrutura básica do arquivo <code>.md</code> do post:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Markdown" data-lang="Markdown"><span class="line"><span class="cl">---
+</span></span><span class="line"><span class="cl">title: &#34;Título do Post&#34;
+</span></span><span class="line"><span class="cl">description: &#34;Descrição do post&#34;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">date: 2024-08-05T11:00:00-07:00
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">categories:
+</span></span><span class="line"><span class="cl">  <span class="k">-</span> categoria1
+</span></span><span class="line"><span class="cl">tags:
+</span></span><span class="line"><span class="cl">  <span class="k">-</span> tag1
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">cover: https://example.com
+</span></span><span class="line"><span class="cl">---
+</span></span><span class="line"><span class="cl">[escreve o conteúdo do post aqui]
+</span></span></code></pre></div><h2 id="hospedagem-no-github">
+<a class="header-anchor" href="#hospedagem-no-github"></a>
+Hospedagem no GitHub
+</h2><ol>
+<li>Abra o seu GitHub e crie um repertório público com o nome: <code>seu-usuario.github.io</code>. Por exemplo, <code>cadu-sa.github.io</code>;</li>
+<li>Clone o repertório no seu computador:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Inicializar git</span>
+</span></span><span class="line"><span class="cl">git init
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Adicionar remote</span>
+</span></span><span class="line"><span class="cl">git remote add origin https://github.com/SEU-USUARIO/SEU-USUARIO.github.io.git
+</span></span></code></pre></div><ol start="3">
+<li>Copie todos os arquivos e pastas de <code>hugo-theme-reimu</code> que você estava editando e cole dentro da pasta clonada <code>seu-usuario.github.io</code>;</li>
+<li>Acesse a pasta <code>seu-usuario.github.io</code> e inicialize o servidor Hugo na pasta;</li>
+<li>Abra o arquivo <code>config.toml</code> e inclua a seguinte configuração:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yml" data-lang="yml"><span class="line"><span class="cl"><span class="l">baseURL = &#34;https://seu-usuario.github.io/&#34;</span><span class="w">
+</span></span></span></code></pre></div><ol start="6">
+<li>Crie o arquivo <code>.github/workflows/hugo.yaml</code> na pasta <code>seu-usuario.github.io</code> e coloque a seguinte configuração em <code>hugo.yaml</code>:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yml" data-lang="yml"><span class="line"><span class="cl"><span class="c"># Sample workflow for building and deploying a Hugo site to GitHub Pages</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Deploy Hugo site to Pages</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">[</span><span class="l">outputFormats.Algolia]</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="l">baseName = &#34;algolia&#34;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="l">isPlainText = true</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="l">mediaType = &#34;application/json&#34;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="l">notAlternative = true</span><span class="w">
-</span></span></span></code></pre></div><p>Isso gerará um arquivo <code>algolia.json</code> na pasta <code>public/</code>, que é usado para a pesquisa Algolia. Você pode então usar plugins como atomic-algolia para fazer o upload para o Algolia.</p>
-<p>Além disso, em <code>params.yml</code>, defina <code>algolia_search.enable</code> como <code>true</code> e preencha as informações relevantes (Importante! Insira a Chave Somente de Pesquisa aqui, NÃO a Chave de Administrador!! Caso contrário, sua conta pode estar vulnerável a ataques)</p>
-<p>Em <code>params.yml</code>, podemos ver a linha responsável pelo algolia:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yml" data-lang="yml"><span class="line"><span class="cl"><span class="nt">algolia_search</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">enable</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
-</span></span></span></code></pre></div><p>tornar o video no youtube responsivo
-link da documentação Markdown</p>
-<p>ver o que mais eu posso adicionar baseado nesse texto:
-<a href="https://d-sketon.github.io/en/20230707/hexo-theme-reimu-guide/">https://d-sketon.github.io/en/20230707/hexo-theme-reimu-guide/</a></p>
-<p>explicar sobre fazer alteração na configuração do repertório, alterando o nome para github.io e também configurando o action.</p>
-</div>
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">on</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="c"># Runs on pushes targeting the default branch</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">push</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">branches</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&#34;main&#34;</span><span class="p">]</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="c"># Allows you to run this workflow manually from the Actions tab</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">workflow_dispatch</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c"># Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">permissions</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">contents</span><span class="p">:</span><span class="w"> </span><span class="l">read</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">pages</span><span class="p">:</span><span class="w"> </span><span class="l">write</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">id-token</span><span class="p">:</span><span class="w"> </span><span class="l">write</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c"># Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c"># However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">concurrency</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">group</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;pages&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">cancel-in-progress</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c"># Default to bash</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">defaults</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">run</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">shell</span><span class="p">:</span><span class="w"> </span><span class="l">bash</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">jobs</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="c"># Build job</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">build</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">runs-on</span><span class="p">:</span><span class="w"> </span><span class="l">ubuntu-latest</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">env</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">HUGO_VERSION</span><span class="p">:</span><span class="w"> </span><span class="m">0.128.0</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">steps</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Install Hugo CLI</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="p">|</span><span class="sd">
+</span></span></span><span class="line"><span class="cl"><span class="sd">          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
+</span></span></span><span class="line"><span class="cl"><span class="sd">          &amp;&amp; sudo dpkg -i ${{ runner.temp }}/hugo.deb</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Install Dart Sass</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="l">sudo snap install dart-sass</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Checkout</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">actions/checkout@v4</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">with</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">submodules</span><span class="p">:</span><span class="w"> </span><span class="l">recursive</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Setup Pages</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="l">pages</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">actions/configure-pages@v5</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Install Node.js dependencies</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;[[ -f package-lock.json || -f npm-shrinkwrap.json ]] &amp;&amp; npm ci || true&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Build with Hugo</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">env</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">HUGO_CACHEDIR</span><span class="p">:</span><span class="w"> </span><span class="l">${{ runner.temp }}/hugo_cache</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">HUGO_ENVIRONMENT</span><span class="p">:</span><span class="w"> </span><span class="l">production</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="p">|</span><span class="sd">
+</span></span></span><span class="line"><span class="cl"><span class="sd">          hugo \
+</span></span></span><span class="line"><span class="cl"><span class="sd">            --minify \
+</span></span></span><span class="line"><span class="cl"><span class="sd">            --baseURL &#34;${{ steps.pages.outputs.base_url }}/&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Upload artifact</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">actions/upload-pages-artifact@v3</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">with</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">path</span><span class="p">:</span><span class="w"> </span><span class="l">./public</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="c"># Deployment job</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">deploy</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">environment</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">github-pages</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="l">${{ steps.deployment.outputs.page_url }}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">runs-on</span><span class="p">:</span><span class="w"> </span><span class="l">ubuntu-latest</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">needs</span><span class="p">:</span><span class="w"> </span><span class="l">build</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">steps</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Deploy to GitHub Pages</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="l">deployment</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">actions/deploy-pages@v4</span><span class="w">
+</span></span></span></code></pre></div><ol start="7">
+<li>Faça o commit:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Commit inicial</span>
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;commit inicial&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Push</span>
+</span></span><span class="line"><span class="cl">git push -u origin main
+</span></span></code></pre></div><ol start="8">
+<li>Abra o seu GitHub e acesse a página <code>Settings</code>;</li>
+<li>No campo <code>Source</code>, selecione a opção <code>GitHub Actions</code>;</li>
+<li>Vá na página <code>Actions</code> e aguarde o deploy finalizar;</li>
+<li>Acesse seu site em <code>https://seu-usuario.github.io/</code></li>
+</ol>
+<h2 id="conclusão">
+<a class="header-anchor" href="#conclus%c3%a3o"></a>
+Conclusão
+</h2></div>
     <footer class="article-footer"><div class="share-wrapper"><a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:1313/post/10_criar-site/" target="_blank" rel="noopener noreferrer" title="Criando site com GoHugo e GitHub Pages">
       <div class="share-icon icon icon-facebook"></div>
     </a><a href="https://twitter.com/intent/tweet?url=http://localhost:1313/post/10_criar-site/&amp;text=Criando%20site%20com%20GoHugo%20e%20GitHub%20Pages&amp;via=http://localhost:1313/" target="_blank" rel="noopener noreferrer" title="Criando site com GoHugo e GitHub Pages">
@@ -594,10 +687,10 @@ link da documentação Markdown</p>
         >
       </div><div>
         <span class="icon-brush"
-          >&nbsp;6.0k</span
+          >&nbsp;6.2k</span
         >
         &nbsp;|&nbsp;
-        <span class="icon-coffee">&nbsp;00:35</span>
+        <span class="icon-coffee">&nbsp;00:36</span>
       </div><div>
         <span class="icon-eye"></span>
         <span id="busuanzi_container_site_pv"
@@ -624,25 +717,25 @@ link da documentação Markdown</p>
   <div class="sidebar-toc-wrapper toc-div-class">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#o-que-é-hugo">O que é Hugo?</a></li>
-    <li><a href="#o-que-é-github-pages">O que é GitHub Pages?</a></li>
-  </ul>
-
-  <ul>
-    <li><a href="#instalando-o-hugo">Instalando o Hugo</a>
+    <li><a href="#introdução">Introdução</a>
       <ul>
-        <li><a href="#instalação-via-terminal">Instalação via terminal</a></li>
-        <li><a href="#instalação-através-do-arquivo-deb">Instalação através do arquivo .deb</a></li>
+        <li><a href="#o-que-é-hugo">O que é Hugo?</a></li>
+        <li><a href="#o-que-é-github-pages">O que é GitHub Pages?</a></li>
       </ul>
     </li>
-    <li><a href="#escolha-e-personalização-do-tema">Escolha e Personalização do Tema</a>
+    <li><a href="#passo-a-passo-da-criação">Passo a Passo da Criação</a>
       <ul>
-        <li><a href="#hugo-theme-reimu">hugo-theme-reimu</a></li>
-        <li><a href="#configurando-o-tema">Configurando o tema</a></li>
+        <li><a href="#instalando-o-hugo">Instalando o Hugo</a></li>
+        <li><a href="#escolhendo-o-tema-do-site">Escolhendo o Tema do Site</a></li>
+        <li><a href="#baixando-o-tema">Baixando o Tema</a></li>
+        <li><a href="#iniciando-o-servidor-hugo">Iniciando o Servidor Hugo</a></li>
         <li><a href="#traduzindo-o-site-para-português">Traduzindo o site para Português</a></li>
-        <li><a href="#outras-alterações-que-podem-ser-feitas">Outras alterações que podem ser feitas</a></li>
+        <li><a href="#customizações-básicas">Customizações Básicas</a></li>
+        <li><a href="#criação-de-posts">Criação de Posts</a></li>
       </ul>
     </li>
+    <li><a href="#hospedagem-no-github">Hospedagem no GitHub</a></li>
+    <li><a href="#conclusão">Conclusão</a></li>
   </ul>
 </nav>
   </div>

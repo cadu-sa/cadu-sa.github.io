@@ -18,89 +18,86 @@ tags:
 cover: https://raw.githubusercontent.com/cadu-sa/arquivos-site/refs/heads/main/rabisc.png
 ---
 
+
 <img src="https://raw.githubusercontent.com/cadu-sa/arquivos-site/refs/heads/main/meu-site.png"/>
 
-# Introdução
-Recentemente, criei um site pessoal usando o framework [Hugo](http://gohugo.io/) (GoHugo) e hospedei no [GitHub Pages](https://pages.github.com/). Neste artigo, vou mostrar como foi esse processo, desde a escolha do tema até a publicação.
+
+## Introdução
+Recentemente, criei um site pessoal usando o framework [Hugo](http://gohugo.io/) (GoHugo) e hospedei no GitHub usando o [GitHub Pages](https://pages.github.com/). Neste artigo, vou mostrar como foi esse processo, desde a escolha do tema do site até a hospedagem no GitHub.
 
 Link do site: https://cadu-sa.github.io/
 
-## O que é Hugo?
+
+### O que é Hugo? 
 
 Basicamente, Hugo é um gerador de sites estáticos de código aberto, escrito em Go (Golang). Com o Hugo, podemos definir a estrutura e a aparência do site usando templates e arquivos de configuração, gerando automaticamente páginas HTML estáticas extremamente rápidas, seguras e flexíveis. Além disso, podemos escrever as postagens em Markdown e o site criado tem uma integração fácil com o GitHub Pages.
 
-## O que é GitHub Pages?
+### O que é GitHub Pages?
 
 Basicamente, GitHub Pages é um serviço de hospedagem gratuita e segura de sites estáticos oferecido pelo GitHub. Ele permite publicar sites diretamente de um repositório GitHub, tornando-se uma solução popular para hospedar projetos pessoais, documentações, blogs e portfólios. Com o GitHub Pages, podemos fazer deploy automaticamente através de commits e teremos um site com domínio gratuíto do tipo `github.io`.
 
-# Passo a Passo da Criação
+## Passo a Passo da Criação
 
-## Instalando o Hugo
+Primeiramente, precisamos fazer a instalação do Hugo no computador. 
 
-Primeiramente, precisamos fazer a instalação do Hugo no computador. Como eu uso a distro Linux Debian 12.11 como sistema operacional, então fiz a instalação do Hugo através da execução direto do arquivo `.deb`, mas essa instalação também pode ser feita via terminal.
+### Instalando o Hugo
 
+Para fazer a instalação, primeiro acesse o link abaixo para acessar a versão mais recente do Hugo para Windows ou Linux: 
 
-### Instalação via terminal
+https://github.com/gohugoio/hugo/tags
 
-Execute o código abaixo para fazer a instalação do hugo:
+Após isso, na lista **Assets**, baixe o arquivo correspondente ao seu sistema operacional que tenha `hugo_extended` no nome. Por fim, acesso o arquivo baixado e execute para a instalação ser feita.
 
-```bash
-sudo apt update
-sudo apt install hugo
-```
+> Como eu uso a distro Linux **Debian 12.11** como sistema operacional, fiz o download do arquivo `hugo_extended_0.147.9_linux-amd64.deb`. Após isso, abrir o terminal na pasta onde o arquivo foi salvo e executei o código abaixo:
+> 
+> ```bash
+> sudo dpkg -i nome_do_arquivo.deb
+> ```
+> Para verificar se a instalação foi bem-sucedida, executei o códigio abaixo:
+> 
+> ```bash
+> hugo version
+> ```
+> 
+> Eu também poderia fazer a instalação do Hugo via terminal através do código abaixo:
+> 
+> ```bash
+> sudo apt update
+> sudo apt install hugo
+> hugo version
+> ```
 
-Para verificar se a instalação foi bem-sucedida:
+Após a instalação do Hugo, vamos escolher um tema para o site. 
 
-```bash
-hugo version
-```
+### Escolhendo o Tema do Site
 
-### Instalação através do arquivo .deb
+No site do Hugo podemos encontrar vários temas que podemos usar no site. Segue o link dos temas do Hugo:
 
-> Segue o link da versão mais recente do Hugo para Windows, Linux ou macOS: 
->
-> https://github.com/gohugoio/hugo/tags
+https://themes.gohugo.io/
 
-Observação: escolha o arquivo que tenha `hugo_extended` no nome.
-
-Após baixar o arquivo `.deb`, acesse o terminal na pasta de Downloads e execute o código abaixo:
-
-```bash
-sudo dpkg -i nome_do_arquivo.deb
-```
-
-Para verificar se a instalação foi bem-sucedida:
-
-```bash
-hugo version
-```
-
-## Escolha e Personalização do Tema
-
-Após a instalação do Hugo, vamos escolher um tema para o site. No site do Hugo podemos encontrar vários temas que podemos usar no site.
-
-> Segue o link dos temas do GoHugo: https://themes.gohugo.io/
-
-### hugo-theme-reimu
-
-Para o meu site, escolhi o tema `hugo-theme-reimu`. É um tema que foi criado por [D-Sketon](https://github.com/D-Sketon). O tema é inspirado em Hakurei Reimu (personagem do Touhou Project) e combina elementos de outros temas populares: landscape, Tangyuxian e Shoka. Além disso, originalmente o tema foi criado para o framework [Hexo](https://hexo.io/pt-br/) e depois foi adaptado para Hugo.
-
-
-> Segue o link do hugo-theme-reimu: https://themes.gohugo.io/themes/hugo-theme-reimu/
+**Observação:** nesse artigo, irei focar no tema escolhido para o meu site ([hugo-theme-reimu](https://themes.gohugo.io/themes/hugo-theme-reimu/))
 
 <img src="https://themes.gohugo.io/themes/hugo-theme-reimu/screenshot_hu_408a192743931e1e.webp"/>
 
-O design é limpo e moderno, tem suporte multilíngue (implementação de i18n - internacionalização), é otimizado para Performance, é responsivo e possui um guia de customização bem explicado.
+> Sobre o tema `hugo-theme-reimu`:
+> 
+> - É um tema criado por [D-Sketon](https://github.com/D-Sketon);
+> - O tema é inspirado em Hakurei Reimu (uma personagem do Touhou Project);
+> - Combina elementos de outros temas populares: landscape, Tangyuxian e Shoka;
+> - Originalmente o tema foi criado para o framework [Hexo](https://hexo.io/pt-br/) e depois foi adaptado para Hugo;
+> - O design é limpo e moderno, tem suporte multilíngue (implementação de i18n - internacionalização), é otimizado para Performance, é responsivo e possui um guia de customização bem explicado.
 
-### Configurando o tema
+Após escolher o tema, vamos baixar o tema no computador.
 
-Agora vamos fazer o fork do tema no GitHub. Para fazer isso, acesse o link abaixo e depois clique em Fork
+### Baixando o Tema
 
-> Segue o link do hugo-theme-reimu: https://github.com/D-Sketon/hugo-theme-reimu/tree/main
+1. Acesse o tema que está hospedado no [GitHub](https://github.com/D-Sketon/hugo-theme-reimu/tree/main);
+2. Clique em "Code";
+3. Clique "Download ZIP";
+4. Extraia o arquivo .zip.
+5. Abra a pasta que foi extraida.
 
-Após isso, podemos usar o GitHub Desktop para abrir o repertório do fork no computador.
-
-Ao abrir a pasta no computador, veremos uma estrutura mais ou menos assim:
+Ao abrir a pasta, veremos uma estrutura mais ou menos assim:
 
 ```bash
 hugo-theme-reimu/
@@ -123,60 +120,36 @@ hugo-theme-reimu/
   └── theme.toml
 ```
 
-Assim como explicado na `README.md` do [tema](https://github.com/D-Sketon/hugo-theme-reimu/tree/main), vamos mudar o nome da pasta `_examples` para `content`. Agora vamos ver o que tem nesta pasta:
+Com o tema no computador, agora vamos iniciar o servidor hugo.
 
+### Iniciando o Servidor Hugo
 
-```bash
-content/
-  ├── archives/
-  │   └── _index.md
-  ├── post/
-  │   ├── _index.md
-  │   └── hello.md
-  ├── about.md
-  └── friend.md
-```
-
-Observações:
-- Em `archives/`, o arquivo `_index.md` é usado para exibir a página de arquivo, não pode ser omitido;
-- Em `post/`, o arquivo `_index.md` é usado para evitar a geração de post/index.html, não pode ser omitido. Além disso, é nessa pasta que criaremos os artigos do site;
-- O arquivo `about.md` é a página "sobre";
-- O arquivo `friend.md` é a página de links de amigos. Como não farei uso dessa arquivo, então irei remover-lo.
-
-Antes de começarmos a fazer a customização do site, vamos ver como o site está atualmente. Para fazer isso, primeiro abra o terminal na pasta principal e  execute o comando abaixo para iniciar o servidor local.
+Antes de começarmos a fazer a customização do site, vamos ver como o site está atualmente. Para fazer isso, primeiro abra o terminal na pasta do tema e execute o comando abaixo para iniciar o servidor local.
 
 ```bash
 hugo server
 ```
 
-O servidor será iniciado e abrirá o site no link: `http://localhost:1313`
+O servidor será iniciado no link: `http://localhost:1313`
 
-Agora vamos para a customização. Vamos começar deixando o site em Português.
+Agora vamos fazer a customização do site. Vamos começar deixando o site em Português.
 
 ### Traduzindo o site para Português
 
-Acesse o arquivo `config.toml` na pasta principal e adicione a seguinte configuração:
+Acesse o arquivo `config.toml` na pasta principal e adicione o seguinte código:
 
 ```bash
 languageCode = 'pt-BR'
 defaultContentLanguage = 'pt-BR'
-
-[languages]
-[languages.pt-BR]
-languageName = 'Português (Brasil)'
-weight = 1
 ```
 
-Observações:
-- `languageCode = 'pt-BR'`: define o código do idioma principal como Português Brasileiro;
-- `defaultContentLanguage = 'pt-BR'`: define `pt-BR` como idioma padrão do conteúdo;
-- `[languages.pt-BR]`: seção específica para configurações do Português Brasileiro;
-- `languageName = 'Português (Brasil)'`: nome amigável do idioma (aparece no seletor de idiomas, se houver);
-- `weight = 1`: prioridade do idioma (útil quando há múltiplos idiomas)
+> **Observações:**
+> - `languageCode = 'pt-BR'`: define o código do idioma principal como Português Brasileiro;
+> - `defaultContentLanguage = 'pt-BR'`: define pt-BR como idioma padrão do conteúdo;
 
 Isso não é suficiente para deixar o site totalmente em português, pois dentro da pasta `i18n/` não tem o arquivo `pt-BR.yml`, que é responsável pela tradução. Então vamos criar esse arquivo:
-1. Acesse a pasta `i18n/`;
-2. Faça uma cópia do arquivo `en.yml` e renomeie de `pt-BR.yml`;
+1. Acesse a pasta `i18n`;
+2. Faça uma cópia do arquivo `en.yml` e nomeie a cópia de `pt-BR.yml`;
 3. Ao abrir o arquivo `pt-BR.yml`, veremos algo parecido com:
 
 ```bash
@@ -193,7 +166,7 @@ comment: Comments
 ...
 ```
 
-Faça a tradução dos termos da esquerda e escreva do lado direito, deixando assim:
+Nesse caso, precisamos colocar a tradução do lado direito dos dois pontos. Vai ficar mais ou menos assim:
 
 ```bash
 categories: Categorias
@@ -209,18 +182,19 @@ comment: Comentários
 ...
 ```
 
-Observação: você pode fazer isso manualmente ou pode usar alguma LLM (ChatGPT, por exemplo) para auxiliar na tradução, é só copiar todo conteúdo do arquivo, cola na LLM e escreve
+> Observação: você pode fazer a tradução manualmente ou pode usar alguma LLM (por exemplo, ChatGPT) para auxiliar na tradução, basta copiar o conteúdo do arquivo `pt-BR.yml`, cola na LLM e escreve o seguinte prompt:
+> 
+> ```bash
+> Estou criando um site usando o GoHugo. O conteúdo abaixo é do arquivo en.yml da pasta i18n, me ajude a criar o arquivo pt-BR.yml traduzindo o conteúdo abaixo para português brasileiro.
+> 
+> <cole aqui o conteúdo do arquivo pt-BR.yml>
+> ```
+> Após isso, é só conferir se as traduções estão corretas e depois cola no arquivo `pt-BR.yml`.
 
-```bash
-Estou criando um site usando o GoHugo. O conteúdo abaixo é do arquivo en.yml da pasta i18n, me ajude a criar o arquivo pt-BR.yml traduzindo o conteúdo.
-
-<conteúdo do arquivo pt-BR.yml>
-```
-
-Após isso, é só conferir as traduções dadas pela LLM e cola no arquivo `pt-BR.yml`. Dessa forma, a maior parte do site estará em português. Vamos traduzir agora alguns textos específicos.
+Dessa forma, a maior parte do site estará em português. Agora vamos traduzir alguns textos específicos do site.
 
 1. Acesse o arquivo `params.yml` que está na pasta `config/_default/`;
-2. No arquivo você vai adicionar `pt-BR:+ "texto traduzido"` em algumas partes:
+2. No arquivo você vai adicionar `pt-BR:+ "texto traduzido"` em algumas partes do código:
 
 ```yml
 preloader:
@@ -252,25 +226,23 @@ sponsor:
 
 Prontinho, agora o site estará em português.
 
-### Outras alterações que podem ser feitas
+### Customizações Básicas
 
-Os recursos estáticos do tema (favicon, imagens de cabeçalho, avatar, etc.) estão localizados na pasta `static`, basta apenas sobrescrever os arquivos da pasta com os arquivos que você deseja no site. Esses recursos estáticos também estão presentes no código do arquivo `params.yml`. 
+#### Avatar, Banner, Favicon
 
-#### Avatar
+Os recursos estáticos do tema (favicon, imagens de cabeçalho e avatar) estão localizados na pasta `static`. Portanto, para alterar esses recursos no site, basta sobrescrever os arquivos da pasta com as imagens que você deseja, mantendo o mesmo nome. 
 
-Em `params.yml`, podemos ver a linha responsável pelo avatar:
+Esses recursos estáticos também estão presentes no arquivo `params.yml`. Por exemplo, em `params.yml`, podemos ver a linha responsável pelo avatar:
 
 ```yml
 avatar: "avatar.webp"
 ```
 
-#### Capa
-
-A lógica de exibição da capa é a seguinte: se o Front matter (`cover`) do artigo contiver uma URL de capa, tanto o cabeçalho do artigo quanto a miniatura da página inicial exibirão essa URL
+Em relação a capa, a lógica de exibição da capa é a seguinte: se o Front matter (cover) do artigo contiver uma URL de capa, tanto o cabeçalho do artigo quanto a miniatura da página inicial exibirão a imagem da URL.
 
 ```markdown
 ---
-title: Olá Mundo
+title: Título do post
 cover: https://example.com
 ---
 ```
@@ -279,45 +251,25 @@ Se o Front matter do artigo contiver cover definido como `false`, o artigo não 
 
 ```markdown
 ---
-title: Olá Mundo
+title: Título do post
 cover: false
 ---
 ```
 
-Se o Front matter do artigo contiver cover definido como `rgb(xxx,xxx,xxx)`, o cabeçalho do artigo será um gradiente dessa cor sólida (a página inicial ainda mostrará imagens aleatórias)
+Se o Front matter do artigo contiver cover definido como `rgb(xxx,xxx,xxx)`, o cabeçalho do artigo será um gradiente dessa cor sólida (a página inicial ainda mostrará imagens aleatórias).
 
 ```markdown
 ---
-title: Olá Mundo
+title: Título do post
 cover: rgb(255,117,117)
 ---
 ```
 
-Se nenhum dos arquivos acima existir, ele exibirá a imagem do banner.
-
-Observação: para imagens de capa aleatórias, consulte a estrutura de arquivos em `data/covers.yml` do tema:
-
-```yml
-- https://example.com/1.jpg
-- https://example.com/2.jpg
-```
-
-#### Banner
-
-O banner é salvo em `static/images/banner.webp`. Você pode modificar o caminho e o nome em `params.yml`
-
-```yml
-banner: "images/banner.webp"
-```
-
-#### Favicon
-
-O favicon é salvo em `static/favicon.ico`. Você pode substituí-lo pelo seu próprio arquivo.
-
+Se não tiver nenhuma imagem em `covers.yml`, será exibido a imagem do banner.
 
 #### Blocos de Código
 
-Para garantir a exibição correta dos blocos de código, certifique-se de ter a seguinte configuração em `config.toml`.
+Para garantir a exibição correta dos blocos de código nos posts, devemos incluir a seguinte configuração em `config.toml`:
 
 ```yml
 [markup.highlight]
@@ -325,43 +277,161 @@ guessSyntax = true
 noClasses = false
 ```
 
-Os blocos de código também fornecem funcionalidade de cópia de código. Clique no botão de copiar no canto superior direito do bloco de código para copiar o código.
+### Criação de Posts
+
+Assim como explicado na `README.md` do [tema](https://github.com/D-Sketon/hugo-theme-reimu/tree/main), vamos mudar o nome da pasta `_examples` para `content`. Agora vamos ver o que tem nessa pasta:
 
 
-#### Pesquisa no Site
-
-Com base em Algolia, adicione a seguinte configuração ao seu `config.toml`:
-
-```yml
-[outputs]
-home = ["Algolia", "HTML", "RSS"]
-
-[outputFormats.Algolia]
-baseName = "algolia"
-isPlainText = true
-mediaType = "application/json"
-notAlternative = true
+```bash
+content/
+  ├── archives/
+  │   └── _index.md
+  ├── post/
+  │   ├── _index.md
+  │   └── hello.md
+  ├── about.md
+  └── friend.md
 ```
 
-Isso gerará um arquivo `algolia.json` na pasta `public/`, que é usado para a pesquisa Algolia. Você pode então usar plugins como atomic-algolia para fazer o upload para o Algolia.
+> Observações:
+> - Em `archives/`, o arquivo `_index.md` é usado para exibir a página de arquivo, não pode ser omitido;
+> - Em `post/`, o arquivo `_index.md` é usado para evitar a geração de post/index.html, não pode ser omitido;
+> - O arquivo `about.md` é a página "sobre";
+> - O arquivo `friend.md` é a página de links de amigos. Como não farei uso dessa arquivo, então irei remover-lo.
 
-Além disso, em `params.yml`, defina `algolia_search.enable` como `true` e preencha as informações relevantes (Importante! Insira a Chave Somente de Pesquisa aqui, NÃO a Chave de Administrador!! Caso contrário, sua conta pode estar vulnerável a ataques)
+Os arquivos do posts devem ser criados na pasta `post/` e devem está no formato `.md` (Markdown). Segue a estrutura básica do arquivo `.md` do post:
 
-Em `params.yml`, podemos ver a linha responsável pelo algolia:
+```Markdown
+---
+title: "Título do Post"
+description: "Descrição do post"
 
-```yml
-algolia_search:
-  enable: true
+date: 2024-08-05T11:00:00-07:00
+
+categories:
+  - categoria1
+tags:
+  - tag1
+
+cover: https://example.com
+---
+[escreve o conteúdo do post aqui]
 ```
 
+## Hospedagem no GitHub
 
-tornar o video no youtube responsivo
-link da documentação Markdown
+1. Abra o seu GitHub e crie um repertório público com o nome: `seu-usuario.github.io`. Por exemplo, `cadu-sa.github.io`;
+2. Clone o repertório no seu computador:
 
-ver o que mais eu posso adicionar baseado nesse texto:
-https://d-sketon.github.io/en/20230707/hexo-theme-reimu-guide/
+```bash
+# Inicializar git
+git init
 
+# Adicionar remote
+git remote add origin https://github.com/SEU-USUARIO/SEU-USUARIO.github.io.git
+```
 
+3. Copie todos os arquivos e pastas de `hugo-theme-reimu` que você estava editando e cole dentro da pasta clonada `seu-usuario.github.io`;
+4. Acesse a pasta `seu-usuario.github.io` e inicialize o servidor Hugo na pasta;
+5. Abra o arquivo `config.toml` e inclua a seguinte configuração:
 
+```yml
+baseURL = "https://seu-usuario.github.io/"
+```
 
-explicar sobre fazer alteração na configuração do repertório, alterando o nome para github.io e também configurando o action.
+6. Crie o arquivo `.github/workflows/hugo.yaml` na pasta `seu-usuario.github.io` e coloque a seguinte configuração em `hugo.yaml`:
+
+```yml
+# Sample workflow for building and deploying a Hugo site to GitHub Pages
+name: Deploy Hugo site to Pages
+
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["main"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+# Default to bash
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  # Build job
+  build:
+    runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: 0.128.0
+    steps:
+      - name: Install Hugo CLI
+        run: |
+          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
+          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+      - name: Install Dart Sass
+        run: sudo snap install dart-sass
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+      - name: Install Node.js dependencies
+        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      - name: Build with Hugo
+        env:
+          HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
+          HUGO_ENVIRONMENT: production
+        run: |
+          hugo \
+            --minify \
+            --baseURL "${{ steps.pages.outputs.base_url }}/"
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+  # Deployment job
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+```
+
+7. Faça o commit:
+
+```bash
+# Commit inicial
+git commit -m "commit inicial"
+
+# Push
+git push -u origin main
+```
+
+8. Abra o seu GitHub e acesse a página `Settings`;
+9. No campo `Source`, selecione a opção `GitHub Actions`;
+10. Vá na página `Actions` e aguarde o deploy finalizar;
+11. Acesse seu site em `https://seu-usuario.github.io/`
+
+## Conclusão
+
