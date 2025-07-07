@@ -288,20 +288,24 @@ Este artigo não possui uma versão neste idioma
     <div class="hr-line"></div><div class="e-content article-entry" itemprop="articleBody"><h1 id="criando-um-site-com-hugo-e-github-pages">
 <a class="header-anchor" href="#criando-um-site-com-hugo-e-github-pages"></a>
 Criando um site com HUGO e GitHub Pages
-</h1><img src="https://raw.githubusercontent.com/cadu-sa/arquivos-site/refs/heads/main/meu-site.png"/>
-<h2 id="introdução">
+</h1><h2 id="introdução">
 <a class="header-anchor" href="#introdu%c3%a7%c3%a3o"></a>
 Introdução
-</h2><p>Recentemente, criei esse site pessoal usando o framework <a href="http://gohugo.io/">Hugo</a> (GoHugo) e hospedei no GitHub usando o <a href="https://pages.github.com/">GitHub Pages</a>. Neste artigo, vou mostrar como foi esse processo, desde a escolha do tema do site até a hospedagem no GitHub. Então, caso você esteja pensando em criar um site usando o Hugo, os passos apresentados aqui podem servir como base para a criação do seu site.</p>
-<p>Link do meu site: <a href="https://cadu-sa.github.io/">https://cadu-sa.github.io/</a></p>
+</h2><p>Recentemente, criei esse site pessoal usando o framework <strong>Hugo</strong> (GoHugo) e hospedei no GitHub usando o <strong>GitHub Pages</strong>. Neste artigo, vou mostrar como foi esse processo, desde a escolha do tema do site até a hospedagem no GitHub. Então, caso você esteja pensando em criar um site usando o Hugo, os passos apresentados aqui podem servir como base para a criação do seu site.</p>
 <h3 id="o-que-é-hugo">
 <a class="header-anchor" href="#o-que-%c3%a9-hugo"></a>
 O que é Hugo?
 </h3><p>Basicamente, Hugo é um gerador de sites estáticos de código aberto, escrito na liguagem de programação Go (Golang), da Google. Com o Hugo, podemos definir a estrutura e a aparência do site usando templates e arquivos de configuração, gerando automaticamente páginas HTML estáticas extremamente rápidas, seguras e flexíveis. Além disso, podemos escrever as postagens em Markdown e o site criado tem uma integração fácil com o GitHub Pages.</p>
+<a href="https://gohugo.io/" target="_blank">
+<img src="https://media.licdn.com/dms/image/sync/v2/C4D27AQGp24KT3xngeg/articleshare-shrink_1280_800/articleshare-shrink_1280_800/0/1711995552394?e=1752458400&v=beta&t=aTGgtreLWKbdc-rgAGHzEmMBKaS6MfTyIGSrCeIsi_o" width=400 /> <p style="text-align: center;"> https://gohugo.io/ </p>
+</a>
 <h3 id="o-que-é-github-pages">
 <a class="header-anchor" href="#o-que-%c3%a9-github-pages"></a>
 O que é GitHub Pages?
 </h3><p>Basicamente, GitHub Pages é um serviço de hospedagem gratuita e segura de sites estáticos oferecido pelo GitHub. Ele permite publicar sites diretamente de um repositório GitHub, tornando-se uma solução popular para hospedar projetos pessoais, documentações, blogs e portfólios. Com o GitHub Pages, podemos fazer deploy automaticamente através de commits e teremos um site com domínio gratuíto do tipo <code>.github.io</code>.</p>
+<a href="https://pages.github.com/" target="_blank">
+<img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*v8udg4aCCXr0ODcGpQHkCQ.png" width=300 /> <p style="text-align: center;"> https://pages.github.com/ </p>
+</a>
 <h2 id="passo-a-passo-da-criação">
 <a class="header-anchor" href="#passo-a-passo-da-cria%c3%a7%c3%a3o"></a>
 Passo a Passo da Criação
@@ -310,7 +314,9 @@ Passo a Passo da Criação
 <a class="header-anchor" href="#instalando-o-hugo"></a>
 Instalando o Hugo
 </h3><p>Para fazer a instalação do Hugo, primeiro acesse o link abaixo para baixar a versão mais recente do Hugo para Windows ou Linux:</p>
-<p><a href="https://github.com/gohugoio/hugo/tags">https://github.com/gohugoio/hugo/tags</a></p>
+<a href="https://github.com/gohugoio/hugo/releases" target="_blank">
+<img src="https://media.licdn.com/dms/image/sync/v2/D4D27AQFq7yIkTda6jg/articleshare-shrink_1280_800/articleshare-shrink_1280_800/0/1711443117624?e=1752458400&v=beta&t=tJxb7rDcdwtH_o41i1MRrO47mdePjNrk_p0ty-nfiWo" width=400 /> <p style="text-align: center;">https://github.com/gohugoio/hugo/releases</p>
+</a>
 <p>Após acessar o link acima, vá na lista <strong>Assets</strong> e baixe o arquivo correspondente ao seu sistema operacional que tenha <code>hugo_extended</code> no nome. Por fim, execute o arquivo para a instalação ser feita.</p>
 <blockquote>
 <p>Como eu uso a distro Linux <strong>Debian 12.11</strong> como sistema operacional, fiz o download do arquivo <code>hugo_extended_0.147.9_linux-amd64.deb</code>. Após isso, abrir o terminal na pasta onde o arquivo foi salvo e executei o código abaixo:</p>
@@ -327,9 +333,13 @@ Instalando o Hugo
 <a class="header-anchor" href="#escolhendo-o-tema-do-site"></a>
 Escolhendo o Tema do Site
 </h3><p>No site do Hugo podemos encontrar vários temas que podemos usar no site. Segue o link dos temas do Hugo:</p>
-<p><a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a></p>
-<p><strong>Observação:</strong> nesse artigo, irei focar no tema escolhido para o meu site: <a href="https://themes.gohugo.io/themes/hugo-theme-reimu/">hugo-theme-reimu</a></p>
-<img src="https://themes.gohugo.io/themes/hugo-theme-reimu/screenshot_hu_408a192743931e1e.webp"/>
+<a href="https://themes.gohugo.io/" target="_blank">
+<img src="https://media.licdn.com/dms/image/sync/v2/D4E27AQEhrb2DPGcKyg/articleshare-shrink_1280_800/B4EZb_UzKGGUAQ-/0/1748040366148?e=1752458400&v=beta&t=HpgmQW28L917-iRW2sqSRqkAF_qliy2URZhv6GCl4kg" width=400 /> <p style="text-align: center;"> https://themes.gohugo.io/ </p>
+</a>
+<p><strong>Observação:</strong> nesse artigo, irei focar no tema escolhido para o meu site: <strong>hugo-theme-reimu</strong>.</p>
+<a href="https://themes.gohugo.io/themes/hugo-theme-reimu/" target="_blank">
+<img src="https://themes.gohugo.io/themes/hugo-theme-reimu/screenshot_hu_408a192743931e1e.webp" width=600 /> <p style="text-align: center;"> https://themes.gohugo.io/themes/hugo-theme-reimu/</p>
+</a>
 <blockquote>
 <p>Sobre o tema <code>hugo-theme-reimu</code>:</p>
 <ul>
@@ -345,9 +355,14 @@ Escolhendo o Tema do Site
 Baixando o Tema
 </h3><ol>
 <li>Acesse o tema que está hospedado no <a href="https://github.com/D-Sketon/hugo-theme-reimu/tree/main">GitHub</a>;</li>
-<li>Clique em &ldquo;Code&rdquo;;</li>
-<li>Clique em &ldquo;Download ZIP&rdquo; para baixar o arquivo .zip;</li>
-<li>Extraia o arquivo .zip.</li>
+</ol>
+<a href="https://github.com/D-Sketon/hugo-theme-reimu/tree/main" target="_blank">
+<img src="https://themes.gohugo.io/themes/hugo-theme-reimu/screenshot_hu_408a192743931e1e.webp" width=400 /> <p style="text-align: center;"> https://github.com/D-Sketon/hugo-theme-reimu/tree/main</p>
+</a>
+<ol start="2">
+<li>Clique em <strong>Code</strong>;</li>
+<li>Clique em <strong>Download ZIP</strong> para baixar o arquivo <em><strong>.zip</strong></em>;</li>
+<li>Extraia o arquivo <em><strong>.zip</strong></em>.</li>
 <li>Abra a pasta que foi extraida.</li>
 </ol>
 <p>Ao abrir a pasta, veremos uma estrutura mais ou menos assim:</p>
@@ -376,6 +391,9 @@ Iniciando o Servidor Hugo
 </h3><p>Antes de começarmos a fazer a customização do site, vamos ver como o site está atualmente. Para fazer isso, primeiro abra o terminal na pasta do tema e execute o comando abaixo para iniciar o servidor local.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo server
 </span></span></code></pre></div><p>O servidor será iniciado no link: <code>http://localhost:1313</code></p>
+<a href="https://d-sketon.github.io/hugo-theme-reimu/" target="_blank">
+<img src="https://themes.gohugo.io/themes/hugo-theme-reimu/screenshot_hu_408a192743931e1e.webp" width=600 /> <p style="text-align: center;"> https://d-sketon.github.io/hugo-theme-reimu/</p>
+</a>
 <p>Agora vamos fazer a customização do site. Vamos começar deixando o site em Português, já que, por padrão do tema, o site está em Chinês.</p>
 <h3 id="traduzindo-o-site-para-português">
 <a class="header-anchor" href="#traduzindo-o-site-para-portugu%c3%aas"></a>
@@ -630,8 +648,14 @@ Hospedando no GitHub
 <h2 id="conclusão">
 <a class="header-anchor" href="#conclus%c3%a3o"></a>
 Conclusão
-</h2><p>Ao longo deste artigo, exploramos o processo de criação de um site utilizando o tema <code>hugo-theme-reimu</code>. Os passos apresentados não apenas permitem construir um site funcional com este tema específico, mas também servem como base para trabalhar com qualquer outro <a href="https://themes.gohugo.io/">tema disponível no Hugo</a>.</p>
-<p>Caso você escolha o tema <code>hugo-theme-reimu</code> como tema do seu site, considere ler a documentação para fazer mais customizações no site: <a href="https://github.com/D-Sketon/hugo-theme-reimu/blob/main/README.en.md">https://github.com/D-Sketon/hugo-theme-reimu/blob/main/README.en.md</a>.</p>
+</h2><p>Ao longo deste artigo, exploramos o processo de criação de um site utilizando o tema <code>hugo-theme-reimu</code>. Os passos apresentados não apenas permitem construir um site funcional com este tema específico, mas também servem como base para trabalhar com qualquer outro tema disponível no Hugo:</p>
+<a href="https://themes.gohugo.io/" target="_blank">
+<img src="https://media.licdn.com/dms/image/sync/v2/D4E27AQEhrb2DPGcKyg/articleshare-shrink_1280_800/B4EZb_UzKGGUAQ-/0/1748040366148?e=1752458400&v=beta&t=HpgmQW28L917-iRW2sqSRqkAF_qliy2URZhv6GCl4kg" width=400 /> <p style="text-align: center;"> https://themes.gohugo.io/</p>
+</a>
+<p>Caso você escolha o tema <code>hugo-theme-reimu</code> como tema do seu site, considere ler a documentação para fazer mais customizações no site:</p>
+<a href="https://github.com/D-Sketon/hugo-theme-reimu/blob/main/README.en.md" target="_blank">
+<img src="https://themes.gohugo.io/themes/hugo-theme-reimu/screenshot_hu_408a192743931e1e.webp" width=400 /> <p style="text-align: center;"> https://github.com/D-Sketon/hugo-theme-reimu/blob/main/README.en.md</p>
+</a>
 <p>Espero que tenham gostado desse artigo e até a próxima!</p>
 </div>
     <footer class="article-footer"><div class="share-wrapper"><a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:1313/post/11_criando-site/" target="_blank" rel="noopener noreferrer" title="Criando um site com HUGO e GitHub Pages">
