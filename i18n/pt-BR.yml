@@ -82,3 +82,8 @@ algolia:
   input_placeholder: "Buscar....."
   hits_empty: "Nenhum resultado encontrado para 「${query}」"
   hits_stats: "Encontrados ${hits} resultados (em ${time} ms)"
+
+heat_map_card:
+  no_articles: Sem artigos
+  words: palavra(s)
+  total_articles: "$1 artigo(s), $2 palavra(s)"

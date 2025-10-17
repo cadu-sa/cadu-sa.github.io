@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Suporte Técnico on Meu Site</title>
+    <link>http://localhost:1313/tags/suporte-t%C3%A9cnico/</link>
+    <description>Conteúdo recente de Meu Site</description>
+    <generator>Hugo</generator>
+    <language>pt-BR</language>
+    
+    <copyright>Todos os artigos deste blog estão licenciados sob BY-NC-SA salvo indicação em contrário. Por favor, indique a fonte ao reproduzir!</copyright>
+    
+    <lastBuildDate>Fri, 17 Oct 2025 14:00:00 +0000</lastBuildDate>
+    
+    
+    <atom:link href="http://localhost:1313/tags/suporte-t%C3%A9cnico/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+
+    
+    
+
+    <item>
+      <title>Driver de Impressoras Térmicas</title>
+      <link>http://localhost:1313/post/12_impressora/</link>
+      <pubDate>Fri, 17 Oct 2025 14:00:00 &#43;0000</pubDate>
+      
+      <guid>http://localhost:1313/post/12_impressora/</guid>
+      <description>
+        <![CDATA[<h1>Driver de Impressoras Térmicas</h1><p>Autor: Carlos Eduardo(<no value>)</p>
+        
+          <h1 id="criando-um-site-com-hugo-e-github-pages">
+<a class="header-anchor" href="#criando-um-site-com-hugo-e-github-pages"></a>
+Criando um site com HUGO e GitHub Pages
+</h1><h2 id="introdução">
+<a class="header-anchor" href="#introdu%c3%a7%c3%a3o"></a>
+Introdução
+</h2><p>DEIXAR O LINK DE DELUTO</p>
+<p>Caso você escolha o tema <code>hugo-theme-reimu</code> como tema do seu site, considere ler a documentação para fazer mais customizações no site:</p>
+<a href="https://github.com/D-Sketon/hugo-theme-reimu/blob/main/README.en.md" target="_blank">
+<img src="https://themes.gohugo.io/themes/hugo-theme-reimu/screenshot_hu_408a192743931e1e.webp" width=400 /> <p style="text-align: center;"> https://github.com/D-Sketon/hugo-theme-reimu/blob/main/README.en.md</p>
+</a>
+<p>Espero que tenham gostado desse artigo e até a próxima!</p>
+        
+        <hr><p>Publicado em 2025-10-17 em <a href='http://localhost:1313/'>Meu Site</a>, última modificação em 2025-10-17</p>]]>
+      </description>
+      
+        <category>artigos</category>
+      
+    </item>
+    
+  </channel>
+</rss>
